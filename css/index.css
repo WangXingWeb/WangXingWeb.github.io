@@ -208,6 +208,8 @@
 .left-box h3{
     line-height: 50px;
     display: block;
+    color: RGBA(153,161,166,1.0);
+    font-family: '微软雅黑';
 
     text-align: center;
 }
