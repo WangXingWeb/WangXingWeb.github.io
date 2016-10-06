@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="keywords" content="王星个人网站,王星,个人网站,web,前端" />
     <meta name="description" content="王星个人交流网站，html5，CSS3，技术交流，兴趣爱好分享" />
-    <title>王星的个人网站</title>
+    <title>王星个人网站</title>
     <link href="css/reset.css" type="text/css" rel="stylesheet"/>
     <link href="css/common.css" type="text/css" rel="stylesheet"/>
     <link href="css/index.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet"  href="css/zoom.css" type="text/css"  />
-    <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         window.onload=function(){
             /*以下是banner轮播图的JavaScript代码*/
@@ -148,7 +145,7 @@
                 readingbox[0].style.display="none";
                 basketballbox[0].style.display="none";
                 tourismbox[0].style.display="block";
-            }else{
+            }else if(number==4){
                 readingbox[0].style.display="none";
                 basketballbox[0].style.display="none";
                 tourismbox[0].style.display="none";
@@ -170,24 +167,17 @@
             $('#back-interest').click(function(){$('html,body').animate({scrollTop: interesttop}, 500);});
             function backabout(){buttonabout.onclick();}
         });
-
     </script>
-    <style type="text/css">
-        .gallery{list-style-type:none;float:left;}
-        .gallery li{float:left;margin:10px; width:80px; height:80px;}
-        .gallery li a,.gallery li img{float:left;}
-    </style>
     <!--图片弹出层样式 必要样式-->
-
+    <link rel="stylesheet"  href="css/zoom.css" media="all" />
 </head>
 <body>
     <!--header部分-->
     <div class="public-header">
         <div class="public-container clear-float">
             <a class="header-logo">王星 个人网站</a>
-
             <ul class="header-list clear-float">
-                <li><a href="WangXingWeb.github.io" target="_blank" >首页</a></li>
+                <li><a href="https://WangXingWeb.github.io" target="_self" >首页</a></li>
                 <li><a href="#about-me" onclick="">我的资料</a></li>
                 <li><a href="#my-work">案例</a></li>
                 <li><a href="#my-interest">兴趣</a></li>
@@ -220,7 +210,7 @@
     </div>
     <!--fixed图板-->
     <ul class="fixed-container">
-        <li><a  href="WangXingWeb.github.io">首页</a></li>
+        <li><a  href="https://WangXingWeb.github.io">首页</a></li>
         <li><a id="back-about">ABOUT ME</a></li>
         <li><a id="back-work">MY WORK</a></li>
         <li><a id="back-interest">MY HOBBIES</a></li>
@@ -372,57 +362,45 @@
             </div>
         </div>
         <div class="tourism-box left-box">
-            <h3>华山行</h3>
-            <ul class="gallery">
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-                <li><a href="images/b3.jpg"><img src="images/3.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b4.jpg"><img src="images/4.jpg" /></a></li>
-                <li><a href="images/b5.jpg"><img src="images/5.jpg" /></a></li>
-                <li><a href="images/b1.jpg"><img src="images/1.jpg" /></a></li>
-                <li><a href="images/b2.jpg"><img src="images/2.jpg" /></a></li>
-            </ul>
+            <div class="container">
+                <ul class="gallery">
+                    <h3 >玩转厦门</h3>
+                    <div class="clearfloat">
+                        <li><a href="images/sea2b.jpg"><img src="images/sea2.jpg" /></a></li>
+                        <li><a href="images/sea3b.jpg"><img src="images/sea3.jpg" /></a></li>
+                        <li><a href="images/sea1b.jpg"><img src="images/sea1.jpg" /></a></li>
+                        <li><a href="images/sea4b.jpg"><img src="images/sea4.jpg" /></a></li>
+                        <li><a href="images/hua1b.jpg"><img src="images/hua1.jpg" /></a></li>
+                        <li><a href="images/gulangyu4b.jpg"><img src="images/gulangyu4.jpg" /></a></li>
+                        <li><a href="images/gulangyu1b.jpg"><img src="images/guangyu1.jpg" /></a></li>
+                        <li><a href="images/gulangyu2b.jpg"><img src="images/gulangyu2.jpg" /></a></li>
+                        <li><a href="images/gulangyu3b.jpg"><img src="images/gulangyu3.jpg" /></a></li>
+                        <li><a href="images/dengta1b.jpg"><img src="images/dengta1.jpg" /></a></li>
+                        <li><a href="images/xiada4b.jpg"><img src="images/xiada4.jpg" /></a></li>
+                        <li><a href="images/xiada1b.jpg"><img src="images/xiada1.jpg" /></a></li>
+                        <li><a href="images/xiada2b.jpg"><img src="images/xiada2.jpg" /></a></li>
+                        <li><a href="images/xiada3b.jpg"><img src="images/xiada3.jpg" /></a></li>
+                        <li><a href="images/xiada5b.jpg"><img src="images/xiada5.jpg" /></a></li>
+                        <li><a href="images/top3b.jpg"><img src="images/top3.jpg" /></a></li>
+                        <li><a href="images/boat1b.jpg"><img src="images/boat1.jpg" /></a></li>
+                        <li><a href="images/huoshaoyun1b.jpg"><img src="images/huoshaoyun1.jpg" /></a></li>
+                    </div>
+                    <h3>十月华山行</h3>
+                    <div class="clearfloat">
+                        <li><a href="images/richu1b.jpg"><img src="images/richu1.jpg" /></a></li>
+                        <li><a href="images/richu2b.jpg"><img src="images/richu2.jpg" /></a></li>
+                        <li><a href="images/richu3b.jpg"><img src="images/richu3.jpg" /></a></li>
+                        <li><a href="images/richu4b.jpg"><img src="images/richu4.jpg" /></a></li>
+                        <li><a href="images/richu5b.jpg"><img src="images/richu5.jpg" /></a></li>
+                        <li><a href="images/lianghuafengb.jpg"><img src="images/lianhuafeng.jpg" /></a></li>
+                        <li><a href="images/top1b.jpg"><img src="images/top1.jpg" /></a></li>
+                        <li><a href="images/beifengb.jpg"><img src="images/beifeng.jpg" /></a></li>
+                        <li><a href="images/daduanyab.jpg"><img src="images/daduanya.jpg" /></a></li>
+                        <li><a href="images/yuanshanb.jpg"><img src="images/yanshan.jpg" /></a></li>
+                    </div>
+                </ul>
+                <div class="clear"></div>
+            </div>
         </div>
         <div class="moives-box left-box">
             <h3>我的推荐</h3>
@@ -491,11 +469,11 @@
     <!--footer部分-->
     <footer class="public-footer">
         <div class="contact-list public-container clearfloat">
-            <a class="weixin" target="_blank" title="微信" onmouseover="display()" onmouseout="disappear()">
+            <a class="weixin" target="_blank" title="微信">
                 <i class="qrcode"></i>
             </a>
             <a class="weibo" target="_blank" title="新浪微博" href="http://weibo.com/2034080734/profile?topnav=1&wvr=6&is_all=1"></a>
-            <a class="qq" target="_blank" title="QQ"></a>
+            <a class="email"  title="邮箱" href="Mailto:wx1620@163.com?CC=wx1620@163.com&BCC=wx1620@163.com&Subject=Hello&Body=你好"></a>
             <a class="qqzone" target="_blank" title="QQ空间" href="http://user.qzone.qq.com/563513041/main"></a>
         </div>
         <p class="footer-contact">欢迎大家和我交流学习共同提高</p>
@@ -506,5 +484,6 @@
         </div>
     </footer>
 
+    <script src="js/zoom.min.js"></script>
 </body>
 </html>

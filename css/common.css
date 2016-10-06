@@ -80,11 +80,11 @@
 .contact-list .weibo:hover{
     background:url("../img/weibo1.png") no-repeat;
 }
-.contact-list .qq{
-    background: url("../img/qq.png") no-repeat;
+.contact-list .email{
+    background: url("../img/email.png") no-repeat;
 }
-.contact-list .qq:hover{
-    background:url("../img/qq1.png") no-repeat;
+.contact-list .email:hover{
+    background:url("../img/email1.png") no-repeat;
 }
 .contact-list .qqzone{
     background: url("../img/qzone.png") no-repeat;

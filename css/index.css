@@ -203,11 +203,12 @@
     display: none;
     background-color: #f3eeee;
     margin-bottom: 30px;
+    margin-top: -20px;
 }
 .left-box h3{
-    line-height: 40px;
+    line-height: 50px;
     display: block;
-    margin: 0 auto;
+
     text-align: center;
 }
 .book-name-image{
