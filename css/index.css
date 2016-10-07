@@ -139,10 +139,12 @@
     text-align: center;
     line-height: 40px;
 }
+.mywork  .project-name:hover{
+    text-decoration: underline;
+}
 .mywork  .project-image{
     width: 300px ;
     height: 300px;
-
 }
 .mywork   .little-game{
     background:url("../img/2048.jpg") no-repeat;
