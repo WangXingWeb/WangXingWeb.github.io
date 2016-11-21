@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>西安旅游景点介绍</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+
+
+    <style type="text/css">
+        body{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .carousel{
+            height: 400px;
+            background-color: #000;
+
+        }
+        .carousel .item{
+            height: 400px;
+            background-color: #000;
+        }
+        .carousel img{
+            width: 100%;
+            min-height: 400px;
+        }
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .summery .col-md-4{
+            margin-top: 60px;
+            text-align: center;
+        }
+        hr.divider{
+            margin: 40px 0;
+        }
+        .feature{
+            padding: 40px 0;
+        }
+        .feature-heading{
+            font-size: 40px;
+            color: #2a6496;
+            margin-top: 80px;
+        }
+        .text-muted{
+            font-size: 25px;
+            color: #999;
+        }
+        @media (max-width: 765px) {
+            .carousel {
+                height: 250px;
+                margin-bottom: 30px;
+            }
+            .carousel .item {
+                height: 250px;
+            }
+            .carousel img {
+                min-height: 250px;
+            }
+            .carousel-caption h1{
+                font-size: 25px;
+            }
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            .feature-heading {
+                font-size: 25px;
+                margin-top: 0px;
+            }
+
+            .feature-heading .text-muted {
+                font-size: 20px;
+            }
+            .lead{
+                font-size: 15px;
+            }
+            .tomore{
+                font-size: 12px;
+                padding: 4px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#demo-navbar">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">西安旅游景点介绍</a>
+        </div>
+        <div class="navbar-collapse collapse" id="demo-navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#carousel-example-generic">综述</a></li>
+                <li><a href="#summary-container">最热</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">详情<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#bmy" >兵马俑</a></li>
+                        <li><a href="#dyt" >大雁塔</a></li>
+                        <li><a href="#xacq" >西安城墙</a></li>
+                        <li><a href="#sxlsbwg" >陕西历史博物馆</a></li>
+                        <li><a href="#dtfry" >大唐芙蓉园</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 轮播banner -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="img/bmy.jpg" alt="兵马俑">
+            <div class="carousel-caption">
+                <h1>秦陵兵马俑</h1>
+                <p>秦兵马俑坑发现于1974年，被誉为“世界第八大奇迹”。</p>
+                <p>
+                    <a class="btn btn-lg btn-primary tomore " href="http://baike.baidu.com/link?url=td1SICIfv-Hq7AayO1ljgDOLhNoasbuVjCnHnCPzip_epKbE9qBN3yW0-JpAVpHQSyzPGSY7S5eI8UsSm5YzEj-HfxvlobNAVcViTByFv2qRjTxKnYqlg0bm3nLBEDOo"
+                      role="button" target="_blank">了解更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/dyt.jpg" alt="大雁塔">
+            <div class="carousel-caption">
+                <h1>大雁塔</h1>
+                <p>为保存由天竺带回长安的经卷佛像，高僧玄奘主持修建了大雁塔。</p>
+                <p>
+                    <a class="btn btn-lg btn-primary tomore" href="http://baike.baidu.com/link?url=CUoxhNyAz1AR3Kzdg4PkZ5DiH7hQ7ik8PoBLWdxEsHtynipBhPY7gIAymiQMpAcaOvq4X44_XshZDpih5--cKI1NV3sFg4KuC6U8wGWfpn2BVvbeaXgpCtPtyqJhy6x-"
+                    role="button" target="_blank">了解更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/xacq.jpg" alt="西安古城墙">
+            <div class="carousel-caption">
+                <h1>西安城墙</h1>
+                <p>西安城墙是中国现存规模最大、保存最完整的古代城垣。</p>
+                <p>
+                    <a class="btn btn-lg btn-primary tomore" href="http://baike.baidu.com/item/西安城墙/1227840"
+                       role="button" target="_blank">了解更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/sxlsbwg.jpg" alt="陕西历史博物馆">
+            <div class="carousel-caption">
+                <h1>陕西历史博物馆</h1>
+                <p>陕西历史博物馆集中珍藏陕西地区出土的珍贵文物37万余件。</p>
+                <p>
+                    <a class="btn btn-lg btn-primary tomore" href="http://baike.baidu.com/item/陕西历史博物馆/197309"
+                       role="button" target="_blank">了解更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/dtfry.jpg" alt="大唐芙蓉园">
+            <div class="carousel-caption">
+                <h1>大唐芙蓉园</h1>
+                <p>中国第一个全方位展示盛唐风貌的大型皇家园林式文化主题公园。</p>
+                <p>
+                    <a class="btn btn-lg btn-primary tomore" href="http://baike.baidu.com/item/大唐芙蓉园/5709"
+                       role="button" target="_blank">了解更多</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<!--三列布局-->
+<div class="container summery" id="summary-container">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-circle" src="img/bmy-smlogo.png" alt="兵马俑">
+            <h2>兵马俑</h2>
+            <p>秦兵马俑坑发现于1974年，被誉为“世界第八大奇迹”、“二十世纪考古史上的伟大发现之一”。</p>
+            <a class="btn btn-default" href="http://baike.baidu.com/link?url=td1SICIfv-Hq7AayO1ljgDOLhNoasbuVjCnHnCPzip_epKbE9qBN3yW0-JpAVpHQSyzPGSY7S5eI8UsSm5YzEj-HfxvlobNAVcViTByFv2qRjTxKnYqlg0bm3nLBEDOo"
+               role="button" target="_blank">了解更多</a>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="img/sxlsbwg-smlogo.png" alt="陕西历史博物馆">
+            <h2>陕西历史博物馆</h2>
+            <p>陕西历史博物馆集中珍藏陕西地区出土的珍贵文物37万余件。</p>
+            <a class="btn btn-default" href="http://baike.baidu.com/item/陕西历史博物馆/197309"
+               role="button" target="_blank">了解更多</a>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="img/dtfry-smlogo.png" alt="大唐芙蓉园">
+            <h2>大唐芙蓉园</h2>
+            <p>中国第一个全方位展示盛唐风貌的大型皇家园林式文化主题公园。</p>
+            <a class="btn btn-default" href="http://baike.baidu.com/item/大唐芙蓉园/5709"
+               role="button" target="_blank">了解更多</a>
+        </div>
+    </div>
+    <hr class="divider"/>
+    <!--标签页-->
+    <ul class="nav nav-tabs " role="tablist" id="tab-list">
+        <li class="active"><a href="#bmy" role="tab" data-toggle="tab">兵马俑</a></li>
+        <li><a href="#dyt" role="tab" data-toggle="tab">大雁塔</a></li>
+        <li><a href="#xacq" role="tab" data-toggle="tab">西安城墙</a></li>
+        <li><a href="#sxlsbwg" role="tab" data-toggle="tab">陕西历史博物馆</a></li>
+        <li><a href="#dtfry" role="tab" data-toggle="tab">大唐芙蓉园</a></li>
+    </ul>
+    <div class="tab-content ">
+        <div class="tab-pane active" id="bmy">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">兵马俑<span class="text-muted">世界第八大奇迹</span></h2>
+                    <p class="lead">1961年3月4日，秦始皇陵被国务院公布为第一批全国重点文物保护单位。1974年3月，兵马俑被发现；1987年，秦始皇陵及兵马俑坑被联合国教科文组织批准列入《世界遗产名录》，并被誉为“世界第八大奇迹”。先后已有200多位国家领导人参观访问，成为中国古代辉煌文明的一张金字名片。</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/bmy-logo.png" class="feature-image img-responsive" alt="兵马俑"/>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="dyt">
+            <div class="row feature">
+                <div class="col-md-5">
+                    <img src="img/dyt-logo.png" class="feature-image img-responsive" alt="大雁塔"/>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="feature-heading">大雁塔<span class="text-muted">盛世长安</span></h2>
+                    <p class="lead">大雁塔位于唐长安城晋昌坊（今陕西省西安市南）的大慈恩寺内，又名“慈恩寺塔”。唐永徽三年（652年），玄奘为保存由天竺经丝绸之路带回长安的经卷佛像主持修建了大雁塔，最初五层，后加盖至九层，再后层数和高度又有数次变更，最后固定为今天所看到的七层塔身，通高64.517米，底层边长25.5米。</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="xacq">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">西安城墙<span class="text-muted">历史的记忆</span></h2>
+                    <p class="lead">西安明城墙位于陕西省西安市中心区，是中国现存规模最大、保存最完整的古代城垣。墙高18米，顶宽12—14米，底宽15—18米，轮廓呈封闭的长方形，周长13.74公里。城墙内人们习惯称为古城区，面积11.32平方公里，著名的西安钟鼓楼就位于古城区中心。</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/xacq-logo.png" class="feature-image img-responsive" alt="西安城墙"/>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="sxlsbwg">
+            <div class="row feature">
+                <div class="col-md-5">
+                    <img src="img/sxlsbwg-logo.png" class="feature-image img-responsive" alt="陕西历史博物馆"/>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="feature-heading">陕西历史博物馆<span class="text-muted">文化的传承</span></h2>
+                    <p class="lead">陕西历史博物馆建筑的外观着意突出了盛唐风采，长安自古帝王都，历史上先后有周、秦、汉、隋、唐等十三个封建王朝在此建都，具有丰富的地上地下文物，形成了陕西独特的历史文化风貌。陕西历史博物馆建成后，集中珍藏陕西地区出土的珍贵文物37万余件</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="dtfry">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">大唐芙蓉园<span class="text-muted">梦回大唐</span></h2>
+                    <p class="lead">唐芙蓉园位于位于西安城南的曲江开发区，大雁塔东南侧，它是在原唐代芙蓉园遗址以北，仿照唐代皇家园林式样重新建造的，是中国第一个全方位展示盛唐风貌的大型皇家园林式文化主题公园，占地面积一千亩，其中水域面积三百亩。园内建有紫云楼、仕女馆、御宴宫、杏园、芳林苑、凤鸣九天剧院、唐市等许多仿古建筑，是中国最大的仿唐皇家建筑群，景区由中国工程院院士张锦秋担纲总体规划和建筑设计。</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/dyt-logo.png" class="feature-image img-responsive" alt="大唐芙蓉园"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--底部-->
+    <footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+        <p>&copy; 2016 iwangxing.cn </p>
+    </footer>
+ </div>
+
+<!-- 关于 -->
+<div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">关闭</span>
+                </button>
+                <h4 class="modal-title" id="modal-label">关于</h4>
+            </div>
+            <div class="modal-body">
+                <p>这是我为了练习Bootstrap框架而编写的一个简绍西安最受欢迎的旅游景点的小网站，内容比较简单，不足之处还请大家谅解！</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $("#demo-navbar .dropdown-menu a").click(function(){
+           var href=$(this).attr("href");
+           $("#tab-list a[href="+href+"]").tab("show");
+        });
+    });
+</script>
+</body>
+</html>

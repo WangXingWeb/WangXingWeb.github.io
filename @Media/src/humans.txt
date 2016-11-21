@@ -1,0 +1,25 @@
+
+/* TEAM */
+
+    Developer:WangXing
+    Site: iwangxing.cn
+    Location: 西安,CHINA.
+
+/* THANKS */
+
+
+
+
+/* SITE */
+
+
+Last update: YYYY/MM/DD
+
+
+Standards: HTML5, CSS3,..
+
+
+Components: Modernizr, jQuery, etc.
+
+
+Software: Software used for the development
