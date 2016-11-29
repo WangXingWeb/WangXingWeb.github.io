@@ -524,7 +524,8 @@
                 Dom.top_nav.hide();
                 Dom.font_container.hide();
                 Dom.font_button.removeClass('current');
-                scorll_height=Doc.scrollHeight;
+                scorll_height=Doc.scrollTop();
+                scorll_height=parseInt(scorll_height);
                 Util.StorageSetter('scorll_Height','scorll_height')
             });
             $('#prev_button').click(function () {
