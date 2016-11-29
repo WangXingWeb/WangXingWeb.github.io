@@ -346,17 +346,6 @@
             $('#day_icon').show();
             $('#night_icon').hide();
         }
-
-        //移动到上次浏览位置
-        var scorll_height=Util.StorageGetter('scorll_Height');
-        scorll_height=parseInt(scorll_height);
-        alert(scorll_height);
-        if(scorll_height){
-            window.scrollTo(0,scorll_height);
-        }else {
-            window.scrollTo(0,0);
-        }
-
         //整个项目的入口函数
         function main(){
             readerModel=ReaderModel();
@@ -524,9 +513,6 @@
                 Dom.top_nav.hide();
                 Dom.font_container.hide();
                 Dom.font_button.removeClass('current');
-                scorll_height=Doc.scrollTop();
-                scorll_height=parseInt(scorll_height);
-                Util.StorageSetter('scorll_Height','scorll_height')
             });
             $('#prev_button').click(function () {
                 //先获得当前的翻页数据->把数据拿来做渲染
@@ -547,10 +533,5 @@
 </script>
 
 </body>
-<script type="text/javascript">
 
-
-    window.scrollTo(100,100);
-
-</script>
 </html>
