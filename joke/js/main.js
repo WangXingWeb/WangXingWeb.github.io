@@ -1,5 +1,6 @@
 var container=$("#myContainer");
 var index=1;
+
 function formatterDateTime() {
     var date=new Date()
     var month=date.getMonth() + 1
@@ -20,17 +21,22 @@ function formatterDateTime() {
             .getSeconds());
     return datetime;
 }
-function http(index) {
+
+function openDialog() {
+    alert("感谢您访问我的网站，这是我利于闲暇时间制作的搞笑类网站，暂时功能还不够完善，今后我会尽快弥补，希望您能谅解。网站的后台接口由易源数据提供，在此对易源数据表示感谢！");
+}
+
+function http(url,index) {
     $.ajax({
         type: 'post',
-        url: 'http://route.showapi.com/341-3',
+        url: url,
         dataType: 'jsonp',
         data: {
             "showapi_timestamp": formatterDateTime(), //注意要使用当前时间。服务器只处理时间误差10分钟以内的请求
             "showapi_appid": '29541', //这里需要改成自己的appid
             "showapi_sign": '3fd121b3d11845d3bddd36c8e2a6bd6a',  //这里需要改成自己的密钥
             "page":index,
-            "maxResult":'10',
+            "maxResult":'1',
         },
         jsonp: 'jsonpcallback',
         error: function(XmlHttpRequest, textStatus, errorThrown) {
@@ -38,20 +44,15 @@ function http(index) {
         },
         success: function(result) {
             console.log(result);//console变量在ie低版本下不能用
+            var list=document.getElementById("myContainer");
+            list.removeChild(list.childNodes[2]);
+
             var arry=result.showapi_res_body.contentlist;
             for(var i=0;i<arry.length;i++){
-                container.append('<div class="content"><img src="'+arry[i].img+'"/><h5 class="img-title">'+arry[i].title+'</h5><hr class="divider"/> ');
+                container.append('<div class="content"><img class="imgJoke" id="imgId" src="'+arry[i].img+'" /><h5 class="img-title">'+arry[i].title+'</h5><hr class="divider"/> ');
             }
             console.log(index);
         }
     });
-}
-window.onload=function(){
-    http(index);
-    index++;
-    document.getElementById('btn-more').onclick=function(){
-        http(index);
-        index++;
-    }
 }
 

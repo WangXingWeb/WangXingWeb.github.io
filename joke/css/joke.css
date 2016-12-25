@@ -1,0 +1,31 @@
+body{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.content{
+    text-align: center;
+}
+.text-welcome{
+    text-align: center;
+    font-size: 24px;
+    color: #5ec3b1;
+    margin-bottom: 25px;
+    display: block;
+}
+.img-title{
+    font-size: 18px;
+}
+.center{
+    display: table;
+    margin: 0 auto;
+}
+.textJoke{
+    margin: 0 auto ;
+    width: 80%;
+    font-size: 15px;
+    letter-spacing:1.5px;
+    line-height: 30px;
+}
+.imgJoke{
+    max-width: 100%;
+}

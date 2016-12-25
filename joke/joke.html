@@ -6,29 +6,7 @@
     <title>搞笑图片</title>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
-    <style type="text/css">
-        body{
-            padding-top: 75px;
-            padding-bottom: 50px;
-        }
-        .content{
-            text-align: center;
-        }
-        .text-welcome{
-            text-align: center;
-            font-size: 24px;
-            color: #5ec3b1;
-            margin-bottom: 25px;
-            display: block;
-        }
-        .img-title{
-            font-size: 18px;
-        }
-        .btn-self{
-            width: 60%;
-            margin: 0 auto;
-        }
-    </style>
+    <link href="css/joke.css" rel="stylesheet"/>
 </head>
 <body>
     <!--导航栏部分-->
@@ -46,20 +24,56 @@
             <div class="navbar-collapse collapse" id="demo-navbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="">动态搞笑图</a></li>
-                    <li><a href="">图片笑话</a></li>
-                    <li><a href="" >文本笑话</a></li>
-                    <li><a href="" >关于我们</a></li>
+                    <li><a href="joke2.html">图片笑话</a></li>
+                    <li><a href="joke3.html" >文本笑话</a></li>
+                    <li><a onclick="openDialog();" >关于我们</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <!--内容区-->
     <div class="img-container container" id="myContainer">
-        <a class="text-welcome">给你带来欢笑，我十分荣幸！</a>
+        <span class="text-welcome">给你带来欢笑，我十分荣幸！</span>
     </div>
-    <button  type="button" id="btn-more" class="btn btn-primary btn-self btn-block">加载更多</button>
-<script src="js/jquery-1.9.1.min.js"></script>
+    <div class="btn-group center ">
+        <button type="button" class="btn btn-default btn-primary" id="prev">上一条</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle btn-primary" data-toggle="dropdown">
+                跳转到
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li id="ten"><a href="#">第10条</a></li>
+                <li id="twenty"><a href="#">第20条</a></li>
+            </ul>
+        </div>
+        <button type="button" id="next" class="btn btn-default btn-primary">下一条</button>
+    </div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    window.onload=function() {
+        var url = "http://route.showapi.com/341-3";
+        http(url, index);
+        document.getElementById('prev').onclick = function () {
+            index--;
+            http(url, index);
+        }
+        document.getElementById('next').onclick = function () {
+            index++;
+            http(url, index);
+        }
+        document.getElementById('ten').onclick = function () {
+            index = index + 10;
+            http(url, index);
+        }
+        document.getElementById('twenty').onclick = function () {
+            index = index + 20;
+            http(url, index);
+        }
+    }
+</script>
 </body>
 </html>
