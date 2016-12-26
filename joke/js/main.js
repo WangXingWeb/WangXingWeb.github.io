@@ -22,9 +22,6 @@ function formatterDateTime() {
     return datetime;
 }
 
-function openDialog() {
-    alert("感谢您访问我的网站，这是我利于闲暇时间制作的搞笑类网站，暂时功能还不够完善，今后我会尽快弥补，希望您能谅解。网站的后台接口由易源数据提供，在此对易源数据表示感谢！");
-}
 
 function http(url,index) {
     $.ajax({
