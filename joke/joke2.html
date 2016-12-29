@@ -47,48 +47,32 @@
 </div>
 
 <!--内容区-->
-<div class="img-container container" id="myContainer">
-    <span class="text-welcome">给你带来欢笑，我十分荣幸！</span>
+<div class="img-container container" >
+    <div id="myContainer" class="imgContainer " style="left:0px;"></div>
 </div>
 <div class="btn-group center ">
-    <button type="button" class="btn btn-default btn-primary" id="prev">上一条</button>
-    <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle btn-primary" data-toggle="dropdown">
+    <button type="button" class="btn btn-success btn-primary btn-self" id="prev">上一条</button>
+    <div class="btn-group dropup ">
+        <button type="button" class="btn btn-success dropdown-toggle btn-primary" data-toggle="dropdown">
             跳转到
             <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" role="menu">
-            <li id="ten"><a href="#">第10条</a></li>
-            <li id="twenty"><a href="#">第20条</a></li>
+            <li id="nextTen"><a href="#">向前10条</a></li>
+            <li id="prevTen"><a href="#">向后10条</a></li>
+            <li id="nextTweny"><a href="#">向前20条</a></li>
+            <li id="prevTwenty"><a href="#">向后20条</a></li>
         </ul>
     </div>
-    <button type="button" id="next" class="btn btn-default btn-primary">下一条</button>
+    <button type="button" id="next" class="btn btn-success btn-primary">下一条</button>
 </div>
-
-<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    var url = "http://route.showapi.com/341-2";
+    var type=1;
+</script>
+<script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script>
-    window.onload=function() {
-        var url = "http://route.showapi.com/341-2";
-        http(url, index);
-        document.getElementById('prev').onclick = function () {
-            index--;
-            http(url, index);
-        }
-        document.getElementById('next').onclick = function () {
-            index++;
-            http(url, index);
-        }
-        document.getElementById('ten').onclick = function () {
-            index = index + 10;
-            http(url, index);
-        }
-        document.getElementById('twenty').onclick = function () {
-            index = index + 20;
-            http(url, index);
-        }
-    }
-</script>
+
 </body>
 </html>
