@@ -49,11 +49,11 @@ function http(url,page,num) {
             var arry=result.showapi_res_body.contentlist;
             if(type==1){
                 for(var i=0;i<arry.length;i++){
-                    container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><img  class="imgJoke"  src="'+arry[i].img+'" /><hr class="divider"/> ');
+                    container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><img  class="imgJoke"  src="'+arry[i].img+'" />');
                 }
             }else{
                 for(var i=0;i<arry.length;i++){
-                    container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><hr class="divider"/> <p class="textJoke"> '+arry[i].text+'</p><hr class="divider"/>');
+                    container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><div class=" line"/> <div class="textJoke"> '+arry[i].text+'</div><div class=" line"/>');
                 }
             }
 
@@ -91,7 +91,7 @@ window.onload=function() {
         }else {
             index-=1;
         }
-        animate(360,1);
+        animate(320,1);
 
     }
     var next=document.getElementById('next');
@@ -104,7 +104,7 @@ window.onload=function() {
                 http(url,pages,5);
             }
         }
-        animate(-1*360,1);
+        animate(-1*320,1);
     }
     document.getElementById('nextTen').onclick = function () {
         if (animated) {
@@ -188,6 +188,20 @@ window.onload=function() {
                 next.onclick();
 
             }
+        }
+        var nowHeight=$(document).scrollTop();
+        if(Math.abs(deltax)<Math.abs(deltay)){
+            if(deltay<0){
+                /*if(index==1){
+                 alert("当前已是最新的了！");
+                 return;
+                 }*/
+                $('body,html').animate({scrollTop:nowHeight-deltay},300);
+            }else if(deltay>0){
+                $('body,html').animate({scrollTop:nowHeight-deltay},300);
+
+            }
+
         }
 
     });}
