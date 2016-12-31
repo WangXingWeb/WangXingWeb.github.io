@@ -24,6 +24,7 @@ body{
     margin-left: -15px;
     margin-right: 15px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 .img-title{
     display: block;
@@ -58,7 +59,7 @@ body{
     margin: 0 auto;
     display: block;
     max-width: 100%;
-    border:solid 1px rgba(88,179,88,1);
+    border:solid 2px rgba(88,179,88,1);
     margin-top: 5px;
 }
 .alert-self{
