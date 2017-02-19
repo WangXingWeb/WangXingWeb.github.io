@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigContainer{
+    width: 100%;
+    height: 100%;
+    display:table;
+}
+.container{
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+}
+.presonImg{
+    border: 8px solid #AEE2D9;
+    border-radius: 108px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+.title{
+    text-align: center;
+    font-size: 48px;
+    line-height:80px;
+    font-family:"Microsoft YaHei",sans-serif;
+    text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
+}
+.two .title{
+    text-shadow: 1px 2px #148db9, 2px 4px #65d1f8;
+}
+.personWeb {
+    font-size: 30px;
+    text-decoration: none;
+    color: #008A75;
+}
+.personWeb:hover{
+    color: #99ff33;
+}
+.miaoshu{
+    color: #AEE2D9;
+}
+.email{
+    color: #008A75;
+}
+.project{
+    display: block;
+    width: 60%;
+    margin:50px auto 0;
+    text-align: center;
+}
+.project-item{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.project-item-title{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+.project-item-title:hover{
+    color: #65d1f8;
+}
+.item-img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 44px;
+    border: 6px solid #65d1f8;
+}
+.clearfloat{
+    zoom: 1;
+}
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.jianshao{
+    text-align: left;
+    padding-left: 20px;
+}
+.blueweb{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0f6e91;
+}
+.blueweb:hover{
+    color: #65d1f8;
+}
+.item-tell{
+    font-size: 18px;
+    color: #0f6e91;
+}
+.github{
+    font-size: 20px;
+    color: #65d1f8;
+}
+.github-more{
+     font-style: italic;
+     padding-left: 8px;
+     color: #0f6e91;
+    text-decoration: underline;
+ }
+.github-more:hover{
+    color: #65d1f8;
+}
+.tag {
+    background-color: #096254;
+    color: #aee2d9;
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 40px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    opacity: 0.5
+}
+.tag.expert {
+    opacity: 1
+}
+
+.tag.familiar {
+    opacity: 0.75
+}
+.project-item-work{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+}
