@@ -76,7 +76,6 @@
         <span style="display: none" id="tipTwo" class="tip two">姓名不能为空</span>
         <span style="display: none" id="tipThree" class="tip three">名称格式正确</span>
         <span style="display: none" id="tipFour" class="tip four">字符长度必须为4～16</span>
-
 </from>
 
 </body>
@@ -89,7 +88,15 @@
         var tipFour=document.getElementById("tipFour");
         button.onclick=function () {
             var input=document.getElementById("input");
-            var num=input.value.length;
+            var text=input.value;
+            var num=0;
+            for(var i=0;i<text.length;i++){
+                if(0<=text.charCodeAt(i)&&text.charCodeAt(i)<=128){
+                    num+=1;
+                }else{
+                    num+=2;
+                }
+            }
             if(num==0){
                 tipOne.style.display="none";
                 tipThree.style.display="none";
