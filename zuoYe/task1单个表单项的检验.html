@@ -85,15 +85,16 @@
             var input=document.getElementById("input");
             var num=input.value.length;
             if(num==0){
-                tipTwo.style.display="none";
-                tipThree.style.display="none";
-                tipOne.style.display="block";
-                input.style.borderColor="#CCCCCC";
-            }else if(num<4||num>16){
                 tipOne.style.display="none";
                 tipThree.style.display="none";
                 tipTwo.style.display="block";
                 input.style.borderColor="#DE000F";
+
+            }else if(num<4||num>16){
+                tipTwo.style.display="none";
+                tipThree.style.display="none";
+                tipOne.style.display="block";
+                input.style.borderColor="#CCCCCC";
             }else{
                 tipOne.style.display="none";
                 tipTwo.style.display="none";
