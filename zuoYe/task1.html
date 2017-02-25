@@ -51,6 +51,9 @@
     .three{
         color: #5DBB49;
     }
+    .four{
+        color: #FFB000;
+    }
     .button{
         width: 105px;
         height: 65px;
@@ -72,6 +75,8 @@
         <span style="display: block" id="tipOne" class="tip">必填，长度为4～16个字符</span>
         <span style="display: none" id="tipTwo" class="tip two">姓名不能为空</span>
         <span style="display: none" id="tipThree" class="tip three">名称格式正确</span>
+        <span style="display: none" id="tipFour" class="tip four">字符长度必须为4～16</span>
+
 </from>
 
 </body>
@@ -81,23 +86,27 @@
         var tipOne=document.getElementById("tipOne");
         var tipTwo=document.getElementById("tipTwo");
         var tipThree=document.getElementById("tipThree");
+        var tipFour=document.getElementById("tipFour");
         button.onclick=function () {
             var input=document.getElementById("input");
             var num=input.value.length;
             if(num==0){
                 tipOne.style.display="none";
                 tipThree.style.display="none";
+                tipFour.style.display="none";
                 tipTwo.style.display="block";
                 input.style.borderColor="#DE000F";
 
             }else if(num<4||num>16){
                 tipTwo.style.display="none";
                 tipThree.style.display="none";
-                tipOne.style.display="block";
-                input.style.borderColor="#CCCCCC";
+                tipOne.style.display="none";
+                tipFour.style.display="block";
+                input.style.borderColor="#FFB000";
             }else{
                 tipOne.style.display="none";
                 tipTwo.style.display="none";
+                tipFour.style.display="none";
                 tipThree.style.display="block";
                 input.style.borderColor="#5DBB49";
                 }
