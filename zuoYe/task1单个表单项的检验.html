@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单个表单项的验证作业</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family:Microsoft Yahei;
+    }
+    .form{
+        background-color: #fff;
+        margin: 50px auto 0;
+        width: 1000px;
+        height: 710px;
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 26px;
+        margin: auto;
+        margin-right: 50px;
+    }
+    .input{
+        width: 536px;
+        height: 65px;
+        padding-left: 30px;
+        font-size: 24px;
+        border: #CCCCCC 2px solid;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        margin-right: 22px;
+    }
+    .tip{
+        text-align: left;
+        color: #CCCCCC;
+        margin-left: 210px;
+        font-size: 24px;
+    }
+    .two{
+        color: #DE000F;
+    }
+    .three{
+        color: #5DBB49;
+    }
+    .button{
+        width: 105px;
+        height: 65px;
+        color: #fff;
+        background-color: #2F79BA;
+        border: #2A6CA6 2px solid;
+        border-radius: 8px;
+        font-size: 24px;
+    }
+</style>
+<body>
+
+<from class="form">
+        <div class="row">
+            <h6 class="title">名称</h6>
+            <input id="input" style="border-color: #CCCCCC" class="input" type="text">
+            <button id="button" class="button">验证</button>
+        </div>
+        <span style="display: block" id="tipOne" class="tip">必填，长度为4～16个字符</span>
+        <span style="display: none" id="tipTwo" class="tip two">姓名不能为空</span>
+        <span style="display: none" id="tipThree" class="tip three">名称格式正确</span>
+</from>
+
+</body>
+<script type="text/javascript">
+    window.onload=function () {
+        var button=document.getElementById("button");
+        var tipOne=document.getElementById("tipOne");
+        var tipTwo=document.getElementById("tipTwo");
+        var tipThree=document.getElementById("tipThree");
+        button.onclick=function () {
+            var input=document.getElementById("input");
+            var num=input.value.length;
+            if(num==0){
+                tipTwo.style.display="none";
+                tipThree.style.display="none";
+                tipOne.style.display="block";
+                input.style.borderColor="#CCCCCC";
+            }else if(num<4||num>16){
+                tipOne.style.display="none";
+                tipThree.style.display="none";
+                tipTwo.style.display="block";
+                input.style.borderColor="#DE000F";
+            }else{
+                tipOne.style.display="none";
+                tipTwo.style.display="none";
+                tipThree.style.display="block";
+                input.style.borderColor="#5DBB49";
+                }
+            }
+    }
+</script>
+</html>
