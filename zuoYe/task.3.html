@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联动表单</title>
+</head>
+<style>
+    .row{
+        font-size: 24px;
+        line-height: 50px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .row span{
+        margin-right: 100px;
+    }
+    .row span input{
+        height: 50px;
+        vertical-align: bottom;
+
+    }
+    select{
+        height:40px;
+        font-size: 24px;
+        border-radius: 8px;
+    }
+     .city{
+        width: 150px;
+    }
+    .school{
+        width: 200px;
+    }
+    .workplace{
+        height: 40px;
+        width: 300px;
+        border-radius: 8px;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+</style>
+<body>
+<form >
+    <div class="row">
+        <span><input type="radio" id="student" name="student" value="1" checked>在校生</span>
+        <span><input type="radio" id="worker" name="student" value="2">非在校生</span>
+    </div>
+    <div class="row" id="whichSchool">
+        <label for="school">学校</label>
+        <select name="city" class="city" id="city"></select>
+        <select name="school" class="school" id="school"></select>
+    </div>
+    <div class="row" id="whichWorkplace" style="display: none">
+        <label for="work">就业单位</label>
+        <input type="text" id="work" class="workplace" >
+    </div>
+</form>
+</body>
+<script>
+    window.onload=function () {
+        var schoolSelect= document.getElementById("whichSchool");
+        var whichWorkplace= document.getElementById("whichWorkplace");
+        var whichCity= document.getElementById("city");
+        var whichSchool= document.getElementById("school");
+        var citys=["北京","西安","上海","南京","广州"];
+        var schools=[["清华大学","北京大学","人民大学","北京航大","北京师范"],["陕西科技大学","西安交通大学","西北工业大学","西北大学","第四军医大学",],["复旦大学","上海交通大学","同济大学","华东师范大学","华东理工大学"],["南京大学","东南大学","南京航空航天大学","南京理工大学","南京农业大学"]];
+        /*页面加载时默认选择*/
+        for(var i=0;i<citys.length;i++){
+            whichCity.innerHTML +='<option value="'+i+'">'+citys[i]+'</option>';
+        }
+        for(var i=0;i<schools[0].length;i++){
+            whichSchool.innerHTML +='<option value="'+schools[0][i]+'">'+schools[0][i]+'</option>';
+        }
+        whichCity.onchange=function () {
+            whichSchool.innerHTML="";
+            var schoolNum=whichCity.value;
+            for(var i=0;i<schools[schoolNum].length;i++){
+                whichSchool.innerHTML +='<option value="'+schools[schoolNum][i]+'">'+schools[schoolNum][i]+'</option>';
+            }
+        }
+        document.getElementById("student").onclick=function () {
+            schoolSelect.style.display="block";
+            whichWorkplace.style.display="none";
+        }
+        document.getElementById("worker").onclick=function () {
+            whichWorkplace.style.display="block";
+            schoolSelect.style.display="none";
+        }
+    }
+</script>
+</html>
