@@ -110,7 +110,7 @@ window.onload=function(){
 }
 /*导航栏关于显示对话框*/
 function openDialog(){
-    alert("您好，这是我的个人网站，这是一个还在开发中的网站，功能和体验还不完整，以后还会加入");
+    alert("您好，这是我的个人网站，这是一个还在开发中的网站，功能和体验还不完整，我会尽快完善！希望您谅解!");
 }
 /*弹出兴趣隐藏栏代码*/
 var readingbox=document.getElementsByClassName("reading-box");
