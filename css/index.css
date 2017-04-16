@@ -148,6 +148,15 @@
 .mywork  .project-image{
     width: 200px ;
     height: 200px;
+    border-radius: 10px;
+}
+.mywork   .jokeProject{
+    background:url("../img/xhdq.png") no-repeat;
+    background-size: 200px 200px;
+}
+.mywork   .webAPP{
+    background:url("../img/ydq.png") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork   .little-game{
     background:url("../img/2048.jpg") no-repeat;
