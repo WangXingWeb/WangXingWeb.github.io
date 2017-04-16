@@ -1,24 +1,26 @@
 #container{
     margin: 0 auto;
     position: relative;
-    width: 1200px;
-    height: 400px;
+    width: 1000px;
+    height: 334px;
     overflow: hidden;
 }
 
-#list{width:8400px;height:400px;z-index: 1;left: -1200px; position: absolute;}
-#list img{float:left;}
-#buttons{height: 10px;width: 150px;z-index: 2;bottom:20px;left:550px;position:absolute;}
+#list{width:7000px;height:400px;z-index: 1;left: -1000px; position: absolute;}
+#list img{float:left;width: 1000px;height: 334px;}
+#buttons{height: 10px;width: 150px;z-index: 2;bottom:20px;left:450px;position:absolute;}
 #buttons span{cursor: pointer;float: left;border: 1px solid #fff;width: 10px;height: 10px;border-radius: 50%;background: #333;margin: 4px;}
 #buttons .on{background:orangered;}
-.arrow{cursor: pointer;display:none;line-height: 40px;text-align: center;font-size: 36px;font-weight: bold;width: 40px;height: 40px;z-index: 2;position: absolute;top: 200px;background: RGBA(0,0,0,.3);color: #fff;}
+.arrow{cursor: pointer;display:none;line-height: 40px;text-align: center;font-size: 36px;font-weight: bold;width: 40px;height: 40px;z-index: 2;position: absolute;top: 150px;background: RGBA(0,0,0,.3);color: #fff;}
 .arrow:hover{background: RGBA(0,0,0,.7);}
 #container:hover .arrow{display: block;}
 #prev{left: 20px;}
 #next{right:20px;}
-
+.information{
+    margin-top: -30px;
+}
 .content-container{
-    padding-top: 50px ;
+    padding-top: 30px ;
     background-color: #f3eeee;
     overflow: hidden;
 }
@@ -39,7 +41,7 @@
 }
 .about-me .mypicture-container{
     float: left;
-    padding-left: 70px;
+    padding-left: 30px;
     width: 260px;
 }
 .about-me .my-picture{
@@ -59,8 +61,8 @@
     width: 250px;
     float: left;
     position: relative;
-    padding-left: 150px;
-    top:180px;
+    padding-left: 70px;
+    top: 120px;
     font-size: 15px;
 }
 .about-me .details .oneline{
@@ -76,18 +78,18 @@
     float: left;
     text-indent: 2em;
     position: relative;
-    padding-left: 70px;
-    width: 260px;
-    top:180px;
+    padding-left: 50px;
+    width: 270px;
+    top: 120px;
     line-height: 35px;
     font-size: 15px;
-    color:RGBA(153,161,166,1.0) ;
+    color: RGBA(153,161,166,1.0);
     font-family: '微软雅黑';
 }
 /*我的技术*/
 .my-skills {
     margin-left: 101px;
-    padding-top: 180px;
+    padding-top: 80px;
     margin-bottom: 50px;
     overflow: hidden;
 }
@@ -98,11 +100,15 @@
     border: 3px solid RGBA(153,161,166,1.0);
     border-radius:8px;
     box-shadow:0px 0px 8px rgba(0,0,0,0.5);
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
+}
+.my-skills a img{
+    width: 100px;
+    height: 100px;
 }
 .my-skills a+a{
-    margin-left: 37px;
+    margin-left: 30px;
 }
 
 .my-skills a:hover{
@@ -111,32 +117,26 @@
 .my-skills .boxtips{
     position:absolute;
     left:0;
-    width: 128px;
-    height: 128px;
-    bottom:-128px;
+    width: 100px;
+    height: 100px;
+    bottom:-100px;
     background:rgba(0,0,0,0.8);
      color:#e8432e;
     text-align:center;
     font-size:20px;
-    line-height:128px;
+    line-height:100px;
     transition:all 0.5s;
     -webkit-transition:all 0.5s;
 }
 .my-skills a:hover .boxtips{
     bottom: 0px;
 }
-.mywork{
-    margin-top: 0px;
-}
-.project-container{
-    margin: 0px 100px 0px 50px ;
-}
-.firstproject{
-    margin-top: 50px;
-}
 .mywork .project{
+    width: 200px;
+    overflow: hidden;
     float: left;
-    padding-left: 50px;
+    padding-left: 40px;
+    margin-top: 20px;
 }
 .mywork  .project-name{
     text-align: center;
@@ -146,26 +146,32 @@
     text-decoration: underline;
 }
 .mywork  .project-image{
-    width: 300px ;
-    height: 300px;
+    width: 200px ;
+    height: 200px;
 }
 .mywork   .little-game{
     background:url("../img/2048.jpg") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .licaibao{
     background:url("../img/xyswz.png") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .xian{
     background:url("../img/sxlyw.png") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .clock{
     background:url("../img/clock.png") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .food-shop{
     background:url("../img/foodshop.jpg") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .album{
     background:url("../img/mobile.png") no-repeat;
+    background-size: 200px 200px;
 }
 .mywork .project-describe{
     color: RGBA(153,161,166,1.0);
@@ -173,16 +179,16 @@
     font-size: 15px;
 }
 .my-interest {
-    margin-left: 150px;
-    padding-top: 50px;
-    margin-bottom: 100px;
+    margin-left: 80px;
+    padding-top: 20px;
+    margin-bottom: 50px;
     overflow: hidden;
 }
 .my-interest .interest-item{
     position:relative;
     overflow:hidden;
     float: left;
-    margin-right: 80px;
+    margin-right: 45px;
     border: 3px solid RGBA(153,161,166,1.0);
     border-radius:8px;
     box-shadow:0px 0px 8px rgba(0,0,0,0.5);

@@ -20,7 +20,7 @@ window.onload=function(){
                 return;
             }
             var myIndex=parseInt(this.getAttribute("index"));
-            var offset=-1200*(myIndex-index);
+            var offset=-1000*(myIndex-index);
             animate(offset);
             index=myIndex;
             showButton();
@@ -58,7 +58,7 @@ window.onload=function(){
         }
 
         showButton();
-        animate(-1200);
+        animate(-1000);
     }
     //向左切换图片，向animate();传递1200作为参数
     prev.onclick=function(){
@@ -71,13 +71,13 @@ window.onload=function(){
             index-=1;
         }
         showButton()
-        animate(1200);
+        animate(1000);
     }
     //切换图函数，向左向右切换分别传递1200和-1200作为参数
     function animate(offset){
         animated=true;
         var newLeft=parseInt(list.style.left)+offset;
-        var time=300;//位移总时间
+        var time=500;//位移总时间
         var interval=10;//位移间隔
         var speed=offset/(time/interval);//每次位移量
         function go(){
@@ -88,12 +88,12 @@ window.onload=function(){
                 animated=false;
                 list.style.left=newLeft+'px';
                 //当图片切换到图片5的附属图时切换到图片5显示的位置
-                if(newLeft>-1200){
-                    list.style.left=-6000+"px";
+                if(newLeft>-1000){
+                    list.style.left=-5000+"px";
                 }
                 //当图片切换到图片1的附属图时切换到图片1显示的位置
-                if(newLeft<-6000){
-                    list.style.left=-1200+"px";
+                if(newLeft<-5000){
+                    list.style.left=-1000+"px";
                 }
             }
         }

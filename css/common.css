@@ -7,7 +7,7 @@
 .public-container{
     position: relative;
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
 
 }
 .header-logo img{
@@ -39,7 +39,7 @@
 }
 .contact-list{
     position: relative;
-    left: 520px;
+    left: 414px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -113,7 +113,7 @@
     position: fixed;
     left:50%;
     width: 80px;
-    margin-left: 585px;
+    margin-left: 460px;
     bottom:50px;
     background-color: #0a041e;
     z-index: 2;
