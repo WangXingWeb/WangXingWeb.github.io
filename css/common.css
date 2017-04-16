@@ -19,13 +19,13 @@
 
 }
 .header-list li {
-    font-size:25px;
+    font-size:20px;
     color: RGBA(153,161,166,1.0);
     float: left;
     padding-left: 10px;
 }
 .header-list li a{
-    font-family: "汉仪行楷简";
+    font-family: '微软雅黑';
     color: RGBA(153,161,166,1.0);
 }
 
