@@ -48,3 +48,30 @@ $("#tblack").on('tap',this,function () {
 $("#goBack").click(function () {
     window.history.back()
 });
+function getListItem(id,url,type,i) {
+    $.ajax({
+        url: url+id,
+        type: 'GET',
+        dataType: 'JSONP',
+        success: function (data) {
+            var strHtml='';
+            strHtml+='<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px" onclick="window.location.href = \'readingDetail.html?'+type+'?'+i+'\'">';
+            strHtml+='<li class="mui-table-view-cell mui-media">';
+            strHtml+='<a class="mui-navigate-right listItem">';
+            var thisImage;
+            if(type=="book"){
+                thisImage=data.image;
+            }else if(type=="movie"){
+                thisImage=data.images.medium;
+            }
+            strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+thisImage+'">';
+            strHtml+='<div class="mui-media-body listItem-body">'+data.title;
+            strHtml+='<p class="mui-ellipsis  listItem-p">'+data.summary+'</p>';
+            strHtml+='</div></a></li></ul>';
+            $("#mui-main-content").append(strHtml);
+        },
+        fail:function (error) {
+            console.log(error);
+        }
+    });
+}
