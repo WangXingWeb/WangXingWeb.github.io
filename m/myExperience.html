@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的经历</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/newIndex.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/mui.min.js"></script>
+    <script type="text/javascript" src="js/icon.js"></script>
+</head>
+<style>
+    .out-border{
+        width: 18px;
+        height: 18px;
+        left: 33px;
+        background-color: #fff;
+        border-radius: 9px;
+        position: absolute;
+        z-index: 2;
+        border: #2ac845 3px solid;
+    }
+    .inner-border{
+        width: 6px;
+        height: 6px;
+        left: 39px;
+        background-color: #2ac845;
+        border-radius: 3px;
+        position: absolute;
+        z-index: 3;
+    }
+    .line{
+        position: absolute;
+        width: 4px;
+        background-color: #2ac845;
+        height:700px;
+        left: 40px;
+        border-radius: 3px;
+        top: 90px;
+        z-index: 1;
+    }
+    .contentItem{
+        background-color: #fff;
+        width: 90%;
+        border-radius: 5px;
+        margin-bottom: 76px;
+        border: #2ac845 1px solid;
+    }
+    .contentItem span{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-left: 20px;
+        color: #666666;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .myCareer{
+        margin-left: 65px;
+    }
+</style>
+<body>
+<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+    <!--侧滑菜单部分-->
+    <aside id="offCanvasSide" class="mui-off-canvas-left">
+        <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <div class="title">
+                    <img src="img/favicon.ico"/>
+                    <span style="color: #ffffff">王星个人网站</span>
+                </div>
+                <div class="content">
+                    <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                        <li class="mui-table-view-cell">
+                            <a class="mui-navigate-right">
+                                主页
+                            </a>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">About me</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'aboutMe.html'">关于我</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'myExperience.html'">我的经历</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的项目</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/joke/joke.html'" href="#">笑话大全</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/webAPP/app_mobile.html'" href="#">webAPP阅读器模块</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/2048/2048.html'" href="#">2048小游戏</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/@Media/src/index.html'" href="#">响应式首页</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/xianlvyou/xian.html'" href="#">西安旅游网</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/canvas-clock/clock.html'" href="#">clock</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的博客</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" href="#">
+                                        前端
+                                        <span class="mui-badge mui-badge-success">123</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的爱好</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" href="#">
+                                        读书
+                                        <span class="mui-badge mui-badge-success">3</span>
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" href="#">
+                                        电影
+                                        <span class="mui-badge mui-badge-success">123</span>
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" href="#">
+                                        NBA
+                                        <span class="mui-badge mui-badge-success">123</span>
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" href="#">
+                                        旅游
+                                        <span class="mui-badge mui-badge-success">123</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p style="margin: 10px 15px;">
+                        <button id="offCanvasHide" type="button" class="mui-btn mui-btn-danger mui-btn-block" style="padding: 5px 20px;">关闭</button>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!--主界面部分-->
+    <div class="mui-inner-wrap main-content">
+        <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <header class="mui-bar mui-bar-nav">
+                    <a id="goBack" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                    <h1 class="mui-title">我的经历</h1>
+                </header>
+                <div class="mui-content" >
+                    <div class="myLine">
+                        <div class="out-border" style="top: 126px;"></div>
+                        <div class="inner-border" style="top: 132px;"></div>
+                        <div class="out-border" style="top: 276px;"></div>
+                        <div class="inner-border" style="top: 282px;"></div>
+                        <div class="out-border" style="top: 426px;"></div>
+                        <div class="inner-border" style="top: 432px;"></div>
+                        <div class="out-border" style="top: 576px;"></div>
+                        <div class="inner-border" style="top: 582px;"></div>
+                        <div class="out-border" style="top: 726px;"></div>
+                        <div class="inner-border" style="top: 732px;"></div>
+                        <div class="line" style=""></div>
+                    </div>
+                    <div class="myCareer">
+                       <div class="contentItem" style="margin-top:60px;">
+                           <span>2009.9-2013.6</span>
+                           <span>陕西科技大学</span>
+                           <span>服装设计与工程</span>
+                       </div>
+                       <div class="contentItem" >
+                           <span>2013.7-2014.5</span>
+                           <span>际华3515</span>
+                           <span>鞋楦设计</span>
+                       </div>
+                       <div class="contentItem" >
+                           <span>2014.6-2014.12</span>
+                           <span>厦门名室居品</span>
+                           <span>销售</span>
+                       </div>
+                       <div class="contentItem" >
+                           <span>2015.5-2017.3</span>
+                           <span>西安匹克营销中心</span>
+                           <span>商品专员</span>
+                       </div>
+                       <div class="contentItem" style="border: #2ac845 1px solid">
+                           <span>2017.3-至今</span>
+                           <span>西安爱心健康</span>
+                           <span>web前端开发工程师</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            <div class="mui-off-canvas-backdrop"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+
+</script>
+<script type="text/javascript" src="js/common.js"></script>
+</html>
