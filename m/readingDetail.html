@@ -174,7 +174,11 @@
         $("#mainTitle").text(mainTitle);
         var strHtml="";
         strHtml+='<div class="mui-card">';
-        strHtml+=data[whichNum][number].article;
+        if(data[whichNum][number].article){
+            strHtml+=data[whichNum][number].article;
+        }else{
+            strHtml+="<p style='line-height:30px;height: 20px;'>抱歉，我还未写评价！</p>";
+        }
         strHtml+='</div>';
         $("#mui-mian-content").append(strHtml);
         $.ajax({
