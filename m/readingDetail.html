@@ -226,15 +226,12 @@
                 console.log(oneNum);
                 console.log(myNum);
                 var halfNum=0;
-                if(0<myNum&&myNum<0.25){
+                if(0<myNum&&myNum<0.33){
                     halfNum=0;
-                    console.log("!!!!!!!!!!!!!!!!!!!!!");
-                }else if(0.25<=myNum&&myNum<=0.75){
+                }else if(0.33<=myNum&&myNum<=0.67){
                     halfNum=1;
-                    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-                }else if(0.75<myNum&&myNum<1){
-                    console.log("#############");
-                    myNum++;
+                }else if(0.67<myNum&&myNum<1){
+                    oneNum++;
                     halfNum=0;
                 }
                 console.log(halfNum);
