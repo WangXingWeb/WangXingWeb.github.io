@@ -46,7 +46,7 @@
     }
     @media only screen and (min-width: 362px) and (max-width: 767px) {
         .mui-slider-item img{
-           min-height:200px;
+           min-height:180px;
         }
     }
     @media only screen and (max-width: 361px) {
@@ -118,8 +118,8 @@
                                     </a>
                                 </li>
                                 <li class="mui-table-view-cell">
-                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList2.html'">
-                                        NBA
+                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?sport'">
+                                        体育
                                         <!--<span class="mui-badge mui-badge-success">123</span>-->
                                     </a>
                                 </li>
@@ -373,12 +373,12 @@
                                         </a>
                                     </li>
                                     <li class="mui-table-view-cell">
-                                        <a class="mui-navigate-right" href="#">
+                                        <a class="mui-navigate-right" href="#" onclick="window.location.href = 'readingList.html?sport'">
                                             <svg class="icon" aria-hidden="true">
                                                 <use xlink:href="#icon-nbaicon"></use>
                                             </svg>
-                                            篮球
-                                            <span class="mui-badge mui-badge-success">123</span>
+                                            体育
+                                            <span class="mui-badge mui-badge-success" id="sportNum">123</span>
                                         </a>
                                     </li>
                                     <li class="mui-table-view-cell">

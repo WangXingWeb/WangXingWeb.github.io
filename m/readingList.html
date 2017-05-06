@@ -17,7 +17,7 @@
         margin-right: -100px;
     }
     .listItem-img{
-        max-width: 75px !important;
+        max-width:150px !important;
         height: 100px !important;
     }
     .mui-table-view-cell>a:not(.mui-btn) {
@@ -30,6 +30,8 @@
         right: 45px;
     }
     .listItem-body{
+        white-space: nowrap;
+        text-overflow: ellipsis;
         font-size: 16px;
         line-height: 30px;
     }
@@ -176,7 +178,22 @@
            for(var i=0;i<data[0].length;i++){
                getListItem(data[0][i].id,url,type,i);
            }
-        }
+        }else if(type=="sport"){
+           $("#mainTitle").text("体育");
+           var sportNum=data[2].length;
+           localStorage.setItem(item[2],sportNum);
+           for(var i=0;i<data[2].length;i++){
+               var strHtml='';
+               strHtml+='<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px" onclick="window.location.href = \'readingDetail.html?'+type+'?'+i+'\'">';
+               strHtml+='<li class="mui-table-view-cell mui-media">';
+               strHtml+='<a class="mui-navigate-right listItem">';
+               strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+data[2][i].image+'">';
+               strHtml+='<div class="mui-media-body listItem-body">'+data[2][i].title;
+               strHtml+='<p class="mui-ellipsis  listItem-p">'+data[2][i].summary+'</p>';
+               strHtml+='</div></a></li></ul>';
+               $("#mui-main-content").append(strHtml);
+           }
+       }
 
 
 
