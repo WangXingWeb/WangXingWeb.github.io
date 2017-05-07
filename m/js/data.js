@@ -60,7 +60,7 @@ var data=[
     /*前端数据*/
     [
         {
-            title:"事件绑定",
+            title:"使用jsonp解决跨域问题",
             image:"img/timg.jpg",
             summary:"调用web接口，get请求，发现提示：No 'Access-Control-Allow-Origin' header is present on the requested resource.这个和安全机制有关，默认不允许跨域调用处理手段：使用jsonp格式， ajax请求参数dataType:'JSONP'。解决了跨域请求豆瓣数据的问题",
             article:'<img src="img/timg.jpg"/><p>1.调用web接口，get请求，发现提示：No "Access-Control-Allow-Origin" header is present on the requested resource.</p><p>2.这个和安全机制有关，默认不允许跨域调用</p><p>3.处理手段：使用jsonp格式， ajax请求参数dataType:"JSONP"。</p><p>4.解决了跨域请求豆瓣数据的问题</p><img src="img/jsonp.png"/>'
