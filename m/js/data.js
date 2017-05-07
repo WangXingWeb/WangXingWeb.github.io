@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/4/19.
  */
-var item=["movieNum","bookNum","sportNum","travelNum"];
+var item=["movieNum","bookNum","sportNum","travelNum","frontEndNum"];
 var url=["https://api.douban.com/v2/movie/subject/","https://api.douban.com/v2/book/isbn/"];
 var data=[
     /*电影数据*/
@@ -54,7 +54,16 @@ var data=[
             title:"华山行",
             image:"../images/richu5b.jpg",
             summary:"去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！",
-            article:'<img src="../images/richu5b.jpg" data-preview-group="1" />  <p>去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！</p><img src="../images/richu4b.jpg" data-preview-group="1" /> <p>那时候天总是很蓝，日子总过得太慢</p><img src="../images/top1b.jpg" data-preview-group="1" />'
+            article:'<img src="../images/richu5b.jpg" data-preview-src="" data-preview-group="1" />  <p>去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！</p><img src="../images/richu4b.jpg" data-preview-src="" data-preview-group="1" /><p>那时候天总是很蓝，日子总过得太慢</p><img src="../images/top1b.jpg" data-preview-src="" data-preview-group="1" />'
+        }
+    ],
+    /*前端数据*/
+    [
+        {
+            title:"事件绑定",
+            image:"img/timg.jpg",
+            summary:"调用web接口，get请求，发现提示：No 'Access-Control-Allow-Origin' header is present on the requested resource.这个和安全机制有关，默认不允许跨域调用处理手段：使用jsonp格式， ajax请求参数dataType:'JSONP'。解决了跨域请求豆瓣数据的问题",
+            article:'<img src="img/timg.jpg"/><p>1.调用web接口，get请求，发现提示：No "Access-Control-Allow-Origin" header is present on the requested resource.</p><p>2.这个和安全机制有关，默认不允许跨域调用</p><p>3.处理手段：使用jsonp格式， ajax请求参数dataType:"JSONP"。</p><p>4.解决了跨域请求豆瓣数据的问题</p><img src="img/jsonp.png"/>'
         }
     ]
 ];

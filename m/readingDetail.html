@@ -325,6 +325,8 @@
         }else if(type=="travel"){
             whichNum=3;
             mui.previewImage();
+        }else if(type=="frontEnd"){
+            whichNum=4;
         }
         var mainTitle;
         if(data[whichNum][number].name){
@@ -341,7 +343,7 @@
             }
             strHtml+=data[whichNum][number].article;
             if(whichNum==3){
-                strHtml+="<div>";
+                strHtml+="</div>";
             }
         }else{
             strHtml+="<p style='line-height:30px;height: 20px;'>抱歉，我还未写评价！</p>";
