@@ -20,6 +20,13 @@
         max-width:150px !important;
         height: 100px !important;
     }
+    .listItem-divImg{
+        height: 100px !important;
+        width: 250px !important;
+        max-width:150px !important;
+        background-size: auto 100%;
+        background-position: center;
+    }
     .mui-table-view-cell {
         margin-right: -5px;
     }
@@ -191,7 +198,8 @@
                strHtml+='<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px" onclick="window.location.href = \'readingDetail.html?'+type+'?'+i+'\'">';
                strHtml+='<li class="mui-table-view-cell mui-media">';
                strHtml+='<a class="mui-navigate-right listItem">';
-               strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+data[2][i].image+'">';
+               /*strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+data[2][i].image+'">';*/
+               strHtml+='<div class="mui-media-object mui-pull-left listItem-divImg" style="background-image: url(\''+data[2][i].image+'\')"></div>';
                strHtml+='<div class="mui-media-body listItem-body">'+data[2][i].title;
                strHtml+='<p class="mui-ellipsis  listItem-p">'+data[2][i].summary+'</p>';
                strHtml+='</div></a></li></ul>';
@@ -206,7 +214,8 @@
                strHtml+='<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px" onclick="window.location.href = \'readingDetail.html?'+type+'?'+i+'\'">';
                strHtml+='<li class="mui-table-view-cell mui-media">';
                strHtml+='<a class="mui-navigate-right listItem">';
-               strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+data[3][i].image+'">';
+               /*strHtml+='<img class="mui-media-object mui-pull-left listItem-img" src="'+data[3][i].image+'">';*/
+               strHtml+='<div class="mui-media-object mui-pull-left listItem-divImg" style="background-image: url(\''+data[3][i].image+'\')"></div>';
                strHtml+='<div class="mui-media-body listItem-body">'+data[3][i].title;
                strHtml+='<p class="mui-ellipsis  listItem-p">'+data[3][i].summary+'</p>';
                strHtml+='</div></a></li></ul>';
@@ -221,7 +230,8 @@
                strHtml += '<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px" onclick="window.location.href = \'readingDetail.html?' + type + '?' + i + '\'">';
                strHtml += '<li class="mui-table-view-cell mui-media">';
                strHtml += '<a class="mui-navigate-right listItem">';
-               strHtml += '<img class="mui-media-object mui-pull-left listItem-img" src="' + data[4][i].image + '">';
+               /*strHtml += '<img class="mui-media-object mui-pull-left listItem-img" src="' + data[4][i].image + '">';*/
+               strHtml+='<div class="mui-media-object mui-pull-left listItem-divImg" style="background-image: url(\''+data[4][i].image+'\')"></div>';
                strHtml += '<div class="mui-media-body listItem-body">' + data[4][i].title;
                strHtml += '<p class="mui-ellipsis  listItem-p">' + data[4][i].summary + '</p>';
                strHtml += '</div></a></li></ul>';
@@ -231,8 +241,8 @@
 
 
 
-
-         $.ajax({
+        /*获取书的id*/
+         /*$.ajax({
          url: "https://api.douban.com/v2/book/isbn/9787221058041",
          type: 'GET',
          dataType: 'JSONP',
@@ -242,7 +252,8 @@
          fail:function (error) {
          console.log(error);
          }
-         });
+         });*/
+         /*获取电影ID*/
        /*$.ajax({
             url: "https://api.douban.com/v2/movie/subject/24875534",
             type: 'GET',
