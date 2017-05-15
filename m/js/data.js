@@ -54,7 +54,7 @@ var data=[
             title:"华山行",
             image:"../images/richu5b.jpg",
             summary:"去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！",
-            article:'<img src="../images/richu5b.jpg" data-preview-src="" data-preview-group="1" />  <p>去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！</p><img src="../images/richu4b.jpg" data-preview-src="" data-preview-group="1" /><p>那时候天总是很蓝，日子总过得太慢</p><img src="../images/top1b.jpg" data-preview-src="" data-preview-group="1" />'
+            article:'<img src="../images/richu5b.jpg" data-preview-src="" data-preview-group="1" />  <p>去过两次华山，为了看日出都选择了夜爬华山，第一次的日出效果不理想，天边有一层薄云，第二次效果很满意，非常漂亮！</p><img src="../images/richu4b.jpg" data-preview-src="" data-preview-group="1" /><p>从西安去华山非常方便，火车、大巴、动车随意选择，现在貌似有直接坐到景区的大巴了，我爬华山时，去程在西安火车站坐大巴车返程大巴没有票了，坐火车回的西安。(第二次往返都乘坐火车，现在高铁站有直接到华山的大巴了)</p><img src="../images/top1b.jpg" data-preview-src="" data-preview-group="1" /><p>不乘坐索道的话爬山的起点在玉泉院，时间早的话可以在玉泉院先玩一会再上山，（时间紧就不要在这里多逗留了，和一般的寺庙没太大区别，有一棵挺大古树已经枯死了影响比较深）</p><img src="img/yqy.jpg" data-preview-src="" data-preview-group="1" /><p>这里有两点需要特别强调，第一：千万多带衣服，山顶比你想象的冷（第一次宿舍几个愣头青，清明节去，只穿薄外套，差点冻成狗，有人受不了高价租了军大衣，嘿嘿）</p><img src="img/jdy.jpg" data-preview-src="" data-preview-group="1"/><p>第二：多带水和水果（黄瓜就是极好的，山顶的价格是山下的好几倍）</p><img src="img/xyqb.jpg" data-preview-src="" data-preview-group="1"/><p>第三：注意控制好时间，到达山顶的时间不能太早也不能太迟，太早意味着要在山顶等待很久，山上是很冷的，太迟的话，到达东峰人会特别多（在节假日最为明显)不容易抢占有利位置，每个人的体力不一样所用时间也不一样，那我们一行六人来说，都是年轻小伙子，速度很快，七八个小时不到就上东峰了，第二次带了几个女生明显就吃力很多，估计超过十个小时了，还有人体力不支，只爬到北峰。</p><img src="img/js.jpg" data-preview-src="" data-preview-group="1"/><p>看着游客许愿留下的铜锁，就能感到华山的客流量之大，景区里有很多卖各种小玩意的，其实和别的地方区别不大，没啥特色。</p>'
         }
     ],
     /*前端数据*/
