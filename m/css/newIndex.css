@@ -21,7 +21,7 @@
     margin-right: 10px;
 }
 .mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn) {
-    margin-right: -73px;
+    margin-right: 0px;
 }
 .mui-card-content-inner{
     padding: 5px;

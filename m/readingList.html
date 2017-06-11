@@ -254,8 +254,8 @@
          }
          });*/
          /*获取电影ID*/
-       /*$.ajax({
-            url: "https://api.douban.com/v2/movie/subject/24875534",
+       $.ajax({
+            url: "https://api.douban.com/v2/movie/search?q=一条狗的使命",
             type: 'GET',
             dataType: 'JSONP',
             success: function (data) {
@@ -264,7 +264,7 @@
             fail:function (error) {
                 console.log(error);
             }
-        });*/
+        });
 
 
     });
