@@ -11,14 +11,14 @@
 .mui-scroll {
     margin-top: 44px;
 }
-.mui-scroll .title{
+.title{
     height: 30px;
     line-height: 30px;
 }
-.mui-scroll .title span{
+.title span{
     vertical-align: middle;
 }
-.mui-scroll .title img{
+.title img{
     border-radius: 5px;
     vertical-align: middle;
     margin-right: 10px;
