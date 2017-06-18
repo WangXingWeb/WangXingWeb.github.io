@@ -165,9 +165,18 @@
 </body>
 <script>
     var slider = mui("#slider");
-    mui.init(
-            slider.slider({interval: 3000})
-    );
+    /*mui.init({
+        pullRefresh: {
+            container: '#mui-main-content',
+            down: {
+                callback: pulldownRefresh
+            },
+            up: {
+                contentrefresh: '正在加载...',
+                callback: pullupRefresh
+            }
+        }
+    });*/
     $(function () {
         /*确认是图书还是电影*/
         var thisURL = document.URL;
