@@ -292,8 +292,13 @@
     }
     function pulldownRefresh() {
         setTimeout(function() {
-            mui('#pullrefresh').pullRefresh().endPulldownToRefresh(true); //refresh completed
-            mui.toast("还没有新数据",0);
+            var oldNum=localStorage.getItem(type+"Num");
+            if(oldNum!=allNum){
+                getBase();
+            }else{
+                mui.toast("暂无数据更新！");
+            }
+            mui('#pullrefresh').pullRefresh().endPulldownToRefresh(); //refresh completed
         }, 1500);
 
     }
