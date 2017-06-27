@@ -242,7 +242,7 @@
         num=(allNum-nowCount<5)?(allNum-nowCount):5;
         if(type=="book"||type=="movie"){
             for(var i=0;i<num;i++){
-                appendNetHtml(url,type,nowCount);
+                appendNetHtml();
                 nowCount++;
             }
         }else{
@@ -263,7 +263,7 @@
         strHtml+='</div></a></li></ul>';
         $("#mui-main-content").append(strHtml);
     }
-    function appendNetHtml(url,type,nowCount) {
+    function appendNetHtml() {
         $.ajax({
             url: url+arrList[nowCount],
             type: 'GET',
