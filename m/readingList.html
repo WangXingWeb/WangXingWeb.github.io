@@ -57,9 +57,7 @@
         white-space: normal;
         text-overflow: ellipsis;
     }
-    .mui-pull-bottom-pocket, .mui-pull-top-pocket {
-        z-index: 0;
-    }
+
 </style>
 <body>
 <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
@@ -151,12 +149,11 @@
                 <h1 class="mui-title" id="mainTitle">阅读</h1>
             </header>
             <div id="pullrefresh" class="mui-content mui-scroll-wrapper">
-                <div class="mui-scroll" id="listContainer">
-
-
+                <div class="mui-scroll" >
+                    <div id="listContainer">
+                    </div>
                 </div>
             </div>
-
         </div>
         <div class="mui-off-canvas-backdrop"></div>
     </div>
@@ -271,7 +268,7 @@
     function appendNetHtml() {
         $.ajax({
             url: url+arrList[nowCount].id,
-            type: 'GET',
+            type: 'post',
             dataType: 'JSONP',
             success: function (data) {
                 var strHtml='';
@@ -303,13 +300,14 @@
             }else{
                 mui.toast("暂无数据更新！");
             }
-            mui('#pullrefresh').pullRefresh().endPulldownToRefresh(); //refresh completed
+            //refresh completed
+            mui('#pullrefresh').pullRefresh().endPulldownToRefresh();
         }, 1500);
 
     }
     function pullupRefresh() {
         setTimeout(function() {
-            mui('#pullrefresh').pullRefresh().endPullupToRefresh((allNum==nowCount)); //参数为true代表没有更多数据了。
+            mui('#pullrefresh').pullRefresh().endPullupToRefresh(allNum==nowCount); //参数为true代表没有更多数据了。
             getBase();
         }, 1500);
     }
