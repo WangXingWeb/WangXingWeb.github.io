@@ -182,15 +182,15 @@
         getBase();
         /*获取书的id*/
          $.ajax({
-         url: "https://api.douban.com/v2/book/isbn/9787221058041",
-         type: 'GET',
-         dataType: 'JSONP',
-         success: function (data) {
-         console.log(data);
-         },
-         fail:function (error) {
-         console.log(error);
-         }
+             url: "https://api.douban.com/v2/book/isbn/9787221058041",
+             type: 'GET',
+             dataType: 'JSONP',
+             success: function (data) {
+             console.log(data);
+             },
+             fail:function (error) {
+                 console.log(error);
+             }
          });
          /*获取电影ID*/
        /*$.ajax({
