@@ -244,7 +244,7 @@
         num=(allNum-nowCount<5)?(allNum-nowCount):5;
         if(type=="book"||type=="movie"){
             for(var i=0;i<num;i++){
-                appendNetHtml();
+                appendNetHtml(nowCount);
                 nowCount++;
             }
         }else{
@@ -265,8 +265,9 @@
         strHtml+='</div></a></li></ul>';
         $("#listContainer").append(strHtml);
     }
-    function appendNetHtml() {
+    function appendNetHtml(nowCount) {
         $.ajax({
+            async: false,
             url: url+arrList[nowCount].id,
             type: 'post',
             dataType: 'JSONP',

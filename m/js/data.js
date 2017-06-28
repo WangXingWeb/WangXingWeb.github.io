@@ -1,7 +1,8 @@
 /**
- * Created by xingzai on 2017/4/19.
+ * Created by Administrator on 2017/4/19.
  */
 var item=["movieNum","bookNum","sportNum","travelNum","frontEndNum"];
+var url=["https://api.douban.com/v2/movie/subject/","https://api.douban.com/v2/book/isbn/"];
 var data=[
     /******************************************************
     电影数据
