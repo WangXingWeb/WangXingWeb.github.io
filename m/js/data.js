@@ -84,6 +84,21 @@ var data=[
             image:"img/timg.jpg",
             summary:"调用web接口，get请求，发现提示：No 'Access-Control-Allow-Origin' header is present on the requested resource.这个和安全机制有关，默认不允许跨域调用处理手段：使用jsonp格式， ajax请求参数dataType:'JSONP'。解决了跨域请求豆瓣数据的问题",
             article:'<img src="img/timg.jpg"/><p>1.调用web接口，get请求，发现提示：No "Access-Control-Allow-Origin" header is present on the requested resource.</p><p>2.这个和安全机制有关，默认不允许跨域调用</p><p>3.处理手段：使用jsonp格式， ajax请求参数dataType:"JSONP"。</p><p>4.解决了跨域请求豆瓣数据的问题</p><img src="img/jsonp.png"/>'
+        },
+        {
+            title:"toggl()和 slideToggle方法",
+            image:"img/timg.jpg",
+            summary:"使用滑动效果（高度变化）来切换元素的可见状态，如果被选元素是可见的，则隐藏这些元素，如果被选元素是隐藏的，则显示这些元素。",
+            article:'<img src="img/timg.jpg"/>' +
+                    '<p>1.使用滑动效果（高度变化）来切换元素的可见状态</p>' +
+                    '<p>2.如果被选元素是可见的，则隐藏这些元素，如果被选元素是隐藏的，则显示这些元素</p>'+
+                    '<p><pre>' +
+                            '$(".btn1").click(function(){'+
+                                '$("p").slideToggle();'+
+                            '});'+
+                    '</pre></p>'
+
+
         }
     ]
 ];
