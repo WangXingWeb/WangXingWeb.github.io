@@ -92,10 +92,10 @@ var data=[
             article:'<img src="img/timg.jpg"/>' +
                     '<p>1.使用滑动效果（高度变化）来切换元素的可见状态</p>' +
                     '<p>2.如果被选元素是可见的，则隐藏这些元素，如果被选元素是隐藏的，则显示这些元素</p>'+
-                    '<p><pre>' +
-                            '$(".btn1").click(function(){'+
-                                '$("p").slideToggle();'+
-                            '});'+
+                    '<p><pre>\n' +
+                            '$(".btn1").click(function(){\n'+
+                                '$("p").slideToggle();\n'+
+                            '});\n'+
                     '</pre></p>'
 
 

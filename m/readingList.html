@@ -297,6 +297,7 @@
         setTimeout(function() {
             var oldNum=localStorage.getItem(type+"Num");
             if(oldNum!=allNum){
+                $("#listContainer").html("");
                 getBase();
             }else{
                 mui.toast("暂无数据更新！");
