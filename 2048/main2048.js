@@ -20,6 +20,7 @@ $(document).ready(function(){
 
 });
 
+//适配移动端和pc
 
 function prepareForMobile(){
     if(documentWidth>500){
