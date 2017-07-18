@@ -11,27 +11,28 @@ var starty=0;
 var endx=0;
 var endy=0;
 
-//设定宽度
-documentWidth=window.screen.availWidth;
-gridContainerWidth=0.92*documentWidth;
-cellSideLength=0.18*documentWidth;
-cellSpace=0.04*documentWidth;
+//添加可以返回上一步功能
+var record=new Array();
+//计步器
+var stepNumber=0;
 
 $(document).ready(function(){
     prepareForMobile();
     newgame();
     initDataBase();
     showAllTheDate();
+
 });
-//适配pc和移动端
+
+//适配移动端和pc
+
 function prepareForMobile(){
-    //pc设置恒定的宽度
     if(documentWidth>500){
         gridContainerWidth=500;
         cellSpace=20;
         cellSideLength=100;
     }
-    
+
     $('#grid-container').css('width',gridContainerWidth-2*cellSpace);
     $('#grid-container').css('height',gridContainerWidth-2*cellSpace);
     $('#grid-container').css('padding',cellSpace);
@@ -49,11 +50,10 @@ function newgame(){
     generateOneNumber();
     generateOneNumber();
     score=0;
+    stepNumber=0;
     updateScore(0);
 }
-//初始化棋盘
 function init(){
-    //生成格子
     for(var i=0; i<4; i++){
         for(var j=0; j<4;j++){
             var gridCell=$('#grid-cell-'+i+"-"+j);
@@ -61,7 +61,6 @@ function init(){
             gridCell.css('left',getPosLeft(i,j));
         }
     }
-    //生成数字(默认为0)
     for(var i=0;i<4;i++){
         board[i]=new Array();
         hasConflicted[i]=new Array();
@@ -74,9 +73,7 @@ function init(){
 }
 
 function updateBoardView(){
-    //删除以前的节点
     $(".number-cell").remove();
-    //添加盛放数字的容器
     for(var i=0;i<4;i++){
         for(var j=0;j<4;j++){
              $("#grid-container").append( '<div class="number-cell" id="number-cell-'+i+'-'+j+'"></div>' );
@@ -95,6 +92,8 @@ function updateBoardView(){
                 theNumberCell.css('background-color',getNumberBackgroundColor(board[i][j]));
                 theNumberCell.css('color',getNumberColor(board[i][j]));
                 theNumberCell.text(board[i][j]);
+
+
             }
             hasConflicted[i][j]=false;
         }
@@ -190,7 +189,7 @@ document.addEventListener("touchend",function(event){
 
     var deltax=endx-startx;
     var deltay=endy-starty;
-    //防止误触，很小范围滑动不做处理
+
     if(Math.abs(deltax)<0.01*documentWidth && Math.abs(deltay)<0.01*documentWidth){
         return;
     }
@@ -268,6 +267,7 @@ function gameover(){
     showAllTheDate();
 
 }
+
 function remove(){
     var db=getCurrentDb();
     db.transaction(function(trans) {
@@ -342,6 +342,7 @@ function moveLeft(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
@@ -413,6 +414,7 @@ function moveUp(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
@@ -448,6 +450,21 @@ function moveDown(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
+//刷新记录
+function updateRecord() {
+
+}
+//显示返回上一步按钮
+function showBackRecord() {
+    if(stepNumber>3){
+        $("#backRecord").show();
+    }
+}
+//返回上一步
+function backRecord() {
+
+}

@@ -289,13 +289,14 @@
     </aside>
     <!--主界面部分-->
     <div class="mui-inner-wrap main-content">
-        <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+        <div class="mui-content mui-scroll-wrapper">
             <header class="mui-bar mui-bar-nav">
                 <a id="goBack" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
                 <h1 class="mui-title" id="mainTitle">详细</h1>
             </header>
-            <div class="mui-scroll">
-                <div class="mui-content" id="mui-mian-content" style="margin-bottom: 50px;">
+            <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div id="contentHtml"></div>
                 </div>
             </div>
         <div class="mui-off-canvas-backdrop"></div>
@@ -303,11 +304,8 @@
     </div>
 </body>
 <script>
-    var slider = mui("#slider");
-    mui.init(
-
-    );
     $(function () {
+        mui('#offCanvasContentScroll').scroll();
         /*确认是图书还是电影*/
         var thisURL = document.URL;
         var type =thisURL.split('?')[1];
@@ -349,7 +347,7 @@
             strHtml+="<p >抱歉，我还未写评价！</p>";
         }
         strHtml+='</div>';
-        $("#mui-mian-content").append(strHtml);
+        $("#contentHtml").append(strHtml);
         if(type=="movie"||type=="book"){
             getDouban();
         }
@@ -396,7 +394,7 @@
                     strhtml+='<div class="mui-ellipsis  listItem-p">'+mainSatr+'：<span>'+mainstardetail+'</span></div>';
                     strhtml+='<button class="mui-btn-blue" onclick="window.location.href = \''+data.alt+'\'">去豆瓣查看更多信息</button>';
                     strhtml+='</div></a></li></ul></div>';
-                    $("#mui-mian-content").append(strhtml);
+                    $("#contentHtml").append(strhtml);
                     var oneNum=parseInt(average/2);
                     var myNum=(average/2)-oneNum;
                     myNum=myNum.toFixed(2);

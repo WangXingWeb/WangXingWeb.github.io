@@ -2,15 +2,13 @@
     margin: 35px 15px 10px;
 }
 .title+.content {
-    margin: 10px 10px 15px;
+    margin:10px;
     color: #bbb;
     text-indent: 1em;
     font-size: 14px;
     line-height: 24px;
 }
-.mui-scroll {
-    margin-top: 44px;
-}
+
 .title{
     height: 30px;
     line-height: 30px;
@@ -26,6 +24,11 @@
 
 .mui-card-content-inner{
     padding: 5px;
+}
+.mui-card{
+    box-shadow: none;
+    border-bottom: solid 1px #e3e3e3;
+    border-top: solid 1px #e3e3e3;
 }
 .icon {
     width: 1em; height: 1em;
@@ -44,8 +47,9 @@ svg{
     color: black;
 }
 .mui-off-canvas-wrap .mui-bar {
-    webkit-box-shadow:  0 1px 6px #ccc;;
-    box-shadow: 0 1px 6px #ccc;
+    webkit-box-shadow:  0 1px 6px #ccc;
+    /*box-shadow: 0 1px 6px #ccc;*/
+    border-bottom: #e3e3e3 1.25px solid;
 }
 .mui-off-canvas-left .mui-badge{
     padding: 3px 12px 3px 0px;
