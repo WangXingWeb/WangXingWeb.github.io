@@ -11,6 +11,10 @@ var starty=0;
 var endx=0;
 var endy=0;
 
+//添加可以返回上一步功能
+var record=new Array();
+//计步器
+var stepNumber=0;
 
 $(document).ready(function(){
     prepareForMobile();
@@ -43,12 +47,11 @@ function newgame(){
     //初始化棋盘
     init();
     //在随机两个格子生成数字
-
     generateOneNumber();
     generateOneNumber();
     score=0;
+    stepNumber=0;
     updateScore(0);
-
 }
 function init(){
     for(var i=0; i<4; i++){
@@ -264,6 +267,7 @@ function gameover(){
     showAllTheDate();
 
 }
+
 function remove(){
     var db=getCurrentDb();
     db.transaction(function(trans) {
@@ -338,6 +342,7 @@ function moveLeft(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
@@ -409,6 +414,7 @@ function moveUp(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
@@ -444,6 +450,21 @@ function moveDown(){
         }
     }
     setTimeout("updateBoardView()",200);
+    stepNumber++;
     return true;
 }
 
+//刷新记录
+function updateRecord() {
+
+}
+//显示返回上一步按钮
+function showBackRecord() {
+    if(stepNumber>3){
+        $("#backRecord").show();
+    }
+}
+//返回上一步
+function backRecord() {
+
+}
