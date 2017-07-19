@@ -12,9 +12,11 @@ var endx=0;
 var endy=0;
 
 //添加可以返回上一步功能
-var record=new Array();
+var records=new Array();
 //计步器
 var stepNumber=0;
+//返回步数计数器
+var backStepNum=0;
 
 $(document).ready(function(){
     prepareForMobile();
@@ -341,8 +343,7 @@ function moveLeft(){
             }
         }
     }
-    setTimeout("updateBoardView()",200);
-    stepNumber++;
+    record();
     return true;
 }
 
@@ -378,7 +379,7 @@ function moveRight(){
             }
         }
     }
-    setTimeout("updateBoardView()",200);
+    record();
     return true;
 }
 
@@ -413,8 +414,7 @@ function moveUp(){
             }
         }
     }
-    setTimeout("updateBoardView()",200);
-    stepNumber++;
+    record();
     return true;
 }
 
@@ -449,22 +449,49 @@ function moveDown(){
             }
         }
     }
-    setTimeout("updateBoardView()",200);
-    stepNumber++;
+    record();
     return true;
 }
-
+function record() {
+    setTimeout("updateBoardView()",200);
+    stepNumber++;
+    backStepNum=0;
+    showBackRecord();
+    updateRecord();
+}
 //刷新记录
 function updateRecord() {
-
+    switch (stepNumber){
+        case 1:
+            records[0]=board;
+            break;
+        case 2:
+            records[1]=records[0];
+            records[0]=board;
+            break;
+        default:
+            records[2]=records[1];
+            records[1]=records[0];
+            records[0]=board;
+    }
 }
+
 //显示返回上一步按钮
 function showBackRecord() {
     if(stepNumber>3){
         $("#backRecord").show();
+    }else{
+        $("#backRecord").hide();
     }
 }
 //返回上一步
 function backRecord() {
+    if(backStepNum<3){
+        board=records[backStepNum];
+        backStepNum++;
+        updateBoardView();
+    }else{
+        alert("不能在返回了！最多返回三步哦");
+    }
 
 }
