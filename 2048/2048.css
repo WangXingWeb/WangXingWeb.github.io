@@ -12,13 +12,12 @@ header h1{
     margin: 10px auto;
 }
 
-header #newgamebutton{
-    display: block;
-    margin: 0px auto;
+header .btnTop{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 0;
     width: 100px;
     font-size: 14px;
-    line-height: 35px;
-    height: 35px;
     background-color: #8f7a66;
     font-family: Arial;
     color: white;
@@ -26,9 +25,10 @@ header #newgamebutton{
     text-decoration: none;
 }
 
-header #newgamebutton:hover{
+header .btnTop:hover{
     background-color:#9f8b77;
 }
+
 
 header p{
     font-family:Arial;

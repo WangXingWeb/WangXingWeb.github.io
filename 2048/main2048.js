@@ -53,6 +53,7 @@ function newgame(){
     generateOneNumber();
     score=0;
     stepNumber=0;
+    showBackRecord();
     updateScore(0);
 }
 function init(){
@@ -316,6 +317,7 @@ function moveLeft(){
     if(!canMoveLeft(board)){
         return false;
     }
+    updateRecord();
     for(var i=0;i<4;i++){
         for(var j=1;j<4;j++){
             if(board[i][j]!=0){
@@ -351,6 +353,7 @@ function moveRight(){
     if(!canMoveRight(board)){
         return false;
     }
+    updateRecord();
     for(var i=0;i<4;i++){
         for(var j=2;j>=0;j--){
             if(board[i][j]!=0){
@@ -387,6 +390,7 @@ function moveUp(){
     if(!canMoveUp(board)){
         return false;
     }
+    updateRecord();
     for(var j=0;j<4;j++){
         for(var i=1;i<4;i++){
             if(board[i][j]!=0){
@@ -422,6 +426,7 @@ function moveDown(){
     if(!canMoveDown(board)){
         return false;
     }
+    updateRecord();
     for(var j=0;j<4;j++){
         for(var i=2;i>=0;i--){
             if(board[i][j]!=0){
@@ -457,23 +462,17 @@ function record() {
     stepNumber++;
     backStepNum=0;
     showBackRecord();
-    updateRecord();
+
 }
 //刷新记录
 function updateRecord() {
-    switch (stepNumber){
-        case 1:
-            records[0]=board;
-            break;
-        case 2:
-            records[1]=records[0];
-            records[0]=board;
-            break;
-        default:
-            records[2]=records[1];
-            records[1]=records[0];
-            records[0]=board;
-    }
+    //取消应用类型的联动
+    records[2]= $.extend(true,{},records[1]);
+    records[1]= $.extend(true,{},records[0]);
+    records[0]= $.extend(true,{},board);
+    console.log(records[0]);
+    console.log(records[1]);
+    console.log(records[2]);
 }
 
 //显示返回上一步按钮
@@ -487,11 +486,11 @@ function showBackRecord() {
 //返回上一步
 function backRecord() {
     if(backStepNum<3){
-        board=records[backStepNum];
+        board= $.extend(true,{},records[backStepNum]);
         backStepNum++;
         updateBoardView();
     }else{
-        alert("不能在返回了！最多返回三步哦");
+        alert("不能再返回了！最多返回三步哦");
     }
 
 }

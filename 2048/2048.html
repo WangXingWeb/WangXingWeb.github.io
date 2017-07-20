@@ -15,8 +15,11 @@
     <header>
         <h1>2048</h1>
         <p>score : <span id="score">0</span></p>
-        <span id="backRecord">返回上一步</span>
-        <a href="javascript:newgame();" id="newgamebutton">New Game</a>
+        <div>
+            <span onclick="newgame()" class="btnTop">New Game</span>
+            <span id="backRecord" onclick="backRecord()" class="btnTop" style="display: none;">返回上一步</span>
+        </div>
+
     </header>
 
     <div id="grid-container">
