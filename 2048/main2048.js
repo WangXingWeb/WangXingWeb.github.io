@@ -42,7 +42,6 @@ function prepareForMobile(){
 
     $('.grid-cell').css('width',cellSideLength);
     $('.grid-cell').css('height',cellSideLength);
-    $('.grid-cell').css('border-radius',0.02*cellSideLength);
 }
 
 function newgame(){
