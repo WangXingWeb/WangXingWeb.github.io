@@ -17,10 +17,14 @@ var records=new Array();
 var stepNumber=0;
 //返回步数计数器
 var backStepNum=0;
+//用户返回步数，设置只能返回5次
+var allBack=0;
 
 $(document).ready(function(){
     prepareForMobile();
     newgame();
+
+    readRecord();
     initDataBase();
     showAllTheDate();
 
@@ -51,6 +55,7 @@ function newgame(){
     generateOneNumber();
     generateOneNumber();
     score=0;
+    allBack=0;
     stepNumber=0;
     showBackRecord();
     updateScore(0);
@@ -233,6 +238,7 @@ document.addEventListener("touchend",function(event){
 
 function isgameover(){
     if(nospace(board) && nomove(board)){
+        localStorage.setItem("savedRecord","");
         gameover();
     }
 }
@@ -252,9 +258,10 @@ function getCurrentDb(){
     return bd;
 }
 
-
 function gameover(){
     alert("game over!");
+    $("#saveBoard").hide();
+    $("#backRecord").hide();
     var Name=$("#txtName").val();
     var Score=score;
     var date=new Date();
@@ -459,37 +466,77 @@ function moveDown(){
 function record() {
     setTimeout("updateBoardView()",200);
     stepNumber++;
-    backStepNum=0;
+    if(backStepNum>0){
+        backStepNum--;
+    }
     showBackRecord();
-
 }
 //刷新记录
 function updateRecord() {
     //取消应用类型的联动
+    console.log(records);
+    records[5]= $.extend(true,{},records[4]);
+    records[4]= $.extend(true,{},records[3]);
+    records[3]= $.extend(true,{},records[2]);
     records[2]= $.extend(true,{},records[1]);
     records[1]= $.extend(true,{},records[0]);
     records[0]= $.extend(true,{},board);
-    console.log(records[0]);
-    console.log(records[1]);
-    console.log(records[2]);
 }
-
 //显示返回上一步按钮
 function showBackRecord() {
     if(stepNumber>3){
         $("#backRecord").show();
+        $("#saveBoard").show();
     }else{
+        $("#saveBoard").hide();
         $("#backRecord").hide();
     }
 }
 //返回上一步
 function backRecord() {
-    if(backStepNum<3){
+    if(allBack<6){
         board= $.extend(true,{},records[backStepNum]);
         backStepNum++;
         updateBoardView();
+        allBack++;
     }else{
-        alert("不能再返回了！最多返回三步哦");
+        alert("不能再返回了！");
     }
-
+}
+//存档
+function saveBoard() {
+    localStorage.setItem("savedRecord","");
+    localStorage.setItem("savedRecord",board);
+    console.log(board);
+}
+//读档
+function readRecord() {
+    if(localStorage.getItem("savedRecord")){
+        var recordStr=localStorage.getItem("savedRecord");
+        console.log(recordStr);
+        var oldRecord=recordStr.split(",");
+        var arr1=new Array();
+        var arr2=new Array();
+        var arr3=new Array();
+        var arr4=new Array();
+        for(var i=0;i<oldRecord.length;i++){
+            var num=parseInt(oldRecord[i]);
+            if(i<=3){
+                arr1.push(num);
+            }else if(i>3&&i<8){
+                arr2.push(num);
+            }else if(i>7&&i<12){
+                arr3.push(num);
+            }else{
+                arr4.push(num);
+            }
+        }
+        var recordResult=new Array();
+        recordResult.push(arr1);
+        recordResult.push(arr2);
+        recordResult.push(arr3);
+        recordResult.push(arr4);
+        board=recordResult;
+        updateBoardView();
+    }
 }

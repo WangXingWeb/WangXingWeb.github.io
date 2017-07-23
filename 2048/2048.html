@@ -16,12 +16,11 @@
         <h1>2048</h1>
         <p>score : <span id="score">0</span></p>
         <div>
-            <span onclick="newgame()" class="btnTop">New Game</span>
-            <span id="backRecord" onclick="backRecord()" class="btnTop" style="display: none;">返回上一步</span>
+            <button id="saveBoard" onclick="saveBoard()" class="btnTop" style="display: none;">存档</button>
+            <button onclick="newgame()" class="btnTop">New Game</button>
+            <button id="backRecord" onclick="backRecord()" class="btnTop" style="display: none;">上一步</button>
         </div>
-
     </header>
-
     <div id="grid-container">
         <div class="grid-cell" id="grid-cell-0-0"></div>
         <div class="grid-cell" id="grid-cell-0-1"></div>

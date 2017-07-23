@@ -16,12 +16,13 @@ header .btnTop{
     display: inline-block;
     margin: 0 auto;
     padding: 10px 0;
-    width: 100px;
+    width: 80px;
     font-size: 14px;
     background-color: #8f7a66;
     font-family: Arial;
     color: white;
     border-radius: 5px;
+    border: none;
     text-decoration: none;
 }
 
