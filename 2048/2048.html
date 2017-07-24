@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
     <title>2048</title>
     <link rel="stylesheet" type="text/css" href="2048.css" />
+    <link rel="stylesheet" type="text/css" href="../layer/skin/layer.css" />
     <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="support2048.js"></script>
     <script type="text/javascript" src="showanimation2048.js"></script>
     <script type="text/javascript" src="main2048.js"></script>
+    <script type="text/javascript" src="../layer/layer.js"></script>
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
         <p>score : <span id="score">0</span></p>
         <div>
             <button id="saveBoard" onclick="saveBoard()" class="btnTop" style="display: none;">存档</button>
-            <button onclick="newgame()" class="btnTop">New Game</button>
+            <button onclick="newgame()" class="btnTop">新游戏</button>
             <button id="backRecord" onclick="backRecord()" class="btnTop" style="display: none;">上一步</button>
         </div>
     </header>

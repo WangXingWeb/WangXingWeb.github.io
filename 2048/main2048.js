@@ -24,9 +24,10 @@ $(document).ready(function(){
     prepareForMobile();
     newgame();
 
-    readRecord();
+    isSaved();
+    /*//操作本地数据库
     initDataBase();
-    showAllTheDate();
+    showAllTheDate();*/
 
 });
 
@@ -238,11 +239,11 @@ document.addEventListener("touchend",function(event){
 
 function isgameover(){
     if(nospace(board) && nomove(board)){
-        localStorage.setItem("savedRecord","");
+        localStorage.setItem("theRecord","");
         gameover();
     }
 }
-function initDataBase(){
+/*function initDataBase(){
     var db=getCurrentDb();
     if(!db){
         alert("您的浏览器不支持html5本地数据库！");
@@ -256,13 +257,24 @@ function initDataBase(){
 function getCurrentDb(){
     var bd=openDatabase("data.db","1.0","demo data",1024*1024);
     return bd;
-}
+}*/
 
 function gameover(){
-    alert("game over!");
+    layer.alert('Game over!', {
+        title:'提示',
+        icon: 2,
+        skin: 'layer-ext-moon'
+    });
     $("#saveBoard").hide();
     $("#backRecord").hide();
-    var Name=$("#txtName").val();
+
+
+    //操作本地数据库
+
+
+
+
+    /*var Name=$("#txtName").val();
     var Score=score;
     var date=new Date();
     var Times="";
@@ -273,7 +285,7 @@ function gameover(){
             alert(message);
         });
     });
-    showAllTheDate();
+    showAllTheDate();*/
 
 }
 
@@ -305,7 +317,7 @@ function showAllTheDate(){
         });
     });
 }
-//将数据展示到表格中
+/*//将数据展示到表格中
 function appendDataToTable(data){
     var txtName=data.uName;
     var txtScore=data.uScore;
@@ -317,7 +329,7 @@ function appendDataToTable(data){
     strHtml+="<td>"+txtTimes+"</td>";
     strHtml+="</tr>";
     $("#tblData").append(strHtml);
-}
+}*/
 
 function moveLeft(){
     if(!canMoveLeft(board)){
@@ -369,7 +381,6 @@ function moveRight(){
                         showMoveAnimation(i,j,i,k);
                         board[i][k]=board[i][j];
                         board[i][j]=0;
-
                         continue;
                     }else if(board[i][k]==board[i][j] && noBlockHorizontal( i , j , k , board )  && !hasConflicted[i][k]){
                         //move
@@ -381,7 +392,6 @@ function moveRight(){
                         score+=board[i][k];
                         updateScore(score);
                         hasConflicted[i][k]=true;
-
                         continue;
                     }
                 }
@@ -442,7 +452,6 @@ function moveDown(){
                         showMoveAnimation(i,j,k,j);
                         board[k][j]=board[i][j];
                         board[i][j]=0;
-
                         continue;
                     }else if(board[k][j]==board[i][j] && noBlockVertical(j , i , k  , board )  && !hasConflicted[k][j]){
                         //move
@@ -503,40 +512,41 @@ function backRecord() {
         alert("不能再返回了！");
     }
 }
+
+//判断是否有记录
+function isSaved() {
+    if(localStorage.getItem("theRecord")){
+        layer.confirm('您有一份存档记录，是否继续？', {
+            title:'提示',
+            btn: ['继续','新游戏'] //按钮
+        }, function(){
+            //选择继续则读档
+            readRecord();
+            $(".layui-layer-close").click();
+        }, function(){
+            newgame();
+            $(".layui-layer-close").click();
+        });
+    }
+}
 //存档
 function saveBoard() {
-    localStorage.setItem("savedRecord","");
-    localStorage.setItem("savedRecord",board);
-    console.log(board);
+    localStorage.setItem("theRecord","");
+    var theRecord={
+        board:board,
+        score:score,
+        allBack:allBack
+    }
+    localStorage.setItem("theRecord",JSON.stringify(theRecord));
+    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 2000, icon:6});
 }
 //读档
 function readRecord() {
-    if(localStorage.getItem("savedRecord")){
-        var recordStr=localStorage.getItem("savedRecord");
-        console.log(recordStr);
-        var oldRecord=recordStr.split(",");
-        var arr1=new Array();
-        var arr2=new Array();
-        var arr3=new Array();
-        var arr4=new Array();
-        for(var i=0;i<oldRecord.length;i++){
-            var num=parseInt(oldRecord[i]);
-            if(i<=3){
-                arr1.push(num);
-            }else if(i>3&&i<8){
-                arr2.push(num);
-            }else if(i>7&&i<12){
-                arr3.push(num);
-            }else{
-                arr4.push(num);
-            }
-        }
-        var recordResult=new Array();
-        recordResult.push(arr1);
-        recordResult.push(arr2);
-        recordResult.push(arr3);
-        recordResult.push(arr4);
-        board=recordResult;
-        updateBoardView();
-    }
+    var savedRecord=JSON.parse(localStorage.getItem("theRecord"));
+    console.log(savedRecord);
+    allBack=savedRecord.allBack;
+    score=savedRecord.score;
+    $("#score").text(savedRecord.score);
+    board=savedRecord.board;
+    updateBoardView();
 }
