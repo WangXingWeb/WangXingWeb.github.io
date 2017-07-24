@@ -509,7 +509,7 @@ function backRecord() {
         updateBoardView();
         allBack++;
     }else{
-        alert("不能再返回了！");
+        layer.msg('您已返回超过5次，不能再反返回了', {time: 1000, icon:4});
     }
 }
 
@@ -538,7 +538,7 @@ function saveBoard() {
         allBack:allBack
     }
     localStorage.setItem("theRecord",JSON.stringify(theRecord));
-    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 2000, icon:6});
+    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 1000, icon:6});
 }
 //读档
 function readRecord() {

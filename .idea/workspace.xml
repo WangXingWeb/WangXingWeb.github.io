@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="2017-7-18/01">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layer/skin/layer.css" />
+    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/2048.html" afterPath="$PROJECT_DIR$/2048/2048.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -31,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main2048.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/main2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="511" column="60" lean-forward="true" selection-start-line="511" selection-start-column="60" selection-end-line="511" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -64,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-44">
@@ -323,7 +315,7 @@
       <workItem from="1500647965589" duration="1079000" />
       <workItem from="1500806395453" duration="10955000" />
       <workItem from="1500858107117" duration="16000" />
-      <workItem from="1500875863485" duration="7168000" />
+      <workItem from="1500875863485" duration="7880000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -367,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500478830422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-2048小游戏&#10;1.修改存档不存储分数和返回步数的bug&#10;2.引入layer弹框，美化ui">
+      <created>1500887724629</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1500887724629</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70969000" />
+    <option name="totallyTimeSpent" value="71681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -434,7 +433,8 @@
     <MESSAGE value="2017.7.6/01" />
     <MESSAGE value="2017-7-18" />
     <MESSAGE value="2017-7-18/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-7-18/01" />
+    <MESSAGE value="-2048小游戏&#10;1.修改存档不存储分数和返回步数的bug&#10;2.引入layer弹框，美化ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="-2048小游戏&#10;1.修改存档不存储分数和返回步数的bug&#10;2.引入layer弹框，美化ui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -735,18 +735,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/main2048.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048/main2048.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="511" column="60" lean-forward="true" selection-start-line="511" selection-start-column="60" selection-end-line="511" selection-end-column="60" />
           <folding />
         </state>
       </provider>
