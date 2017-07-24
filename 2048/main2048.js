@@ -22,7 +22,8 @@ var allBack=0;
 
 $(document).ready(function(){
     prepareForMobile();
-    newgame();
+    //初始化棋盘
+    init();
 
     isSaved();
     /*//操作本地数据库
@@ -50,7 +51,6 @@ function prepareForMobile(){
 }
 
 function newgame(){
-    //初始化棋盘
     init();
     //在随机两个格子生成数字
     generateOneNumber();
@@ -58,7 +58,7 @@ function newgame(){
     score=0;
     allBack=0;
     stepNumber=0;
-    showBackRecord();
+    localStorage.setItem("theRecord","");
     updateScore(0);
 }
 function init(){
@@ -483,7 +483,6 @@ function record() {
 //刷新记录
 function updateRecord() {
     //取消应用类型的联动
-    console.log(records);
     records[5]= $.extend(true,{},records[4]);
     records[4]= $.extend(true,{},records[3]);
     records[3]= $.extend(true,{},records[2]);
@@ -493,7 +492,7 @@ function updateRecord() {
 }
 //显示返回上一步按钮
 function showBackRecord() {
-    if(stepNumber>3){
+    if(stepNumber>5){
         $("#backRecord").show();
         $("#saveBoard").show();
     }else{
@@ -509,7 +508,7 @@ function backRecord() {
         updateBoardView();
         allBack++;
     }else{
-        layer.msg('您已返回超过5次，不能再反返回了', {time: 1000, icon:4});
+        layer.msg('您已返回超过5次，不能再反返回了', {time: 1800, icon:4});
     }
 }
 
@@ -527,6 +526,8 @@ function isSaved() {
             newgame();
             $(".layui-layer-close").click();
         });
+    }else{
+        newgame();
     }
 }
 //存档
@@ -535,18 +536,24 @@ function saveBoard() {
     var theRecord={
         board:board,
         score:score,
-        allBack:allBack
+        allBack:allBack,
+        records:records,
+        stepNumber:stepNumber,
+        backStepNum:backStepNum
     }
     localStorage.setItem("theRecord",JSON.stringify(theRecord));
-    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 1000, icon:6});
+    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 1800, icon:6});
 }
 //读档
 function readRecord() {
     var savedRecord=JSON.parse(localStorage.getItem("theRecord"));
-    console.log(savedRecord);
     allBack=savedRecord.allBack;
     score=savedRecord.score;
-    $("#score").text(savedRecord.score);
+    updateScore(score);
     board=savedRecord.board;
+    records=savedRecord.records;
+    stepNumber=savedRecord.stepNumber;
+    backStepNum=savedRecord.backStepNum;
+    showBackRecord();
     updateBoardView();
 }
