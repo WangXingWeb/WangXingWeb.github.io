@@ -508,7 +508,7 @@ function backRecord() {
         updateBoardView();
         allBack++;
     }else{
-        layer.msg('您已返回超过5次，不能再反返回了', {time: 1800, icon:4});
+        layer.msg('您已返回超过5次，不能再反返回了', {time: 2000, icon:4});
     }
 }
 
@@ -542,7 +542,7 @@ function saveBoard() {
         backStepNum:backStepNum
     }
     localStorage.setItem("theRecord",JSON.stringify(theRecord));
-    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 1800, icon:6});
+    layer.msg('存档成功，下次进入游戏可继续玩！', {time: 2000, icon:6});
 }
 //读档
 function readRecord() {
@@ -556,4 +556,21 @@ function readRecord() {
     backStepNum=savedRecord.backStepNum;
     showBackRecord();
     updateBoardView();
+}
+//创建新游戏
+function creatNewGame() {
+    if(!(nospace(board) && nomove(board))&&stepNumber>10){
+        layer.confirm('创建新游戏吗', {
+            title:'提示',
+            btn: ['取消','新游戏'] //按钮
+        }, function(){
+            $(".layui-layer-close").click();
+        }, function(){
+            newgame();
+            $(".layui-layer-close").click();
+        });
+    }else{
+        newgame();
+    }
+
 }
