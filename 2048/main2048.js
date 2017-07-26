@@ -560,7 +560,7 @@ function readRecord() {
 //创建新游戏
 function creatNewGame() {
     if(!(nospace(board) && nomove(board))&&stepNumber>10){
-        layer.confirm('创建新游戏吗', {
+        layer.confirm('新建游戏将清除当前记录，确定创建新游戏吗', {
             title:'提示',
             btn: ['取消','新游戏'] //按钮
         }, function(){
