@@ -1,0 +1,116 @@
+[html] view plain copy
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />  
+<title>web sql database</title>  
+<script type='text/javascript' src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>   
+<script type="text/javascript">
+
+    Date.prototype.format = function(format) {
+        /*
+         * 使用例子:format="yyyy-MM-dd hh:mm:ss";
+         */
+        var o = {
+            "M+" : this.getMonth() + 1, // month
+            "d+" : this.getDate(), // day
+            "h+" : this.getHours(), // hour
+            "m+" : this.getMinutes(), // minute
+            "s+" : this.getSeconds(), // second
+            "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter
+            "S" : this.getMilliseconds()
+            // millisecond
+        }
+
+        if (/(y+)/.test(format)) {
+            format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4
+                    - RegExp.$1.length));
+            alert(format);
+        }
+
+        for (var k in o) {
+            if (new RegExp("(" + k + ")").test(format)) {
+                format = format.replace(RegExp.$1, RegExp.$1.length == 1
+                        ? o[k]
+                        : ("00" + o[k]).substr(("" + o[k]).length));
+            }
+        }
+        return format;
+    }
+    var idNum=0;
+$(function(){  
+        if (!window.openDatabase) {    
+           alert("不支持");  
+        }    
+        else {    
+            initDB();    
+            createTables();               
+        }     
+function initDB(){    
+    var shortName = 'localDB';    
+    var version = '1.0';    
+    var displayName = 'localDB table';    
+    var maxSize = 655350; // in bytes    
+    //window.openDatabase("数据库名字", "版本","数据库描述",数据库大小);  
+    localDB = window.openDatabase(shortName, version, displayName, maxSize);    
+}     
+function createTables(){    
+    var query = 'CREATE TABLE IF NOT EXISTS user(id INTEGER NOT NULL, username TEXT NOT NULL,creatime);';
+    try {    
+        localDB.transaction(function(transaction){    
+            transaction.executeSql(query, [], null, null);       
+        });    
+    }     
+    catch (e) {    
+    console.log("create table failed");  
+       alert("建表失败");  
+        return;    
+    }    
+}    
+});  
+function btnClick(){  
+ var username = $("#username").val();
+    idNum++;
+    var creatime=new Date().format("yyyy-M-d hh:mm:ss");
+    alert(creatime);
+  try {    
+        localDB.transaction(function(transaction){  
+            transaction.executeSql("insert into user(id,username,creatime) values(?,?,?)", [idNum,username,creatime]);
+        });
+    }     
+    catch (e) {    
+    console.log("insert into failed");  
+       alert("插入失败");  
+        return;    
+    }   
+    console.log("insert into success");  
+  //alert("insert into success");  
+ }  
+ function btnSelect(){  
+ localDB.transaction(function(tx) {  
+ tx.executeSql("select * from user", [],    
+  function(tx, result) {  
+  $("#result").empty();  
+   for(var i = 0; i < result.rows.length; i++){   
+   $("#result").append('<b>' +result.rows.item(i)['id']+"------" +result.rows.item(i)['username']+result.rows.item(i)['creatime']+ '</b><br />');
+  }   
+ }, function(){  
+  alert("error");  
+ });   
+});  
+ }  
+</script>  
+</head>  
+<body>  
+    <div id="my" style="height:100px;width:200px;border:1px solid red;">    
+    <input type="text" name="username" id="username" value=""/>  
+    <br/>  
+    <button onclick="btnClick()">insert</button>  
+    </div>  
+    <div id="my1" style="height:300px;width:200px;border:1px solid red;">  
+    <button onclick="btnSelect()">select</button>  
+   <div id="result" style="height:300px;width:200px;border:1px solid blue;">  
+      </div>  
+    </div>  
+</body>  
+</html>  
