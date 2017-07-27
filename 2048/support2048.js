@@ -2,10 +2,7 @@
  * Created by Administrator on 2016/7/18.
  */
 
-documentWidth=window.screen.availWidth;
-gridContainerWidth=0.92*documentWidth;
-cellSideLength=0.18*documentWidth;
-cellSpace=0.04*documentWidth;
+
 
 function getPosTop(i,j){
     return cellSpace+i*(cellSideLength+cellSpace);
@@ -138,4 +135,84 @@ function nomove(board){
         return false;
     }
     return true;
+}
+//给Date对象扩展format方法
+Date.prototype.format = function(format) {
+    var o = {
+        "M+" : this.getMonth() + 1, // month
+        "d+" : this.getDate(), // day
+        "h+" : this.getHours(), // hour
+        "m+" : this.getMinutes(), // minute
+        "s+" : this.getSeconds(), // second
+        "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter
+        "S" : this.getMilliseconds()// millisecond
+    }
+
+    if (/(y+)/.test(format)) {
+        format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4
+            - RegExp.$1.length));
+        alert(format);
+    }
+
+    for (var k in o) {
+        if (new RegExp("(" + k + ")").test(format)) {
+            format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+        }
+    }
+    return format;
+}
+//数据库方法
+//初始化数据库
+function initDB(){
+    var dbName = 'localDB';
+    var version = '1.0';
+    var displayName = '分数记录';
+    var maxSize = 1024*1024;
+    localDB = window.openDatabase(dbName, version, displayName, maxSize);
+}
+//创建表
+function createTables(){
+    var query = 'CREATE TABLE IF NOT EXISTS scorelist(id INTEGER NOT NULL,username TEXT NOT NULL,score INTEGER NOT NULL,creatime TEXT NOT NULL);';
+    try {
+        localDB.transaction(function(transaction){
+            transaction.executeSql(query, [], null, null);
+        });
+    }
+    catch (e) {
+        console.log("create table failed");
+        layer.alert("建表失败");
+        return;
+    }
+}
+//给scorelist表中插入一条数据
+function insertRecord() {
+    var timestamp = Date.parse(new Date());
+    var creatime=new Date();
+    try {
+        localDB.transaction(function(transaction){
+            transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [timestamp,username,score,creatime]);
+        });
+    }
+    catch (e) {
+        console.log("insert into failed");
+        layer.alert("插入失败");
+        return;
+    }
+    console.log("insert into success");
+}
+//从数据库中查记录
+function selectRecord() {
+    localDB.transaction(function(tx) {
+        tx.executeSql("select * from scorelist", [],
+            function(tx, result) {
+                /*$("#result").empty();
+                for(var i = 0; i < result.rows.length; i++){
+                    $("#result").append('<b>' +result.rows.item(i)['username']+"------" +result.rows.item(i)['score']+"-----"+result.rows.item(i)['creatime']+ '</b><br />');
+                }*/
+                return result;
+            }, function(){
+                alert("error");
+            }
+        );
+    });
 }

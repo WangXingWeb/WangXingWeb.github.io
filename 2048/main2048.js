@@ -3,7 +3,7 @@
  */
 var board=new Array();
 var score=0;
-
+//防止一个cell重复叠加
 var hasConflicted=new Array();
 
 var startx=0;
@@ -19,33 +19,32 @@ var stepNumber=0;
 var backStepNum=0;
 //用户返回步数，设置只能返回5次
 var allBack=0;
+var userName="";
+
+documentWidth=window.screen.availWidth;
+gridContainerWidth=0.92*documentWidth;
+cellSideLength=0.18*documentWidth;
+cellSpace=0.04*documentWidth;
 
 $(document).ready(function(){
     prepareForMobile();
     //初始化棋盘
     init();
-
     isSaved();
-    /*//操作本地数据库
-    initDataBase();
-    showAllTheDate();*/
-
+    saveScore();
 });
 
 //适配移动端和pc
-
 function prepareForMobile(){
     if(documentWidth>500){
         gridContainerWidth=500;
         cellSpace=20;
         cellSideLength=100;
     }
-
     $('#grid-container').css('width',gridContainerWidth-2*cellSpace);
     $('#grid-container').css('height',gridContainerWidth-2*cellSpace);
     $('#grid-container').css('padding',cellSpace);
     $('#grid-container').css('border-radius',0.02*gridContainerWidth);
-
     $('.grid-cell').css('width',cellSideLength);
     $('.grid-cell').css('height',cellSideLength);
 }
@@ -100,8 +99,6 @@ function updateBoardView(){
                 theNumberCell.css('background-color',getNumberBackgroundColor(board[i][j]));
                 theNumberCell.css('color',getNumberColor(board[i][j]));
                 theNumberCell.text(board[i][j]);
-
-
             }
             hasConflicted[i][j]=false;
         }
@@ -109,7 +106,6 @@ function updateBoardView(){
     $('.number-cell').css('width',cellSideLength+'px');
     $('.number-cell').css('height',cellSideLength+'px');
     $('.number-cell').css('line-height',cellSideLength+'px');
-
 }
 
 function  generateOneNumber(){
@@ -143,7 +139,6 @@ function  generateOneNumber(){
     //在随机位置显示随机数字
     board[randx][randy]=randNumber;
     showNumberWithAnimation(randx,randy,randNumber);
-
     return true;
 }
 
@@ -184,7 +179,7 @@ $(document).keydown(function(event) {
 
 document.addEventListener("touchstart",function(event){
     startx=event.touches[0].pageX;
-    starty=event.touches[0].pageY;;
+    starty=event.touches[0].pageY;
 });
 
 document.addEventListener('touchmove',function(event){
@@ -243,50 +238,26 @@ function isgameover(){
         gameover();
     }
 }
-/*function initDataBase(){
-    var db=getCurrentDb();
-    if(!db){
-        alert("您的浏览器不支持html5本地数据库！");
-        return;
-    }else{
-        db.transaction(function(trans){
-            trans.executeSql("create table if not exists Demo(uName text null,uScore integer null,uTimes text null)",[],function(trans,result){},function(trans,message){});
-        });
-    }
-}
-function getCurrentDb(){
-    var bd=openDatabase("data.db","1.0","demo data",1024*1024);
-    return bd;
-}*/
 
 function gameover(){
-    layer.alert('Game over!', {
+    $("#saveBoard").hide();
+    $("#backRecord").hide();
+    /*layer.alert('Game over!', {
         title:'提示',
         icon: 2,
         skin: 'layer-ext-moon'
+    });*/
+    layer.confirm('Game over!，是否记录这次游戏的分值？', {
+        title:'提示',
+        btn: ['保存','取消'] //按钮
+    }, function(){
+        $(".layui-layer-close").click();
+        //记录名字
+        
+
+    }, function(){
+        $(".layui-layer-close").click();
     });
-    $("#saveBoard").hide();
-    $("#backRecord").hide();
-
-
-    //操作本地数据库
-
-
-
-
-    /*var Name=$("#txtName").val();
-    var Score=score;
-    var date=new Date();
-    var Times="";
-    Times+=date.getFullYear()+"-"+date.getMonth()+"-"+date.getDay()+" "+date.getHours()+":"+date.getMinutes();
-    var db=getCurrentDb();
-    db.transaction(function(trans){
-        trans.executeSql("insert into Demo(uName,uScore,uTimes)values(?,?,?)"[Name,Score,Times],function(ts,data){},function(ts,message){
-            alert(message);
-        });
-    });
-    showAllTheDate();*/
-
 }
 
 function remove(){
@@ -317,19 +288,6 @@ function showAllTheDate(){
         });
     });
 }
-/*//将数据展示到表格中
-function appendDataToTable(data){
-    var txtName=data.uName;
-    var txtScore=data.uScore;
-    var txtTimes=data.uTimes;
-    var strHtml="";
-    strHtml+="<tr>";
-    strHtml+="<td>"+txtName+"</td>";
-    strHtml+="<td>"+txtScore+"</td>";
-    strHtml+="<td>"+txtTimes+"</td>";
-    strHtml+="</tr>";
-    $("#tblData").append(strHtml);
-}*/
 
 function moveLeft(){
     if(!canMoveLeft(board)){
@@ -572,5 +530,14 @@ function creatNewGame() {
     }else{
         newgame();
     }
+
+}
+//保存分数记录
+function saveScore() {
+    layer.prompt(function(value, index, elem){
+        userName=value;
+
+        layer.close(index);
+    });
 
 }

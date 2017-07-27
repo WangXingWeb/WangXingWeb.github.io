@@ -38,7 +38,9 @@
         return format;
     }
     var idNum=0;
-$(function(){  
+$(function(){
+    var timestamp = Date.parse(new Date());
+    alert(timestamp);
         if (!window.openDatabase) {    
            alert("不支持");  
         }    
@@ -49,13 +51,13 @@ $(function(){
 function initDB(){    
     var shortName = 'localDB';    
     var version = '1.0';    
-    var displayName = 'localDB table';    
-    var maxSize = 655350; // in bytes    
+    var displayName = '分数记录';
+    var maxSize = 1024*1024; // in bytes
     //window.openDatabase("数据库名字", "版本","数据库描述",数据库大小);  
-    localDB = window.openDatabase(shortName, version, displayName, maxSize);    
+    localDB = window.openDatabase(shortName, version, displayName, maxSize);
 }     
 function createTables(){    
-    var query = 'CREATE TABLE IF NOT EXISTS user(id INTEGER NOT NULL, username TEXT NOT NULL,creatime);';
+    var query = 'CREATE TABLE IF NOT EXISTS user(username TEXT NOT NULL,score INTEGER NOT NULL,creatime TEXT NOT NULL);';
     try {    
         localDB.transaction(function(transaction){    
             transaction.executeSql(query, [], null, null);       
@@ -68,14 +70,15 @@ function createTables(){
     }    
 }    
 });  
-function btnClick(){  
- var username = $("#username").val();
+function btnClick(){
+    var username= $("#username").val();
+    var score= $("#score").val();
     idNum++;
-    var creatime=new Date().format("yyyy-M-d hh:mm:ss");
+    var creatime=new Date().format("yyyy-MM-dd hh:mm:ss");
     alert(creatime);
-  try {    
+    try {
         localDB.transaction(function(transaction){  
-            transaction.executeSql("insert into user(id,username,creatime) values(?,?,?)", [idNum,username,creatime]);
+            transaction.executeSql("insert into user(username,score,creatime) values(?,?,?)", [username,score,creatime]);
         });
     }     
     catch (e) {    
@@ -84,15 +87,15 @@ function btnClick(){
         return;    
     }   
     console.log("insert into success");  
-  //alert("insert into success");  
- }  
+ }
  function btnSelect(){  
  localDB.transaction(function(tx) {  
- tx.executeSql("select * from user", [],    
+ tx.executeSql("select * from user", [],
   function(tx, result) {  
-  $("#result").empty();  
-   for(var i = 0; i < result.rows.length; i++){   
-   $("#result").append('<b>' +result.rows.item(i)['id']+"------" +result.rows.item(i)['username']+result.rows.item(i)['creatime']+ '</b><br />');
+  $("#result").empty();
+  console.log(result);
+   for(var i = 0; i < result.rows.length; i++){
+   $("#result").append('<b>' +result.rows.item(i)['username']+"------" +result.rows.item(i)['score']+"-----"+result.rows.item(i)['creatime']+ '</b><br />');
   }   
  }, function(){  
   alert("error");  
@@ -103,7 +106,8 @@ function btnClick(){
 </head>  
 <body>  
     <div id="my" style="height:100px;width:200px;border:1px solid red;">    
-    <input type="text" name="username" id="username" value=""/>  
+    <input type="text" name="username" id="username" value=""/>
+        <input type="text" name="score" id="score" value=""/>
     <br/>  
     <button onclick="btnClick()">insert</button>  
     </div>  
@@ -111,6 +115,6 @@ function btnClick(){
     <button onclick="btnSelect()">select</button>  
    <div id="result" style="height:300px;width:200px;border:1px solid blue;">  
       </div>  
-    </div>  
-</body>  
+    </div>
+</body>
 </html>  
