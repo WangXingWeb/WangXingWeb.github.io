@@ -534,10 +534,13 @@ function creatNewGame() {
 }
 //保存分数记录
 function saveScore() {
-    layer.prompt(function(value, index, elem){
-        userName=value;
+    layer.prompt({
+        formType: 0,
+        value: '',
+        title: '请输入昵称'
+    }, function(value, index, elem){
 
-        layer.close(index);
+
     });
 
 }
