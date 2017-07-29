@@ -537,10 +537,15 @@ function saveScore() {
     layer.prompt({
         formType: 0,
         value: '',
+        btn: ['确定'],
         title: '请输入昵称'
-    }, function(value, index, elem){
-
+    }, function (value, index, elem) {
+        userName = value;
+        layer.alert(userName);
+        initDB();
+        createTables();
+        insertRecord();
+        $(".layui-layer-close").click();
 
     });
-
 }

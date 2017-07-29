@@ -180,22 +180,23 @@ function createTables(){
     }
     catch (e) {
         console.log("create table failed");
-        layer.alert("建表失败");
+        layer.msg("系统出错！记录未能保存成功！",{time: 2000, icon:2});
         return;
     }
 }
 //给scorelist表中插入一条数据
 function insertRecord() {
-    var timestamp = Date.parse(new Date());
+    var idNum = new Date().getTime();
     var creatime=new Date();
     try {
         localDB.transaction(function(transaction){
-            transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [timestamp,username,score,creatime]);
+            transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [idNum,username,score,creatime]);
         });
+        layer.msg('记录保存成功！', {time: 2000, icon:6});
     }
     catch (e) {
         console.log("insert into failed");
-        layer.alert("插入失败");
+        layer.msg("系统出错！记录未能保存成功！",{time: 2000, icon:2});
         return;
     }
     console.log("insert into success");
