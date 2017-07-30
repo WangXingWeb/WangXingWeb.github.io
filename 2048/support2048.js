@@ -147,11 +147,9 @@ Date.prototype.format = function(format) {
         "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter
         "S" : this.getMilliseconds()// millisecond
     }
-
     if (/(y+)/.test(format)) {
         format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4
             - RegExp.$1.length));
-        alert(format);
     }
 
     for (var k in o) {
@@ -190,7 +188,7 @@ function insertRecord() {
     var creatime=new Date();
     try {
         localDB.transaction(function(transaction){
-            transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [idNum,username,score,creatime]);
+            transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [idNum,userName,score,creatime]);
         });
         layer.msg('记录保存成功！', {time: 2000, icon:6});
     }
@@ -199,21 +197,5 @@ function insertRecord() {
         layer.msg("系统出错！记录未能保存成功！",{time: 2000, icon:2});
         return;
     }
-    console.log("insert into success");
 }
-//从数据库中查记录
-function selectRecord() {
-    localDB.transaction(function(tx) {
-        tx.executeSql("select * from scorelist", [],
-            function(tx, result) {
-                /*$("#result").empty();
-                for(var i = 0; i < result.rows.length; i++){
-                    $("#result").append('<b>' +result.rows.item(i)['username']+"------" +result.rows.item(i)['score']+"-----"+result.rows.item(i)['creatime']+ '</b><br />');
-                }*/
-                return result;
-            }, function(){
-                alert("error");
-            }
-        );
-    });
-}
+

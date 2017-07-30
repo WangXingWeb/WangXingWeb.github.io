@@ -16,7 +16,11 @@
 <body>
     <header>
         <h1>2048</h1>
-        <p>score : <span id="score">0</span></p>
+        <div>
+            <span class="scoreItem">Best : <span id="bestScore">0</span></span>
+            <span class="scoreItem">score : <span id="score">0</span></span>
+            <span class="scoreItem" onclick="selectRecord()">查看记录</span>
+        </div>
         <div>
             <button id="saveBoard" onclick="saveBoard()" class="btnTop" style="display: none;">存档</button>
             <button onclick="creatNewGame()" class="btnTop">新游戏</button>
@@ -44,5 +48,6 @@
         <div class="grid-cell" id="grid-cell-3-2"></div>
         <div class="grid-cell" id="grid-cell-3-3"></div>
     </div>
+
 </body>
 </html>
