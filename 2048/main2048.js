@@ -254,9 +254,7 @@ function gameover(){
         btn: ['保存','取消'] //按钮
     }, function(){
         $(".layui-layer-close").click();
-        //记录名字
-        
-
+        saveScore();
     }, function(){
         $(".layui-layer-close").click();
     });
