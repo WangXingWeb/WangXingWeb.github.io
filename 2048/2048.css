@@ -13,9 +13,8 @@ header h1{
 }
 
 header .btnTop{
+    line-height: 30px;
     display: inline-block;
-    margin: 0 auto;
-    padding: 5px 0;
     width: 80px;
     font-size: 14px;
     background-color: #8f7a66;
