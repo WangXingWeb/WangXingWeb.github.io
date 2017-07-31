@@ -198,4 +198,67 @@ function insertRecord() {
         return;
     }
 }
+//保存分数记录
+function saveScore() {
+    layer.prompt({
+        formType: 0,
+        value: '',
+        btn: ['确定'],
+        title: '请输入昵称'
+    }, function (value, index, elem) {
+        userName = value;
+        insertRecord();
+        $(".layui-layer-close").click();
+    });
+}
+//显示记录
+function showRecordList() {
+    var content=doContent();
+    layer.open({
+        type: 1,
+        title:'历史记录',
+        skin: 'layui-layer-molv', //加上边框
+        area: ['90%', '80%'], //宽高
+        content: content
+    });
+}
+//填充记录弹出框内容
+function doContent() {
+    var content='';
+    content+='<table cellpadding="0" cellspacing="0"><thead><tr><th>昵称</th><th>分数</th><th>时间</th></tr></thead><tbody>';
+    for (var i=0;i<dbData.length;i++){
+        content+='<tr><td>'+dbData[i].userName+'</td><td>'+dbData[i].score+'</td><td>'+dbData[i].creaTime+'</td></tr>';
+    }
+    content+='</tbody></table>';
+    console.log(content);
+    return content;
+}
+//从数据库中查记录
+function selectRecord() {
+    localDB.transaction(function(tx) {
+        tx.executeSql("select * from scorelist", [],
+            function(tx, result) {
+                dbData=[];
+                for(var i = 0; i < result.rows.length; i++){
+                    var thisTiem=result.rows.item(i)['creatime'];
+                    thisTiem = thisTiem.replace(/ GMT.+$/, '');
+                    var d = new Date(thisTiem);
+                    thisTiem=d.format("yyyy-MM-dd hh:mm");
+                    console.log(thisTiem);
+                    var josnItem={
+                        id:result.rows.item(i)['id'],
+                        userName:result.rows.item(i)['username'],
+                        score:result.rows.item(i)['score'],
+                        creaTime:thisTiem
+                    }
+                    dbData.push(josnItem);
+                }
+                showRecordList();
+                console.log(dbData);
+            }, function(){
+                alert("error");
+            }
+        );
+    });
+}
 

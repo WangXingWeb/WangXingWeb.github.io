@@ -15,7 +15,7 @@ header h1{
 header .btnTop{
     display: inline-block;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 5px 0;
     width: 80px;
     font-size: 14px;
     background-color: #8f7a66;
@@ -35,12 +35,11 @@ header .scoreItem{
     font-size:16px;
     display: inline-block;
     background-color: #eee4da;
-    margin: 10px 5px;
-    min-width: 80px;
+    margin: 10px 2px;
+    min-width: 85px;
     line-height: 30px;
     border-radius: 3px;
     color: #776E65;
-    font-weight: 600;
 }
 
 #grid-container{
@@ -75,9 +74,9 @@ table tr td,th{
     border: #d8d8d8 1px solid;
     border-left: none;
     border-top: none;
-    width: 30%;
+    width: 25%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-table tr td:last-child,th:last-child{width: 40%;}
+table tr td:last-child,th:last-child{width: 50%;}
