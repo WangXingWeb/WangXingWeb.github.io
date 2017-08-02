@@ -245,6 +245,7 @@ function selectRecord() {
         tx.executeSql("select * from scorelist", [],
             function(tx, result) {
                 dbData=[];
+                console.log(result);
                 for(var i = 0; i < result.rows.length; i++){
                     var thisTiem=result.rows.item(i)['creatime'];
                     thisTiem = thisTiem.replace(/ GMT.+$/, '');
