@@ -4,6 +4,7 @@
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/support2048.js" afterPath="$PROJECT_DIR$/2048/support2048.js" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="support2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+            <state relative-caret-position="9632">
+              <caret line="271" column="26" selection-start-line="271" selection-start-column="26" selection-end-line="271" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -79,8 +80,8 @@
       <file leaf-file-name="main2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/main2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="316" column="47" selection-start-line="316" selection-start-column="47" selection-end-line="316" selection-end-column="47" />
+            <state relative-caret-position="374">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -397,7 +398,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="1717000" />
+      <workItem from="1501680873369" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -483,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501681072952</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug">
+      <created>1501682642949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1501682642949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103596000" />
+    <option name="totallyTimeSpent" value="104602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -556,7 +564,8 @@
     <MESSAGE value="2048&#10;1.修复游戏结束不保存记录的bug" />
     <MESSAGE value="优化代码&#10;修改弹出框样式" />
     <MESSAGE value="1.2048显示最佳成绩&#10;2.2048增加达成各个分值的提示鼓励信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2048显示最佳成绩&#10;2.2048增加达成各个分值的提示鼓励信息" />
+    <MESSAGE value="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -852,16 +861,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+        <state relative-caret-position="9632">
+          <caret line="271" column="26" selection-start-line="271" selection-start-column="26" selection-end-line="271" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="316" column="47" selection-start-line="316" selection-start-column="47" selection-end-line="316" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>

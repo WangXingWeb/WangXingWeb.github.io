@@ -269,12 +269,14 @@ function selectRecord() {
 }
 //获取最好成绩
 function getBestScore(){
+    alert("getBestScore");
     localDB.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
             console.log(result);
                 bestScore=result.rows[0]["max(score)"];
                 console.log(bestScore);
+                alert(bestScore);
                 $("#bestScore").text(bestScore);
             }, function(){
                 alert("error");
