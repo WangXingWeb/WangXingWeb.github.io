@@ -273,6 +273,7 @@ function getBestScore(){
     localDB.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
+                alert("*************");
             console.log(result);
                 bestScore=result.rows[0]["max(score)"];
                 console.log(bestScore);
