@@ -245,7 +245,6 @@ function selectRecord() {
         tx.executeSql("select * from scorelist", [],
             function(tx, result) {
                 dbData=[];
-                console.log(result);
                 for(var i = 0; i < result.rows.length; i++){
                     var thisTiem=result.rows.item(i)['creatime'];
                     thisTiem = thisTiem.replace(/ GMT.+$/, '');
@@ -273,23 +272,15 @@ function getBestScore(){
     dbLocal.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
-                alert("4");
-                alert(result);
                 console.log(result);
-
                 bestScore=result.rows.item(0)['max(score)'];
-
-
                 console.log(bestScore);
-                alert(bestScore);
                 $("#bestScore").text(bestScore);
             }, function(){
                 alert("error");
             }
         );
-        alert("2");
     });
-    alert("3");
 }
 //超过最好成绩则best值跟着当前score变化
 function isChangeBest(){

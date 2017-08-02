@@ -27,7 +27,7 @@
       <file leaf-file-name="layer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layer/layer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6808">
+            <state relative-caret-position="0">
               <caret line="191" column="45" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="45" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -69,8 +69,8 @@
       <file leaf-file-name="support2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="279" column="60" selection-start-line="279" selection-start-column="60" selection-end-line="279" selection-end-column="60" />
+            <state relative-caret-position="-499">
+              <caret line="253" column="34" selection-start-line="253" selection-start-column="34" selection-end-line="253" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -407,7 +407,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="8821000" />
+      <workItem from="1501680873369" duration="8972000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -577,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501689859770</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="手机查不出最大值">
+      <created>1501690004555</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1501690004555</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110700000" />
+    <option name="totallyTimeSpent" value="110851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -657,11 +664,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="手机查不出最大值" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Downloads/mui-master/mui-master/examples/hello-mui/examples/pullrefresh_with_tab.html" />
     <entry file="file://D:/Downloads/mui-master/mui-master/examples/hello-mui/examples/pullrefresh_sub.html" />
     <entry file="file://$PROJECT_DIR$/m/css/newIndex.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -900,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layer/layer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6808">
+        <state relative-caret-position="0">
           <caret line="191" column="45" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -956,10 +964,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="1156" column="0" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="279" column="60" selection-start-line="279" selection-start-column="60" selection-end-line="279" selection-end-column="60" />
+        <state relative-caret-position="-499">
+          <caret line="253" column="34" selection-start-line="253" selection-start-column="34" selection-end-line="253" selection-end-column="34" />
           <folding />
         </state>
       </provider>
