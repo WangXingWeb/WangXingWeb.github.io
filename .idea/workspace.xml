@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/2048.html" afterPath="$PROJECT_DIR$/2048/2048.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/support2048.js" afterPath="$PROJECT_DIR$/2048/support2048.js" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="support2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="179" column="23" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+            <state relative-caret-position="-18">
+              <caret line="272" column="61" selection-start-line="272" selection-start-column="61" selection-end-line="272" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="main2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/main2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="586">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -131,9 +131,9 @@
         <option value="$USER_HOME$/Desktop/test.html" />
         <option value="$PROJECT_DIR$/layer/skin/layer.css" />
         <option value="$PROJECT_DIR$/2048/2048.css" />
-        <option value="$PROJECT_DIR$/2048/main2048.js" />
         <option value="$PROJECT_DIR$/2048/2048.html" />
         <option value="$PROJECT_DIR$/2048/support2048.js" />
+        <option value="$PROJECT_DIR$/2048/main2048.js" />
       </list>
     </option>
   </component>
@@ -398,7 +398,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="3990000" />
+      <workItem from="1501680873369" duration="4455000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -505,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501684054320</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="调试">
+      <created>1501685121121</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1501685121121</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105869000" />
+    <option name="totallyTimeSpent" value="106334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -876,16 +883,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="179" column="23" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+        <state relative-caret-position="-18">
+          <caret line="272" column="61" selection-start-line="272" selection-start-column="61" selection-end-line="272" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="586">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding />
         </state>
       </provider>

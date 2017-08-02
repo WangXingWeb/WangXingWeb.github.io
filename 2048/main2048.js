@@ -31,16 +31,12 @@ cellSideLength=0.18*documentWidth;
 cellSpace=0.04*documentWidth;
 
 $(document).ready(function(){
-    alert("$$$$$$$$$$$");
     prepareForMobile();
     //初始化棋盘
     init();
     isSaved();
-    alert("$$$$$$$$$$$");
     initDB();
     createTables();
-    alert("DDDDDDDDDDDD");
-    getBestScore();
 });
 
 //适配移动端和pc

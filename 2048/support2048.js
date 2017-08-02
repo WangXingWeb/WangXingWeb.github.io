@@ -168,7 +168,6 @@ Date.prototype.format = function(format) {
 //数据库方法
 //初始化数据库
 function initDB(){
-    alert("initDB");
     var dbName = 'localDB';
     var version = '1.0';
     var displayName = '分数记录';
@@ -177,7 +176,6 @@ function initDB(){
 }
 //创建表
 function createTables(){
-    alert("createTables");
     var query = 'CREATE TABLE IF NOT EXISTS scorelist(id INTEGER NOT NULL,username TEXT NOT NULL,score INTEGER NOT NULL,creatime TEXT NOT NULL);';
     try {
         localDB.transaction(function(transaction){
@@ -271,15 +269,12 @@ function selectRecord() {
 }
 //获取最好成绩
 function getBestScore(){
-    alert("getBestScore");
     localDB.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
-                alert("*************");
             console.log(result);
                 bestScore=result.rows[0]["max(score)"];
                 console.log(bestScore);
-                alert(bestScore);
                 $("#bestScore").text(bestScore);
             }, function(){
                 alert("error");
