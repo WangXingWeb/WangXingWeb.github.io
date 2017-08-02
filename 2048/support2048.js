@@ -274,9 +274,13 @@ function getBestScore(){
         alert("1");
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
+                alert("4");
+                alert(result);
             console.log(result);
+
                 bestScore=result.rows[0]["max(score)"];
                 console.log(bestScore);
+                alert(bestScore);
                 $("#bestScore").text(bestScore);
             }, function(){
                 alert("error");

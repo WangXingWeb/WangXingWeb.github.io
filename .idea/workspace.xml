@@ -69,8 +69,8 @@
       <file leaf-file-name="support2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
+            <state relative-caret-position="685">
+              <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -407,7 +407,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="6367000" />
+      <workItem from="1501680873369" duration="6786000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -542,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501686824469</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="手机查不出最大值">
+      <created>1501687513810</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1501687513810</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108246000" />
+    <option name="totallyTimeSpent" value="108665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -618,7 +625,8 @@
     <MESSAGE value="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug" />
     <MESSAGE value="调试" />
     <MESSAGE value="发现并不是代码的问题，是手机的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="发现并不是代码的问题，是手机的问题" />
+    <MESSAGE value="手机查不出最大值" />
+    <option name="LAST_COMMIT_MESSAGE" value="手机查不出最大值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -896,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/2048.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="974">
@@ -920,10 +920,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2048/2048.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
+        <state relative-caret-position="685">
+          <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
           <folding />
         </state>
       </provider>
