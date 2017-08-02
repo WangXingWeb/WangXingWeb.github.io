@@ -26,6 +26,9 @@ function getNumberBackgroundColor(number){
         case 2048:return "#09c";break;
         case 4096:return "#a6c";break;
         case 8192:return "#93c";break;
+        case 16384:return "#660597";break;
+        case 32768:return "#a70551";break;
+        case 65536:return "#fa0813";break;
     }
     return "black";
 }
@@ -44,6 +47,9 @@ function getFontSize(number){
         case 2048:return 0.38*cellSideLength+'px';break;
         case 4096:return 0.38*cellSideLength+'px';break;
         case 8192:return 0.38*cellSideLength+'px';break;
+        case 16384:return 0.30*cellSideLength+'px';break;
+        case 32768:return 0.30*cellSideLength+'px';break;
+        case 65536:return 0.30*cellSideLength+'px';break;
     }
 }
 
@@ -261,4 +267,25 @@ function selectRecord() {
         );
     });
 }
-
+//获取最好成绩
+function getBestScore(){
+    localDB.transaction(function(tx) {
+        tx.executeSql("select max(score) from scorelist", [],
+            function(tx, result) {
+            console.log(result);
+                bestScore=result.rows[0]["max(score)"];
+                console.log(bestScore);
+                $("#bestScore").text(bestScore);
+            }, function(){
+                alert("error");
+            }
+        );
+    });
+}
+//超过最好成绩则best值跟着当前score变化
+function isChangeBest(){
+    if(bestScore<score){
+        bestScore=score;
+        $("#bestScore").text(bestScore);
+    }
+}
