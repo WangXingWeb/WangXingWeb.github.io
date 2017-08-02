@@ -37,6 +37,7 @@ $(document).ready(function(){
     isSaved();
     initDB();
     createTables();
+    getBestScore();
 });
 
 //适配移动端和pc
