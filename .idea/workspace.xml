@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
-              <caret line="278" column="57" selection-start-line="278" selection-start-column="57" selection-end-line="278" selection-end-column="57" />
+              <caret line="278" column="41" selection-start-line="278" selection-start-column="41" selection-end-line="278" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -407,7 +407,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="8153000" />
+      <workItem from="1501680873369" duration="8388000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -556,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501687919053</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="手机查不出最大值">
+      <created>1501689334955</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1501689334955</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110032000" />
+    <option name="totallyTimeSpent" value="110267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -938,7 +945,7 @@
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
-          <caret line="278" column="57" selection-start-line="278" selection-start-column="57" selection-end-line="278" selection-end-column="57" />
+          <caret line="278" column="41" selection-start-line="278" selection-start-column="41" selection-end-line="278" selection-end-column="41" />
           <folding />
         </state>
       </provider>

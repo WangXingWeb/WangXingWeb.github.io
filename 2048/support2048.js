@@ -274,10 +274,10 @@ function getBestScore(){
             function(tx, result) {
                 alert("4");
                 alert(result);
-            console.log(result);
-                if(result.rows[0]["max(score)"]){
-                    bestScore=result.rows[0]["max(score)"];
-                }
+                console.log(result);
+
+                bestScore=result.rows["0"]["max(score)"];
+
 
                 console.log(bestScore);
                 alert(bestScore);
