@@ -269,7 +269,9 @@ function selectRecord() {
 }
 //获取最好成绩
 function getBestScore(){
+    alert("getBestScore");
     dbLocal.transaction(function(tx) {
+        alert("1");
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
             console.log(result);
@@ -280,7 +282,9 @@ function getBestScore(){
                 alert("error");
             }
         );
+        alert("2");
     });
+    alert("3");
 }
 //超过最好成绩则best值跟着当前score变化
 function isChangeBest(){
