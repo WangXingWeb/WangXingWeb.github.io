@@ -168,17 +168,17 @@ Date.prototype.format = function(format) {
 //数据库方法
 //初始化数据库
 function initDB(){
-    var dbName = 'localDB';
+    var dbName = 'dbLocal';
     var version = '1.0';
     var displayName = '分数记录';
     var maxSize = 1024*1024;
-    localDB = window.openDatabase(dbName, version, displayName, maxSize);
+    dbLocal = window.openDatabase(dbName, version, displayName, maxSize);
 }
 //创建表
 function createTables(){
     var query = 'CREATE TABLE IF NOT EXISTS scorelist(id INTEGER NOT NULL,username TEXT NOT NULL,score INTEGER NOT NULL,creatime TEXT NOT NULL);';
     try {
-        localDB.transaction(function(transaction){
+        dbLocal.transaction(function(transaction){
             transaction.executeSql(query, [], null, null);
         });
     }
@@ -193,7 +193,7 @@ function insertRecord() {
     var idNum = new Date().getTime();
     var creatime=new Date();
     try {
-        localDB.transaction(function(transaction){
+        dbLocal.transaction(function(transaction){
             transaction.executeSql("insert into scorelist(id,username,score,creatime) values(?,?,?,?)", [idNum,userName,score,creatime]);
         });
         layer.msg('记录保存成功！', {time: 2000, icon:6});
@@ -241,7 +241,7 @@ function doContent() {
 }
 //从数据库中查记录
 function selectRecord() {
-    localDB.transaction(function(tx) {
+    dbLocal.transaction(function(tx) {
         tx.executeSql("select * from scorelist", [],
             function(tx, result) {
                 dbData=[];
@@ -269,7 +269,7 @@ function selectRecord() {
 }
 //获取最好成绩
 function getBestScore(){
-    localDB.transaction(function(tx) {
+    dbLocal.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
             console.log(result);

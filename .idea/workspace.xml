@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/2048.html" afterPath="$PROJECT_DIR$/2048/2048.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/support2048.js" afterPath="$PROJECT_DIR$/2048/support2048.js" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,20 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="285" column="21" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="21" />
+            <state relative-caret-position="4163">
+              <caret line="271" column="11" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showanimation2048.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showanimation2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="974">
               <caret line="27" column="21" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
@@ -90,7 +89,7 @@
       <file leaf-file-name="main2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/main2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18814">
+            <state relative-caret-position="-17926">
               <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding />
             </state>
@@ -408,7 +407,7 @@
       <workItem from="1501413719859" duration="12755000" />
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
-      <workItem from="1501680873369" duration="5153000" />
+      <workItem from="1501680873369" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -529,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501685586859</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="发现并不是代码的问题，是手机的问题">
+      <created>1501686317083</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1501686317083</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107032000" />
+    <option name="totallyTimeSpent" value="107570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -604,7 +610,8 @@
     <MESSAGE value="1.2048显示最佳成绩&#10;2.2048增加达成各个分值的提示鼓励信息" />
     <MESSAGE value="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug" />
     <MESSAGE value="调试" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试" />
+    <MESSAGE value="发现并不是代码的问题，是手机的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="发现并不是代码的问题，是手机的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -890,9 +897,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18814">
+        <state relative-caret-position="-17926">
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding />
         </state>
@@ -900,16 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="285" column="21" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="4163">
+          <caret line="271" column="11" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="11" />
           <folding />
         </state>
       </provider>
