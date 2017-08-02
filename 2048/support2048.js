@@ -277,7 +277,7 @@ function getBestScore(){
                 alert(result);
                 console.log(result);
 
-                bestScore=result.rows["0"]["max(score)"];
+                bestScore=result.rows.item(0)['max(score)'];
 
 
                 console.log(bestScore);
