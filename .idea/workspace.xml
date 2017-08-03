@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="1.(2048)加入没有数据是的显示内容&#10;2.(2048)去掉无用的console.log">
+    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/support2048.js" afterPath="$PROJECT_DIR$/2048/support2048.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ku/test.html" afterPath="$PROJECT_DIR$/ku/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layer/skin/layer.css" afterPath="$PROJECT_DIR$/layer/skin/layer.css" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -26,14 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layer/skin/layer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="169" column="1" lean-forward="false" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="15" />
+            <state relative-caret-position="634">
+              <caret line="171" column="110" lean-forward="false" selection-start-line="171" selection-start-column="110" selection-end-line="171" selection-end-column="110" />
               <folding>
-                <marker date="1501742829452" expanded="true" signature="403:434" ph="{...}" />
-                <marker date="1501742829452" expanded="true" signature="14174:14198" ph="{...}" />
+                <marker date="1501743990430" expanded="true" signature="403:434" ph="{...}" />
+                <marker date="1501743990430" expanded="true" signature="14215:14239" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ku/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -135,9 +132,9 @@
         <option value="$PROJECT_DIR$/2048/2048.html" />
         <option value="$PROJECT_DIR$/2048/2048.css" />
         <option value="$PROJECT_DIR$/ku/test.html" />
-        <option value="$PROJECT_DIR$/layer/skin/layer.css" />
         <option value="$PROJECT_DIR$/2048/support2048.js" />
         <option value="$PROJECT_DIR$/2048/main2048.js" />
+        <option value="$PROJECT_DIR$/layer/skin/layer.css" />
       </list>
     </option>
   </component>
@@ -301,6 +298,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -391,7 +394,7 @@
       <workItem from="1501467986113" duration="5594000" />
       <workItem from="1501510669143" duration="1515000" />
       <workItem from="1501680873369" duration="8972000" />
-      <workItem from="1501720359176" duration="7306000" />
+      <workItem from="1501720359176" duration="8270000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -589,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501741567851</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1.(2048)自定义layer样式layui-layer-my&#10;">
+      <created>1501743053290</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1501743053290</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118157000" />
+    <option name="totallyTimeSpent" value="119121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -669,7 +679,8 @@
     <MESSAGE value="在bestScore为当前score时，newgame时best重新查询一次" />
     <MESSAGE value="更改达成某一级别的提示信息" />
     <MESSAGE value="1.(2048)加入没有数据是的显示内容&#10;2.(2048)去掉无用的console.log" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.(2048)加入没有数据是的显示内容&#10;2.(2048)去掉无用的console.log" />
+    <MESSAGE value="1.(2048)自定义layer样式layui-layer-my&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.(2048)自定义layer样式layui-layer-my&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -947,21 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layer/skin/layer.css">
+    <entry file="file://$PROJECT_DIR$/ku/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="169" column="1" lean-forward="false" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="15" />
-          <folding>
-            <marker date="1501742829452" expanded="true" signature="403:434" ph="{...}" />
-            <marker date="1501742829452" expanded="true" signature="14174:14198" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="242">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -974,6 +974,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -982,11 +990,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/test.html">
+    <entry file="file://$PROJECT_DIR$/layer/skin/layer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="634">
+          <caret line="171" column="110" lean-forward="false" selection-start-line="171" selection-start-column="110" selection-end-line="171" selection-end-column="110" />
+          <folding>
+            <marker date="1501743990430" expanded="true" signature="403:434" ph="{...}" />
+            <marker date="1501743990430" expanded="true" signature="14215:14239" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
