@@ -483,7 +483,7 @@ function isSaved() {
     if(localStorage.getItem("theRecord")){
         layer.confirm('您有一份存档记录，是否继续？', {
             title:'提示',
-            skin: 'layui-layer-molv',
+            skin: 'layui-layer-my',
             btn: ['继续','新游戏'] //按钮
         }, function(){
             //选择继续则读档
@@ -529,7 +529,7 @@ function creatNewGame() {
     if(!(nospace(board) && nomove(board))&&stepNumber>10){
         layer.confirm('新建游戏将清除当前记录，确定创建新游戏吗', {
             title:'提示',
-            skin: 'layui-layer-molv',
+            skin: 'layui-layer-my',
             btn: ['取消','新游戏'] //按钮
         }, function(){
             $(".layui-layer-close").click();

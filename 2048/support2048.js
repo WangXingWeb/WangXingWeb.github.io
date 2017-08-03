@@ -1,8 +1,6 @@
 /**
- * Created by Administrator on 2016/7/18.
+ * Created by 王星 on 2016/7/18.
  */
-
-
 
 function getPosTop(i,j){
     return cellSpace+i*(cellSideLength+cellSpace);
@@ -221,7 +219,7 @@ function showRecordList() {
     layer.open({
         type: 1,
         title:'历史记录',
-        skin: 'layui-layer-molv', //加上边框
+        skin: 'layui-layer-my', //加上边框
         area: ['90%', '80%'], //宽高
         content: content
     });
@@ -277,7 +275,6 @@ function getBestScore(){
                 }else{
                     $("#bestScore").text("暂无");
                 }
-
             }, function(){
                 layer.msg("获取最好成绩出错！",{time: 2000, icon:2});
             }
