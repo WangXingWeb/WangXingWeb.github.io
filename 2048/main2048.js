@@ -535,6 +535,7 @@ function creatNewGame() {
             $(".layui-layer-close").click();
         }, function(){
             newgame();
+            getBestScore();
             $(".layui-layer-close").click();
         });
     }else{
