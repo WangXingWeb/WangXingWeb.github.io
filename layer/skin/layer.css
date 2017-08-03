@@ -167,9 +167,9 @@ html #layui_layer_skinlayercss{display:none; position: absolute; width:1989px;}
 .layui-layer-molv .layui-layer-btn a{background:#009f95;}
 .layui-layer-molv .layui-layer-btn .layui-layer-btn1{background:#f1f1f1;}
 
-.layui-layer-my .layui-layer-title{background:#41555d; color:#fff; border: none;}
-.layui-layer-my .layui-layer-btn a{background:#41555d;border: #41555d 1px solid;}
-.layui-layer-my .layui-layer-btn .layui-layer-btn1{background:#f1f1f1;border: #41555d 1px solid;color: #41555d;}
+.layui-layer-my .layui-layer-title{background:#8f7a66; color:#fff; border: none;}
+.layui-layer-my .layui-layer-btn a{background:#8f7a66;border: #8f7a66 1px solid;}
+.layui-layer-my .layui-layer-btn .layui-layer-btn1{background:#f1f1f1;border: #8f7a66 1px solid;color: #8f7a66;}
 
 /**
  
