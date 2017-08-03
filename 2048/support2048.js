@@ -183,7 +183,6 @@ function createTables(){
         });
     }
     catch (e) {
-        console.log("create table failed");
         layer.msg("系统出错！记录未能保存成功！",{time: 2000, icon:2});
         return;
     }
@@ -199,7 +198,6 @@ function insertRecord() {
         layer.msg('记录保存成功！', {time: 2000, icon:6});
     }
     catch (e) {
-        console.log("insert into failed");
         layer.msg("系统出错！记录未能保存成功！",{time: 2000, icon:2});
         return;
     }
@@ -231,12 +229,15 @@ function showRecordList() {
 //填充记录弹出框内容
 function doContent() {
     var content='';
-    content+='<table cellpadding="0" cellspacing="0"><thead><tr><th>昵称</th><th>分数</th><th>时间</th></tr></thead><tbody>';
-    for (var i=0;i<dbData.length;i++){
-        content+='<tr><td>'+dbData[i].userName+'</td><td>'+dbData[i].score+'</td><td>'+dbData[i].creaTime+'</td></tr>';
+    if(dbData.length>0){
+        content+='<table cellpadding="0" cellspacing="0"><thead><tr><th>昵称</th><th>分数</th><th>时间</th></tr></thead><tbody>';
+        for (var i=0;i<dbData.length;i++){
+            content+='<tr><td>'+dbData[i].userName+'</td><td>'+dbData[i].score+'</td><td>'+dbData[i].creaTime+'</td></tr>';
+        }
+        content+='</tbody></table>';
+    }else{
+        content+='<div class="noData">暂无历史记录<br/>游戏结束记得保存记录哦</div>';
     }
-    content+='</tbody></table>';
-    console.log(content);
     return content;
 }
 //从数据库中查记录
@@ -250,7 +251,6 @@ function selectRecord() {
                     thisTiem = thisTiem.replace(/ GMT.+$/, '');
                     var d = new Date(thisTiem);
                     thisTiem=d.format("yyyy-MM-dd hh:mm");
-                    console.log(thisTiem);
                     var josnItem={
                         id:result.rows.item(i)['id'],
                         userName:result.rows.item(i)['username'],
@@ -260,9 +260,8 @@ function selectRecord() {
                     dbData.push(josnItem);
                 }
                 showRecordList();
-                console.log(dbData);
             }, function(){
-                alert("error");
+                layer.msg("获取历史记录出错！",{time: 2000, icon:2});
             }
         );
     });
@@ -272,12 +271,15 @@ function getBestScore(){
     dbLocal.transaction(function(tx) {
         tx.executeSql("select max(score) from scorelist", [],
             function(tx, result) {
-                console.log(result);
                 bestScore=result.rows.item(0)['max(score)'];
-                console.log(bestScore);
-                $("#bestScore").text(bestScore);
+                if(bestScore){
+                    $("#bestScore").text(bestScore);
+                }else{
+                    $("#bestScore").text("暂无");
+                }
+
             }, function(){
-                alert("error");
+                layer.msg("获取最好成绩出错！",{time: 2000, icon:2});
             }
         );
     });

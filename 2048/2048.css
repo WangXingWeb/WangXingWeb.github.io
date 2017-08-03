@@ -79,3 +79,8 @@ table tr td,th{
     text-overflow: ellipsis;
 }
 table tr td:last-child,th:last-child{width: 50%;}
+.noData{
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
