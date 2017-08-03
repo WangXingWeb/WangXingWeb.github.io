@@ -546,13 +546,14 @@ function creatNewGame() {
 function encourage(num) {
     if(num>heighestCell){
         switch (num){
-            case 1024: layer.msg('哎呦，不错哦！继续加油！', {time: 2000, icon:6});heighestCell=num; break;
+            case 512: layer.msg('哎呦，不错哦！继续加油！', {time: 2000, icon:6});heighestCell=num; break;
+            case 1024: layer.msg('很不错嘛！继续加油！', {time: 2000, icon:6});heighestCell=num; break;
             case 2048: layer.msg('达成2048，好厉害！', {time: 2000, icon:6});heighestCell=num; break;
             case 4096: layer.msg('顶级高手难逢敌手！', {time: 2000, icon:6});heighestCell=num; break;
             case 8192: layer.msg('笑傲江湖独步武林！', {time: 2000, icon:6});heighestCell=num; break;
-            case 16384: layer.msg('你就是神！', {time: 2000, icon:6});heighestCell=num; break;
-            case 32768: layer.msg('开发者被你打败了！', {time: 2000, icon:6});heighestCell=num; break;
-            case 65536: layer.msg('我不相信这是真的！', {time: 2000, icon:6});heighestCell=num; break;
+            case 16384: layer.msg('开发者被你打败了！', {time: 2000, icon:6});heighestCell=num; break;
+            case 32768: layer.msg('你就是神！', {time: 2000, icon:6});heighestCell=num; break;
+            case 65536: layer.msg('你做到了极致！攻城狮佩服的五体投地', {time: 2000, icon:6});heighestCell=num; break;
         }
     }
 
