@@ -505,7 +505,8 @@ function saveBoard() {
         allBack:allBack,
         records:records,
         stepNumber:stepNumber,
-        backStepNum:backStepNum
+        backStepNum:backStepNum,
+        heighestCell:heighestCell
     }
     localStorage.setItem("theRecord",JSON.stringify(theRecord));
     layer.msg('存档成功，下次进入游戏可继续玩！', {time: 2000, icon:6});
@@ -520,6 +521,7 @@ function readRecord() {
     records=savedRecord.records;
     stepNumber=savedRecord.stepNumber;
     backStepNum=savedRecord.backStepNum;
+    heighestCell=savedRecord.heighestCell;
     showBackRecord();
     updateBoardView();
 }
