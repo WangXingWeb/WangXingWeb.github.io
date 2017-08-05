@@ -216,7 +216,7 @@ function isChangeBest(){
                 btn: ['确定'] //按钮
             }, function(){
                 $(".layui-layer-close").click();
-            }
+            });
             isBreakBestRecord=true;
         }
     }
