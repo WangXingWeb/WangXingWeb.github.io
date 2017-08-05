@@ -24,6 +24,8 @@ var dbData=new Array();
 var bestScore=0;
 //最高值的cell
 var heighestCell=0;
+//打破最好成绩的提醒
+var isBreakBestRecord=false;
 
 documentWidth=window.screen.availWidth;
 gridContainerWidth=0.92*documentWidth;
@@ -506,7 +508,8 @@ function saveBoard() {
         records:records,
         stepNumber:stepNumber,
         backStepNum:backStepNum,
-        heighestCell:heighestCell
+        heighestCell:heighestCell,
+        isBreakBestRecord:isBreakBestRecord
     }
     localStorage.setItem("theRecord",JSON.stringify(theRecord));
     layer.msg('存档成功，下次进入游戏可继续玩！', {time: 2000, icon:6});
@@ -522,6 +525,7 @@ function readRecord() {
     stepNumber=savedRecord.stepNumber;
     backStepNum=savedRecord.backStepNum;
     heighestCell=savedRecord.heighestCell;
+    isBreakBestRecord=savedRecord.isBreakBestRecord;
     showBackRecord();
     updateBoardView();
 }
