@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/main2048.js" afterPath="$PROJECT_DIR$/2048/main2048.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/support2048.js" afterPath="$PROJECT_DIR$/2048/support2048.js" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="support2048.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2048/support2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="210" column="29" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="29" />
+            <state relative-caret-position="676">
+              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main2048.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main2048.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2048/main2048.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="529" column="22" selection-start-line="529" selection-start-column="22" selection-end-line="529" selection-end-column="22" />
+            <state relative-caret-position="268">
+              <caret line="540" column="9" selection-start-line="534" selection-start-column="8" selection-end-line="540" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -153,8 +152,8 @@
         <option value="$PROJECT_DIR$/ku/test.html" />
         <option value="$PROJECT_DIR$/2048/localDB.js" />
         <option value="$PROJECT_DIR$/layer/skin/layer.css" />
-        <option value="$PROJECT_DIR$/2048/support2048.js" />
         <option value="$PROJECT_DIR$/2048/main2048.js" />
+        <option value="$PROJECT_DIR$/2048/support2048.js" />
       </list>
     </option>
   </component>
@@ -532,7 +531,7 @@
       <workItem from="1501680873369" duration="8972000" />
       <workItem from="1501720359176" duration="8270000" />
       <workItem from="1501769463292" duration="1939000" />
-      <workItem from="1501916338919" duration="1274000" />
+      <workItem from="1501916338919" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -751,11 +750,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501770812449</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1.(2048)加入打破历史最佳纪录的提示&#10;">
+      <created>1501940740465</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1501940740465</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122334000" />
+    <option name="totallyTimeSpent" value="122647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -834,7 +840,8 @@
     <MESSAGE value="1.(2048)自定义layer样式layui-layer-my&#10;" />
     <MESSAGE value="1.(2048)封装localDB.js关于本地数据库的js&#10;" />
     <MESSAGE value="1.(2048)自定义弹框样式&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.(2048)自定义弹框样式&#10;" />
+    <MESSAGE value="1.(2048)加入打破历史最佳纪录的提示&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.(2048)加入打破历史最佳纪录的提示&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1146,18 +1153,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/support2048.js">
+    <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="210" column="29" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="29" />
+        <state relative-caret-position="268">
+          <caret line="540" column="9" selection-start-line="534" selection-start-column="8" selection-end-line="540" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/main2048.js">
+    <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="529" column="22" selection-start-line="529" selection-start-column="22" selection-end-line="529" selection-end-column="22" />
+        <state relative-caret-position="676">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
         </state>
       </provider>

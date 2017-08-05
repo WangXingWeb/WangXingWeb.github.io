@@ -208,8 +208,15 @@ function isChangeBest(){
     if(bestScore<score){
         bestScore=score;
         $("#bestScore").text(bestScore);
+
         if(!isBreakBestRecord){
-            layer.msg('恭喜你打破历史最佳纪录！游戏结束记得保存纪录哦', {time: 2000, icon:6});
+            layer.confirm('恭喜你打破历史最佳纪录！游戏结束记得保存纪录哦', {
+                title:'提示',
+                skin: 'layui-layer-my',
+                btn: ['确定'] //按钮
+            }, function(){
+                $(".layui-layer-close").click();
+            }
             isBreakBestRecord=true;
         }
     }
