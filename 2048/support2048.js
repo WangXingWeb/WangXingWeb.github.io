@@ -205,7 +205,7 @@ function doContent() {
 
 //超过最好成绩则best值跟着当前score变化
 function isChangeBest(){
-    if(bestScore<score){
+    if(bestScore<score&&bestScore){
         bestScore=score;
         $("#bestScore").text(bestScore);
 
