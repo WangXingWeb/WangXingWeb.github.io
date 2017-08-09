@@ -16,8 +16,24 @@
     border: 8px solid #AEE2D9;
     border-radius: 108px;
     display: block;
-    margin: 0 auto;
+    margin-left: -100px;
+    position: relative;
     width: 200px;
+    left:50%;
+    animation:mymove 1s ;
+    animation-iteration-count:1;
+    -webkit-animation:mymove 1s ; /*Safari and Chrome*/
+}
+@keyframes mymove
+{
+    from {left:50;}
+    to {left:0%;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+    from {left:0;}
+    to {left:50%;}
 }
 .title{
     text-align: center;
