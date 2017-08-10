@@ -2,16 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.bigContainer{
-    width: 100%;
-    height: 100%;
-    display:table;
-}
-.container{
-    text-align:center;
-    display:table-cell;
-    vertical-align:middle;
-}
+
 .presonImg{
     border: 8px solid #AEE2D9;
     border-radius: 108px;
@@ -34,6 +25,9 @@
 {
     from {left:0;}
     to {left:50%;}
+}
+.item{
+    text-align: center;
 }
 .title{
     text-align: center;
