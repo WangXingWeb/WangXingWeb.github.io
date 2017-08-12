@@ -8,10 +8,40 @@
 	<link rel="stylesheet" href="../css/animate.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="../js/jquery-1.9.1.min.js"></script>
-	<script src="http://cdn.staticfile.org/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="../js/jquery.fullPage.js"></script>
 </head>
 <style type="text/css">
+	#fp-nav ul li a span, .fp-slidesNav ul li a span {
+		width: 10px;
+		height: 10px;
+		border: 2px solid #fff;
+	}
+	#fp-nav ul li .fp-tooltip {
+		font-size: 18px;
+		top: 0px;
+	}
+	#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+		background: #ffce44;
+	}
+	.fp-controlArrow.fp-next {
+		right: 15px;
+		border-width: 38.5px 0 38.5px 34px;
+		border-color: transparent transparent transparent #fff;
+	}
+	.fp-controlArrow.fp-next {
+		right: 10px;
+		border-width: 15px 0 15px 15px;
+		border-color: transparent transparent transparent #fff;
+	}
+	.fp-controlArrow {
+		margin-top: -15px;
+	}
+	.fp-controlArrow.fp-prev {
+		left: 5px;
+		border-width: 15px 15px 15px 0;
+		border-color: transparent #fff transparent transparent;
+	}
+
 </style>
 <body>
 <div id="fullpage">
@@ -25,175 +55,138 @@
 			<h3 class="email">13488027350</h3>
 			<h3 class="email">wx1620@163.com</h3>
 		</div>
-
 	</div>
 	<div class="section">
-		<h1 class="title">项目经历</h1>
-		<div class="project clearfloat">
-			<div class="project-item">
-				<a href="http://www.iwangxing.cn/joke/joke.html">
-					<img class="item-img" src="img/hehe.jpg" alt="笑话大全">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="http://www.iwangxing.cn/joke/joke.html">笑话大全</a>
-					<div><a class="blueweb" href="http://github.com/WangXingWeb/joke">小程序版本(暂时还未上线请移步github查看代码)</a></div>
-					<div><a  class="blueweb" href="http://www.iwangxing.cn/joke/joke.html">webAPP版(Bootstrap+Ajax)</a></div>
+		<div class="slide">
+			<h1 class="title">项目经历</h1>
+			<div class="project clearfloat">
+				<div class="project-item">
+					<a href="http://www.iwangxing.cn/joke/joke.html">
+						<img class="item-img" src="img/hehe.jpg" alt="笑话大全">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="http://www.iwangxing.cn/joke/joke.html">笑话大全</a>
+						<div><a class="blueweb" href="http://github.com/WangXingWeb/joke">小程序版本(暂时还未上线请移步github查看代码)</a></div>
+						<div><a  class="blueweb" href="http://www.iwangxing.cn/joke/joke.html">webAPP版(Bootstrap+Ajax)</a></div>
+					</div>
 				</div>
-			</div>
-			<div class="project-item">
-				<a href="http://iwangxing.cn/webAPP/app_mobile.html">
-					<img class="item-img"  src="img/webapp.png" alt="webAPP阅读器">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="http://iwangxing.cn/webAPP/app_mobile.html">webAPP阅读器</a>
-					<div><span class="item-tell">使用localStorage获取上次阅读的章节和字体背景设置</span></div>
-					<div><span class="item-tell">使用Ajax请求json数据</span></div>
+				<div class="project-item">
+					<a href="http://iwangxing.cn/webAPP/app_mobile.html">
+						<img class="item-img"  src="img/webapp.png" alt="webAPP阅读器">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="http://iwangxing.cn/webAPP/app_mobile.html">webAPP阅读器</a>
+						<div><span class="item-tell">使用localStorage获取上次阅读的章节和字体背景设置</span></div>
+						<div><span class="item-tell">使用Ajax请求json数据</span></div>
 
+					</div>
 				</div>
-			</div>
-			<div class="project-item">
-				<a href="http://iwangxing.cn/@Media/src/index.html">
-					<img class="item-img" src="img/licai.png" alt="某互联网金融网站首页">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="http://iwangxing.cn/@Media/src/index.html">某互联网金融网站首页</a>
-					<div><span class="item-tell">使用媒体查询实现响应式布局</span></div>
-					<div><span class="item-tell">兼容pc端和移动端</span></div>
-				</div>
-			</div>
-			<div class="project-item">
-				<a href="http://iwangxing.cn/2048/2048.html">
-					<img class="item-img" src="img/2048.png" alt="2048小游戏">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="http://iwangxing.cn/2048/2048.html">2048小游戏</a>
-					<div><span class="item-tell">使用jQuery和基础的JavaScript实现2048游戏</span></div>
-					<div><span class="item-tell">兼容PC端和移动端</span></div>
-				</div>
-			</div>
-			<div class="project-item">
-				<a href="https://github.com/WangXingWeb/clock.js/">
-					<img class="item-img" src="img/clock.png" alt="clock.js">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="https://github.com/WangXingWeb/clock.js/">clock.js </a>
-					<div><span class="item-tell">canvas绘制钟表</span></div>
-					<div><span class="item-tell">可随意设置大小</span></div>
-				</div>
-			</div>
-			<div class="project-item">
-				<a href="https://github.com/WangXingWeb/scrollTopBuffer">
-					<img class="item-img" src="img/buffer.png" alt="笑话大全">
-				</a>
-				<div class="jianshao">
-					<a class="project-item-title" href="https://github.com/WangXingWeb/scrollTopBuffer">scrollTopBuffer.js</a>
-					<div><span class="item-tell">带有缓动效果的backTop</span></div>
-					<div><span class="item-tell">backTop的速度逐渐减慢</span></div>
-				</div>
-			</div>
-		</div>
-		<p class="github">更多精彩，请移步<a class="github-more">github</a></p>
-	</div>
-	<div class="section">
-		<div class="slide">第三屏的第一屏</div>
-		<div class="slide">第三屏的第二屏</div>
-		<div class="slide">第三屏的第三屏</div>
-		<div class="slide">第三屏的第四屏</div>
-	</div>
-	<div class="section">第四屏</div>
-</div>
-<!--
-<section id="dowebok" class="dd_fullscreenslider">
-	<div class="slidewrapper">
-		<article class="slide">
-			<div class="bigContainer">
-				<div class="container ">
-					<img class="presonImg" src="img/xingzai.jpg" alt="个人照片">
-					<h1 class="title">王星</h1>
-					<h3 class="miaoshu">爱学习，知上进,善沟通，重细节</h3>
-					<h4 class="job">Web前端工程师</h4>
-					<a  class="personWeb" href="http://www.iwangxing.cn">个人网页：iwangxing.cn</a>
-					<h3 class="email">13488027350</h3>
-					<h3 class="email">wx1620@163.com</h3>
-				</div>
-			</div>
-		</article>
-
-		<article class="slide">
-			<div class="bigContainer">
-
-			</div>
-		</article>
-		<article class="slide">
-            <div class="bigContainer">
-                <div class="container ">
-                    <h1 class="title">专业技术</h1>
-                    <div class="tag-panel">
-                        <div class="tag expert">html5</div>
-                        <div class="tag expert">css3</div>
-						<div class="tag expert">javascript</div>
-						<div class="tag expert">jQuery</div>
-                    </div>
-                    <div class="tag-panel">
-                        <div class="tag familiar">Bootstrap</div>
-                        <div class="tag familiar">ZEPTO</div>
-                        <div class="tag familiar">Github</div>
-                    </div>
-                    <div class="tag-panel">
-                        <div class="tag expert">微信小程序</div>
-                        <div class="tag familiar">了解java基础</div>
-                    </div>
-                    <div class="tag-panel">
-                        <div class="tag expert">PhotoShop</div>
-                        <div class="tag familiar">Fireworks</div>
-                    </div>
-                </div>
-            </div>
-
-		</article>
-		<article class="slide">
-			<div class="bigContainer">
-				<div class="container two ">
-					<h1 class="title">教育背景</h1>
-					<h3>陕西科技大学</h3>
-					<h3>服装设计与工程</h3>
-					<h3>本科</h3>
-					<h3>美学原理、平面设计</h3>
-					<h3>2009.9-2013.6</h3>
-				</div>
-			</div>
-		</article>
-
-		<article class="slide">
-			<div class="bigContainer">
-				<div class="container  clearfloat">
-					<h1 class="title">前端经历</h1>
-					<div class="project clearfloat">
-						<div class="project-item-work">
-							<h3>厦门北软科技</h3>
-							<h3>web前端开发培训生</h3>
-							<h3>2016/5-2016/10</h3>
-							<h3>学习web前端开发</h3>
-						</div>
-						<div class="project-item-work">
-							<h3>不多不少</h3>
-							<h3>web前端开发工程师</h3>
-							<h3>2016/10-2017/1</h3>
-							<h3>微信小程序制作、公司商城页面书写</h3>
-						</div>
+				<div class="project-item">
+					<a href="http://iwangxing.cn/@Media/src/index.html">
+						<img class="item-img" src="img/licai.png" alt="某互联网金融网站首页">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="http://iwangxing.cn/@Media/src/index.html">某互联网金融网站首页</a>
+						<div><span class="item-tell">使用媒体查询实现响应式布局</span></div>
+						<div><span class="item-tell">兼容pc端和移动端</span></div>
 					</div>
 				</div>
 			</div>
-		</article>
+			<p class="github">更多精彩，请移步<a class="github-more">github</a></p>
+		</div>
+		<div class="slide">
+			<h1 class="title">项目经历</h1>
+			<div class="project clearfloat">
+				<div class="project-item">
+					<a href="http://iwangxing.cn/2048/2048.html">
+						<img class="item-img" src="img/2048.png" alt="2048小游戏">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="http://iwangxing.cn/2048/2048.html">2048小游戏</a>
+						<div><span class="item-tell">使用jQuery和基础的JavaScript实现2048游戏</span></div>
+						<div><span class="item-tell">兼容PC端和移动端</span></div>
+					</div>
+				</div>
+				<div class="project-item">
+					<a href="https://github.com/WangXingWeb/clock.js/">
+						<img class="item-img" src="img/clock.png" alt="clock.js">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="https://github.com/WangXingWeb/clock.js/">clock.js </a>
+						<div><span class="item-tell">canvas绘制钟表</span></div>
+						<div><span class="item-tell">可随意设置大小</span></div>
+					</div>
+				</div>
+				<div class="project-item">
+					<a href="https://github.com/WangXingWeb/scrollTopBuffer">
+						<img class="item-img" src="img/buffer.png" alt="笑话大全">
+					</a>
+					<div class="jianshao">
+						<a class="project-item-title" href="https://github.com/WangXingWeb/scrollTopBuffer">scrollTopBuffer.js</a>
+						<div><span class="item-tell">带有缓动效果的backTop</span></div>
+						<div><span class="item-tell">backTop的速度逐渐减慢</span></div>
+					</div>
+				</div>
+			</div>
+			<p class="github">更多精彩，请移步<a class="github-more">github</a></p>
+		</div>
 	</div>
-</section>
--->
+	<div class="section">
+		<h1 class="title">专业技术</h1>
+		<div class="tag-panel">
+			<div class="tag expert">html5</div>
+			<div class="tag expert">css3</div>
+			<div class="tag expert">javascript</div>
+			<div class="tag expert">jQuery</div>
+		</div>
+		<div class="tag-panel">
+			<div class="tag familiar">Bootstrap</div>
+			<div class="tag familiar">ZEPTO</div>
+			<div class="tag familiar">Github</div>
+		</div>
+		<div class="tag-panel">
+			<div class="tag expert">微信小程序</div>
+			<div class="tag familiar">了解java基础</div>
+		</div>
+		<div class="tag-panel">
+			<div class="tag expert">PhotoShop</div>
+			<div class="tag familiar">Fireworks</div>
+		</div>
+	</div>
+	<div class="section two">
+		<h1 class="title">教育背景</h1>
+		<h3>陕西科技大学</h3>
+		<h3>服装设计与工程</h3>
+		<h3>本科</h3>
+		<h3>美学原理、平面设计</h3>
+		<h3>2009.9-2013.6</h3>
+	</div>
+	<div class="section two">
+		<h1 class="title">前端经历</h1>
+		<div class="experience clearfloat">
+			<div class="experience-item">
+				<h3>厦门北软科技</h3>
+				<h3>web前端开发培训生</h3>
+				<h3>2016/5-2016/10</h3>
+				<h3>学习web前端开发</h3>
+			</div>
+			<div class="experience-item">
+				<h3>不多不少</h3>
+				<h3>web前端开发工程师</h3>
+				<h3>2016/10-2017/1</h3>
+				<h3>微信小程序制作、公司商城页面书写</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
 <script>
     $(function(){
         $('#fullpage').fullpage({
-            verticalCentered:true,
-            'anchors': ['page1', 'page2', 'page3', 'page4'],
-            'slidesColor': ['#F0F2F4', '#fff', '#fff', '#fff']
+			'navigation': true,
+			'navigationPosition': 'left',
+			sectionsColor: ['#1bbc9b', '#44cef6', '#1bbc9b', '#44cef6', '#1bbc9b'],
+			'navigationTooltips': ['基本信息', '项目经历', '专业技术', '教育背景','前端经历'],
 		});
     });
 </script>

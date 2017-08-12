@@ -2,49 +2,29 @@
     margin: 0;
     padding: 0;
 }
-
 .presonImg {
     border: 8px solid #AEE2D9;
     border-radius: 108px;
     display: block;
-    margin-left: -100px;
-    position: relative;
+    margin: 0 auto;
     width: 200px;
-    left: 50%;
-}
-.active .presonImg{
-    animation:mymove 1s ;
-    -webkit-animation:mymove 1s ; /*Safari and Chrome*/
-}
-@keyframes mymove
-{
-    from {left:0;}
-    to {left:50%;}
-}
-
-@-webkit-keyframes mymove /*Safari and Chrome*/
-{
-    from {left:0;}
-    to {left:50%;}
 }
 .item{
     text-align: center;
 }
 .title{
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     line-height:80px;
+    color: #fff;
     font-family:"Microsoft YaHei",sans-serif;
-    text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
-}
-.two .title{
-    text-shadow: 1px 2px #148db9, 2px 4px #65d1f8;
 }
 .personWeb {
     font-size: 30px;
     text-decoration: none;
     color: #008A75;
 }
+.job{color: #fff;}
 .personWeb:hover{
     color: #99ff33;
 }
@@ -55,24 +35,14 @@
     color: #008A75;
 }
 .project{
-    display: block;
-    width: 80%;
-    margin:50px auto 0;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 .project-item{
     display: flex;
+    width: 550px;
+    margin: 10px auto;
     flex-direction: row;
-    float: left;
-    width: 50%;
-    height: 100px;
-    margin-bottom: 20px;
-}
-@media screen and (max-width: 800px) {
-    .project-item{
-        width: 100%;
-        height: auto;
-    }
 }
 .project-item-title{
     font-size: 28px;
@@ -106,24 +76,26 @@
 .blueweb{
     text-decoration: none;
     font-size: 18px;
-    color: #0f6e91;
+    color: #fff;
 }
 .blueweb:hover{
     color: #65d1f8;
 }
 .item-tell{
     font-size: 18px;
-    color: #0f6e91;
+    color: #fff;
 }
 .github{
     font-size: 20px;
-    color: #65d1f8;
+    color: #fff;
+    text-align: center;
 }
 .github-more{
      font-style: italic;
      padding-left: 8px;
      color: #0f6e91;
-    text-decoration: underline;
+     text-align: center;
+     text-decoration: underline;
  }
 .github-more:hover{
     color: #65d1f8;
@@ -148,9 +120,20 @@
 .tag.familiar {
     opacity: 0.75
 }
-.project-item-work{
+.experience{
+
+}
+.experience-item{
     display: flex;
     flex-direction: column;
     float: left;
     width: 50%;
+}
+.tag-panel{
+    text-align: center;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/css/main.css" afterPath="$PROJECT_DIR$/resume/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/resume.html" afterPath="$PROJECT_DIR$/resume/resume.html" />
@@ -16,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,34 +25,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="363">
+              <caret line="68" column="46" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1284#7321#0" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m/index.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/77/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="105" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="105" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index12.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/77/index12.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fullPage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/jquery.fullPage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index8.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/77/index8.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="64" column="42" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/77/index7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -105,25 +147,31 @@
         <option value="$PROJECT_DIR$/layer/skin/layer.css" />
         <option value="$PROJECT_DIR$/2048/main2048.js" />
         <option value="$PROJECT_DIR$/2048/support2048.js" />
-        <option value="$PROJECT_DIR$/resume/css/main.css" />
         <option value="$PROJECT_DIR$/resume/resume.html" />
+        <option value="$PROJECT_DIR$/resume/css/main.css" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1914" />
+    <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -140,8 +188,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="WangXingWeb.github.io" />
@@ -176,13 +231,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="77" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="77" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -194,16 +320,126 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/myGithub/WangXingWeb.github.io/2048/main2048.js" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\github\WangXingWeb.github.io\css" />
-      <recent name="$PROJECT_DIR$/resume" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
+      <recent name="E:\myGithub\WangXingWeb.github.io\css" />
       <recent name="E:\myGithub\WangXingWeb.github.io" />
+      <recent name="E:\myGithub\WangXingWeb.github.io\ku" />
+      <recent name="E:\project\github\WangXingWeb.github.io" />
+      <recent name="E:\project\github\WangXingWeb.github.io\js" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/resume/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/resume/resume.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -213,12 +449,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -246,7 +476,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -317,13 +547,8 @@
       <workItem from="1501720359176" duration="8270000" />
       <workItem from="1501769463292" duration="1939000" />
       <workItem from="1501916338919" duration="2557000" />
-      <workItem from="1502024778098" duration="100000" />
-      <workItem from="1502110953495" duration="1972000" />
-      <workItem from="1502280424295" duration="3491000" />
-      <workItem from="1502285633460" duration="360000" />
-      <workItem from="1502367203218" duration="452000" />
-      <workItem from="1502369309252" duration="1822000" />
-      <workItem from="1502416921950" duration="2897000" />
+      <workItem from="1502024778098" duration="169000" />
+      <workItem from="1502457420216" duration="12348000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -563,54 +788,40 @@
       <option name="project" value="LOCAL" />
       <updated>1501941395031</updated>
     </task>
-    <task id="LOCAL-00035" summary="1.(2048)修改初次进入游戏立即打破记录的bug&#10;">
-      <created>1502111466951</created>
+    <task id="LOCAL-00035" summary="1.删除无用的music文件&#10;">
+      <created>1502024914509</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1502111466951</updated>
+      <updated>1502024914509</updated>
     </task>
-    <task id="LOCAL-00036" summary="1.删除无用的文件夹&#10;">
-      <created>1502205198724</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1502205198724</updated>
-    </task>
-    <task id="LOCAL-00037" summary="1.在线简历加动画&#10;">
-      <created>1502285671415</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1502285671415</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134711000" />
+    <option name="totallyTimeSpent" value="136134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.145" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14014752" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32615715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.1975764" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="20" y="36" width="391" height="1077" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15015806" sideWeight="0.504329" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,10 +880,8 @@
     <MESSAGE value="1.(2048)自定义弹框样式&#10;" />
     <MESSAGE value="1.(2048)加入打破历史最佳纪录的提示&#10;" />
     <MESSAGE value="1.(2048)加入打破历史最佳纪录的提示改为需要确定的弹窗&#10;" />
-    <MESSAGE value="1.(2048)修改初次进入游戏立即打破记录的bug&#10;" />
-    <MESSAGE value="1.删除无用的文件夹&#10;" />
-    <MESSAGE value="1.在线简历加动画&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.在线简历加动画&#10;" />
+    <MESSAGE value="1.删除无用的music文件&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.删除无用的music文件&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,80 +890,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4514">
-          <caret line="122" column="2" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4255">
-          <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2664">
-          <caret line="72" column="2" lean-forward="false" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webAPP/app_mobile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4514">
-          <caret line="122" column="2" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5809">
-          <caret line="157" column="34" lean-forward="false" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="34" />
+          <caret line="157" column="34" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4514">
+          <caret line="122" column="2" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4255">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webAPP/app_mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4514">
+          <caret line="122" column="2" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5809">
+          <caret line="157" column="34" selection-start-line="157" selection-start-column="34" selection-end-line="157" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -764,28 +987,28 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="101" column="12" lean-forward="false" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/myExperience.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
-          <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -797,7 +1020,7 @@
     <entry file="file://$PROJECT_DIR$/m/css/newIndex.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -807,21 +1030,28 @@
     <entry file="file://$PROJECT_DIR$/canvas-clock/clock.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/readingDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4844">
-          <caret line="288" column="12" lean-forward="false" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
+          <caret line="288" column="12" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="467" column="53" selection-start-line="467" selection-start-column="23" selection-end-line="467" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/readingList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="225" column="49" lean-forward="false" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="49" />
+          <caret line="225" column="49" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -835,110 +1065,97 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="1156" column="0" lean-forward="false" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
+          <caret line="1156" column="0" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layer/layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="191" column="45" lean-forward="false" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="45" />
+          <caret line="191" column="45" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/2048.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="2432">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ku/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layer/skin/layer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="171" column="110" lean-forward="false" selection-start-line="171" selection-start-column="110" selection-end-line="171" selection-end-column="110" />
+        <state relative-caret-position="5472">
+          <caret line="171" column="110" selection-start-line="171" selection-start-column="110" selection-end-line="171" selection-end-column="110" />
+          <folding>
+            <marker date="1501770775612" expanded="true" signature="403:434" placeholder="{...}" />
+            <marker date="1501770775612" expanded="true" signature="14215:14239" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048/localDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/showanimation2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="864">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/2048.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/xuwei.png" />
     <entry file="file://$PROJECT_DIR$/2048/main2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10731">
-          <caret line="511" column="1" lean-forward="false" selection-start-line="511" selection-start-column="1" selection-end-line="511" selection-end-column="1" />
+        <state relative-caret-position="1216">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2048/support2048.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4347">
-          <caret line="207" column="33" lean-forward="false" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
+        <state relative-caret-position="6976">
+          <caret line="219" column="15" selection-start-line="219" selection-start-column="15" selection-end-line="219" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048/localDB.js">
+    <entry file="file://$PROJECT_DIR$/music/xuwei.png" />
+    <entry file="file://$PROJECT_DIR$/2048/2048.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        <state relative-caret-position="32">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@Media/LICENSE.txt">
+    <entry file="file://$PROJECT_DIR$/resume/77/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@Media/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@Media/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@Media/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ku/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.fullPage.js">
+    <entry file="file://$PROJECT_DIR$/resume/77/index12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1152">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -946,53 +1163,53 @@
     <entry file="file://$PROJECT_DIR$/css/jquery.fullPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume/77/js/jquery.fullPage.js">
+    <entry file="file://$PROJECT_DIR$/resume/77/index7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/77/index8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/77/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502416909382" expanded="true" signature="43398:43439" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="105" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="105" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="363">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1284#7321#0" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
