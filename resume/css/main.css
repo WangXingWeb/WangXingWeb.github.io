@@ -4,7 +4,7 @@
 }
 .presonImg {
     border: 8px solid #AEE2D9;
-    border-radius: 108px;
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -46,7 +46,7 @@
 }
 .project-item-title{
     font-size: 28px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .project-item-title:hover{
@@ -56,7 +56,7 @@
     width: 80px;
     height: 80px;
     display: block;
-    border-radius: 44px;
+    border-radius: 50%;
     border: 6px solid #65d1f8;
 }
 .clearfloat{
@@ -76,6 +76,7 @@
 .blueweb{
     text-decoration: none;
     font-size: 18px;
+    line-height: 22px;
     color: #fff;
 }
 .blueweb:hover{
@@ -83,6 +84,7 @@
 }
 .item-tell{
     font-size: 18px;
+    line-height: 22px;
     color: #fff;
 }
 .github{
@@ -136,4 +138,55 @@ h3{
     color: #fff;
     text-align: center;
     line-height: 35px;
+}
+@media screen and (max-width: 600px) {
+    .presonImg {
+        width: 100px;
+        border: 4px solid #AEE2D9;
+    }
+    .title {
+        line-height: 40px;
+        margin: 10px 0;
+    }
+    .project-item{
+        width: 90%;
+        margin: 5px 5%;
+    }
+    .item-img {
+        width: 40px;
+        height: 40px;
+    }
+    .jianshao {
+        padding-left: 0;
+    }
+    .project-item-title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .item-tell{
+        font-size: 14px;
+    }
+    .blueweb{
+        font-size: 14px;
+    }
+    .github {
+        font-size: 14px;
+    }
+    .tag{
+        font-size: 12px;
+        line-height: 20px;
+        border-radius: 4px;
+    }
+    h3 {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .personWeb {
+        font-size: 20px;
+    }
+    #fp-nav {
+        display: none;
+    }
+
 }

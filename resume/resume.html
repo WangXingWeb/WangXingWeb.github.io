@@ -47,7 +47,7 @@
 <div id="fullpage">
 	<div class="section" style="background-color: #00aaee;">
 		<img class="presonImg" src="img/xingzai.jpg" alt="个人照片">
-		<div class="item animated bounceIn">
+		<div class="item animated ">
 			<h1 class="title">王星</h1>
 			<h3 class="miaoshu">爱学习，知上进,善沟通，重细节</h3>
 			<h4 class="job">Web前端工程师</h4>
@@ -182,11 +182,24 @@
 
 <script>
     $(function(){
+		$(".presonImg").addClass("bounce animated");
         $('#fullpage').fullpage({
 			'navigation': true,
-			'navigationPosition': 'left',
+			'navigationPosition': 'right',
 			sectionsColor: ['#1bbc9b', '#44cef6', '#1bbc9b', '#44cef6', '#1bbc9b'],
 			'navigationTooltips': ['基本信息', '项目经历', '专业技术', '教育背景','前端经历'],
+			'afterLoad': function(anchorLink, index){
+				switch (index){
+					case 1:
+						$(".presonImg").addClass("bounce animated");
+				}
+			},
+			'onLeave': function(index, direction){
+				switch (index){
+					case 1:
+						$(".presonImg").removeClass("bounce animated");
+				}
+			}
 		});
     });
 </script>
