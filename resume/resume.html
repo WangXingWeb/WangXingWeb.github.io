@@ -11,6 +11,9 @@
 	<script src="../js/jquery.fullPage.js"></script>
 </head>
 <style type="text/css">
+	#fp-nav.right {
+		right: 25px;
+	}
 	#fp-nav ul li a span, .fp-slidesNav ul li a span {
 		width: 10px;
 		height: 10px;
@@ -90,8 +93,9 @@
 						<div><span class="item-tell">兼容pc端和移动端</span></div>
 					</div>
 				</div>
+				<p class="github">更多精彩，请移步<a class="github-more">github</a></p>
 			</div>
-			<p class="github">更多精彩，请移步<a class="github-more">github</a></p>
+
 		</div>
 		<div class="slide">
 			<h1 class="title">项目经历</h1>
@@ -213,7 +217,7 @@
                 fun_4(blo);
                 break;
             case 5:
-                fun_4(blo);
+                fun_5(blo);
                 break;
         }
     }
@@ -234,10 +238,10 @@
     function fun_2(blo) {
         if(blo){
             $(".project").css("visibility","visible");
-            $(".project").addClass("pulse");
+            $(".project").addClass("wobble");
         }else{
             $(".project").css("visibility","hidden");
-            $(".project").removeClass("pulse");
+            $(".project").removeClass("wobble");
         }
     }
     function fun_3(blo) {

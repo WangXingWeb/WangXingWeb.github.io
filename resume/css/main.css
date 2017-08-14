@@ -52,14 +52,13 @@
     text-decoration: none;
 }
 .project-item-title:hover{
-    color: #65d1f8;
+    color: #185b6e;
 }
 .item-img{
     width: 80px;
     height: 80px;
     display: block;
     border-radius: 50%;
-    border: 6px solid #65d1f8;
 }
 .clearfloat{
     zoom: 1;
@@ -82,7 +81,7 @@
     color: #fff;
 }
 .blueweb:hover{
-    color: #65d1f8;
+    color: #185b6e;
 }
 .item-tell{
     font-size: 18px;
@@ -152,7 +151,7 @@ h3{
         margin: 10px 0;
     }
     .project-item{
-        width: 90%;
+        width: 85%;
         margin: 5px 5%;
     }
     .item-img {
@@ -160,7 +159,7 @@ h3{
         height: 40px;
     }
     .jianshao {
-        padding-left: 0;
+        padding-left: 5px;
     }
     .project-item-title {
         font-size: 16px;
@@ -173,7 +172,7 @@ h3{
     .blueweb{
         font-size: 14px;
     }
-    .github {
+    .github{
         font-size: 14px;
     }
     .tag{
@@ -191,5 +190,4 @@ h3{
     #fp-nav {
         display: none;
     }
-
 }
