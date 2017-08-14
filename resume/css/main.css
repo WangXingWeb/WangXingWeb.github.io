@@ -8,9 +8,11 @@
     display: block;
     margin: 0 auto;
     width: 200px;
+    visibility: hidden;
 }
 .item{
     text-align: center;
+    visibility: hidden;
 }
 .title{
     text-align: center;
@@ -102,6 +104,9 @@
 .github-more:hover{
     color: #65d1f8;
 }
+#section3,#section4{
+    visibility: hidden;
+}
 .tag {
     background-color: #096254;
     color: #aee2d9;
@@ -122,10 +127,8 @@
 .tag.familiar {
     opacity: 0.75
 }
-.experience{
-
-}
 .experience-item{
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     float: left;

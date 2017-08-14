@@ -46,8 +46,8 @@
 <body>
 <div id="fullpage">
 	<div class="section" style="background-color: #00aaee;">
-		<img class="presonImg" src="img/xingzai.jpg" alt="个人照片">
-		<div class="item animated ">
+		<img class="presonImg animated" src="img/xingzai.jpg" alt="个人照片">
+		<div class="item">
 			<h1 class="title">王星</h1>
 			<h3 class="miaoshu">爱学习，知上进,善沟通，重细节</h3>
 			<h4 class="job">Web前端工程师</h4>
@@ -59,7 +59,7 @@
 	<div class="section">
 		<div class="slide">
 			<h1 class="title">项目经历</h1>
-			<div class="project clearfloat">
+			<div class="project clearfloat animated">
 				<div class="project-item">
 					<a href="http://www.iwangxing.cn/joke/joke.html">
 						<img class="item-img" src="img/hehe.jpg" alt="笑话大全">
@@ -78,7 +78,6 @@
 						<a class="project-item-title" href="http://iwangxing.cn/webAPP/app_mobile.html">webAPP阅读器</a>
 						<div><span class="item-tell">使用localStorage获取上次阅读的章节和字体背景设置</span></div>
 						<div><span class="item-tell">使用Ajax请求json数据</span></div>
-
 					</div>
 				</div>
 				<div class="project-item">
@@ -133,44 +132,48 @@
 	</div>
 	<div class="section">
 		<h1 class="title">专业技术</h1>
-		<div class="tag-panel">
-			<div class="tag expert">html5</div>
-			<div class="tag expert">css3</div>
-			<div class="tag expert">javascript</div>
-			<div class="tag expert">jQuery</div>
-		</div>
-		<div class="tag-panel">
-			<div class="tag familiar">Bootstrap</div>
-			<div class="tag familiar">ZEPTO</div>
-			<div class="tag familiar">Github</div>
-		</div>
-		<div class="tag-panel">
-			<div class="tag expert">微信小程序</div>
-			<div class="tag familiar">了解java基础</div>
-		</div>
-		<div class="tag-panel">
-			<div class="tag expert">PhotoShop</div>
-			<div class="tag familiar">Fireworks</div>
+		<div id="section3" class="animated">
+			<div class="tag-panel">
+				<div class="tag expert">html5</div>
+				<div class="tag expert">css3</div>
+				<div class="tag expert">javascript</div>
+				<div class="tag expert">jQuery</div>
+			</div>
+			<div class="tag-panel">
+				<div class="tag familiar">Bootstrap</div>
+				<div class="tag familiar">ZEPTO</div>
+				<div class="tag familiar">Github</div>
+			</div>
+			<div class="tag-panel">
+				<div class="tag expert">微信小程序</div>
+				<div class="tag familiar">了解java基础</div>
+			</div>
+			<div class="tag-panel">
+				<div class="tag expert">PhotoShop</div>
+				<div class="tag familiar">Fireworks</div>
+			</div>
 		</div>
 	</div>
 	<div class="section two">
 		<h1 class="title">教育背景</h1>
-		<h3>陕西科技大学</h3>
-		<h3>服装设计与工程</h3>
-		<h3>本科</h3>
-		<h3>美学原理、平面设计</h3>
-		<h3>2009.9-2013.6</h3>
+		<div id="section4" class="animated">
+			<h3>陕西科技大学</h3>
+			<h3>服装设计与工程</h3>
+			<h3>本科</h3>
+			<h3>美学原理、平面设计</h3>
+			<h3>2009.9-2013.6</h3>
+		</div>
 	</div>
 	<div class="section two">
 		<h1 class="title">前端经历</h1>
 		<div class="experience clearfloat">
-			<div class="experience-item">
+			<div class="experience-item experience-left animated">
 				<h3>厦门北软科技</h3>
 				<h3>web前端开发培训生</h3>
 				<h3>2016/5-2016/10</h3>
 				<h3>学习web前端开发</h3>
 			</div>
-			<div class="experience-item">
+			<div class="experience-item experience-right animated">
 				<h3>不多不少</h3>
 				<h3>web前端开发工程师</h3>
 				<h3>2016/10-2017/1</h3>
@@ -179,31 +182,93 @@
 		</div>
 	</div>
 </div>
-
 <script>
     $(function(){
-		$(".presonImg").addClass("bounce animated");
+        fun_1(true);
         $('#fullpage').fullpage({
 			'navigation': true,
 			'navigationPosition': 'right',
 			sectionsColor: ['#1bbc9b', '#44cef6', '#1bbc9b', '#44cef6', '#1bbc9b'],
 			'navigationTooltips': ['基本信息', '项目经历', '专业技术', '教育背景','前端经历'],
 			'afterLoad': function(anchorLink, index){
-				switch (index){
-					case 1:
-						$(".presonImg").addClass("bounce animated");
-				}
+                fun_ani(index,true);
 			},
 			'onLeave': function(index, direction){
-				switch (index){
-					case 1:
-						$(".presonImg").removeClass("bounce animated");
-				}
+                fun_ani(index,false);
 			}
 		});
     });
+    function fun_ani(index,blo) {
+        switch (index){
+            case 1:
+                fun_1(blo);
+                break;
+            case 2:
+                fun_2(blo);
+                break;
+            case 3:
+                fun_3(blo);
+                break;
+            case 4:
+                fun_4(blo);
+                break;
+            case 5:
+                fun_4(blo);
+                break;
+        }
+    }
+    function fun_1(blo) {
+        if(blo){
+            $(".presonImg").css("visibility","visible");
+            $(".item").css("visibility","visible");
+            $(".presonImg").addClass("rollIn");
+            $(".item").addClass("animated bounceInRight");
+		}else{
+            $(".presonImg").css("visibility","hidden");
+            $(".item").css("visibility","hidden");
+            $(".presonImg").removeClass("rollIn");
+            $(".item").removeClass("animated bounceInRight");
+		}
+
+    }
+    function fun_2(blo) {
+        if(blo){
+            $(".project").css("visibility","visible");
+            $(".project").addClass("pulse");
+        }else{
+            $(".project").css("visibility","hidden");
+            $(".project").removeClass("pulse");
+        }
+    }
+    function fun_3(blo) {
+        if(blo){
+            $("#section3").css("visibility","visible");
+            $("#section3").addClass("flip");
+        }else{
+            $("#section3").css("visibility","hidden");
+            $("#section3").removeClass("flip");
+        }
+    }
+    function fun_4(blo) {
+        if(blo){
+            $("#section4").css("visibility","visible");
+            $("#section4").addClass("rotateIn");
+        }else{
+            $("#section4").css("visibility","hidden");
+            $("#section4").removeClass("rotateIn");
+        }
+    }
+    function fun_5(blo) {
+        if(blo){
+            $(".experience-item").css("visibility","visible");
+            $(".experience-left").addClass("slideInLeft");
+            $(".experience-right").addClass("slideInRight");
+        }else{
+            $(".experience-item").css("visibility","hidden");
+            $(".experience-left").removeClass("slideInLeft");
+            $(".experience-right").removeClass("slideInRight");
+        }
+    }
 </script>
-
-
 </body>
 </html>
