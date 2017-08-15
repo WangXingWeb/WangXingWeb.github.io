@@ -73,7 +73,7 @@ window.onload=function(){
         showButton()
         animate(1000);
     }
-    //切换图函数，向左向右切换分别传递1200和-1200作为参数
+    //切换图函数，向左向右切换分别传递1000和-1000作为参数
     function animate(offset){
         animated=true;
         var newLeft=parseInt(list.style.left)+offset;
