@@ -61,13 +61,12 @@
     <!--侧滑菜单部分-->
     <aside id="offCanvasSide" class="mui-off-canvas-left">
         <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
-            <div class="mui-scroll">
             <div class="title">
                     <img src="img/favicon.ico"/>
                     <span style="color: #ffffff">王星个人网站</span>
             </div>
-
-            <div class="content">
+            <div class="content" id="sideScroll">
+                <div class="mui-scroll">
                 <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
                     <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right">About me</a>
                         <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
@@ -479,6 +478,7 @@
     }
     $(function () {
         mui('#offCanvasContentScroll').scroll();
+        mui('#sideScroll').scroll();
         showNewNum();
     });
 </script>

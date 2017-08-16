@@ -91,8 +91,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="316">
+              <caret line="480" column="24" lean-forward="false" selection-start-line="480" selection-start-column="24" selection-end-line="480" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -136,6 +136,7 @@
       <find>console.log</find>
       <find>item</find>
       <find>buttons</find>
+      <find>offCanvasContentScroll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -421,7 +422,7 @@
       <workItem from="1502757404610" duration="4786000" />
       <workItem from="1502845352306" duration="66000" />
       <workItem from="1502869968389" duration="1860000" />
-      <workItem from="1502876245465" duration="737000" />
+      <workItem from="1502876245465" duration="1058000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1499162972344</created>
@@ -759,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502876828994</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="1.手机主页侧边栏加滑动">
+      <created>1502876990020</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1502876990020</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168038000" />
+    <option name="totallyTimeSpent" value="168359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
@@ -1097,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="316">
+          <caret line="480" column="24" lean-forward="false" selection-start-line="480" selection-start-column="24" selection-end-line="480" selection-end-column="24" />
           <folding />
         </state>
       </provider>
