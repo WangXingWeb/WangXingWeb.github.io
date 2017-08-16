@@ -66,3 +66,6 @@ svg{
 .mui-scroll {
     right: 0;
 }
+.mui-off-canvas-left .mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell:after {
+    background-color: #2b2b2b;
+}
