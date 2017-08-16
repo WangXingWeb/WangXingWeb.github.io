@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/css/newIndex.css" afterPath="$PROJECT_DIR$/m/css/newIndex.css" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -428,14 +427,7 @@
       <workItem from="1502757404610" duration="4786000" />
       <workItem from="1502845352306" duration="66000" />
       <workItem from="1502869968389" duration="1860000" />
-      <workItem from="1502876245465" duration="1546000" />
-    </task>
-    <task id="LOCAL-00003" summary="2017-7-18">
-      <created>1500345206413</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1500345206413</updated>
+      <workItem from="1502876245465" duration="1552000" />
     </task>
     <task id="LOCAL-00004" summary="2017-7-18/01">
       <created>1500359965816</created>
@@ -773,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502877502290</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="1.手机主页侧边栏加滑动">
+      <created>1502877799406</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502877799406</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168847000" />
+    <option name="totallyTimeSpent" value="168853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
