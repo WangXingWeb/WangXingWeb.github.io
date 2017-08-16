@@ -37,6 +37,7 @@
     color: #008A75;
 }
 .project{
+    visibility: hidden;
     display: flex;
     flex-direction: column;
 }
