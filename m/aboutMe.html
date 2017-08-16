@@ -27,76 +27,78 @@
                 <img src="img/favicon.ico"/>
                 <span style="color: #ffffff">王星个人网站</span>
             </div>
-            <div class="content">
-                <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                    <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right">About me</a>
-                        <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'aboutMe.html'">关于我</a>
-                            </li>
-                            <!--<li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'myExperience.html'">我的经历</a>
-                            </li>-->
-                        </ul>
-                    </li>
-                    <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的项目</a>
-                        <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/joke/joke.html'" >笑话大全</a>
-                            </li>
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/webAPP/app_mobile.html'" >webAPP阅读器模块</a>
-                            </li>
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/2048/2048.html'" >2048小游戏</a>
-                            </li>
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/@Media/src/index.html'" >响应式首页</a>
-                            </li>
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/xianlvyou/xian.html'" >西安旅游网</a>
-                            </li>
-                            <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/canvas-clock/clock.html'">clock</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的博客</a>
-                        <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                            <li class="mui-table-view-cell">
-                                <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?frontEnd'">
-                                    前端
-                                    <!--<span class="mui-badge mui-badge-success">123</span>-->
-                                </a>
-                            </li>
+            <div class="content" id="sideScroll">
+                <div class="mui-scroll">
+                    <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right">About me</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'aboutMe.html'">关于我</a>
+                                </li>
+                                <!--<li class="mui-table-view-cell"><a class="mui-navigate-right" href="#" onclick="window.location.href = 'myExperience.html'">我的经历</a>
+                                </li>-->
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的项目</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/joke/joke.html'" >笑话大全</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/webAPP/app_mobile.html'" >webAPP阅读器模块</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/2048/2048.html'" >2048小游戏</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'https://iwangxing.cn/@Media/src/index.html'" >响应式首页</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/xianlvyou/xian.html'" >西安旅游网</a>
+                                </li>
+                                <li class="mui-table-view-cell"><a class="mui-navigate-right" onclick="window.location.href = 'http://iwangxing.cn/canvas-clock/clock.html'">clock</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的博客</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?frontEnd'">
+                                        前端
+                                        <!--<span class="mui-badge mui-badge-success">123</span>-->
+                                    </a>
+                                </li>
 
-                        </ul>
-                    </li>
-                    <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的爱好</a>
-                        <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-                            <li class="mui-table-view-cell">
-                                <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?book'">
-                                    读书
-                                    <!-- <span class="mui-badge mui-badge-success">3</span>-->
-                                </a>
-                            </li>
-                            <li class="mui-table-view-cell">
-                                <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?movie'">
-                                    电影
-                                    <!--<span class="mui-badge mui-badge-success">123</span>-->
-                                </a>
-                            </li>
-                            <li class="mui-table-view-cell">
-                                <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?sport'">
-                                    体育
-                                    <!--<span class="mui-badge mui-badge-success">123</span>-->
-                                </a>
-                            </li>
-                            <li class="mui-table-view-cell">
-                                <a class="mui-navigate-right" onclick="window.location.href =  'readingList.html?travel'">
-                                    旅游
-                                    <!--<span class="mui-badge mui-badge-success">123</span>-->
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <p style="margin: 10px 15px;">
-                    <button id="offCanvasHide" type="button" class="mui-btn mui-btn-danger mui-btn-block" style="padding: 5px 20px;margin-top: 30px;">关闭</button>
-                </p>
+                            </ul>
+                        </li>
+                        <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">我的爱好</a>
+                            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?book'">
+                                        读书
+                                        <!-- <span class="mui-badge mui-badge-success">3</span>-->
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?movie'">
+                                        电影
+                                        <!--<span class="mui-badge mui-badge-success">123</span>-->
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" onclick="window.location.href = 'readingList.html?sport'">
+                                        体育
+                                        <!--<span class="mui-badge mui-badge-success">123</span>-->
+                                    </a>
+                                </li>
+                                <li class="mui-table-view-cell">
+                                    <a class="mui-navigate-right" onclick="window.location.href =  'readingList.html?travel'">
+                                        旅游
+                                        <!--<span class="mui-badge mui-badge-success">123</span>-->
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p style="margin: 10px 15px;">
+                        <button id="offCanvasHide" type="button" class="mui-btn mui-btn-danger mui-btn-block" style="padding: 5px 20px;margin-top: 30px;">关闭</button>
+                    </p>
 
+                </div>
             </div>
         </div>
     </aside>
@@ -127,6 +129,7 @@
 <script>
     $(function () {
         mui('#offCanvasContentScroll').scroll();
+        mui('#sideScroll').scroll();
     });
 </script>
 
