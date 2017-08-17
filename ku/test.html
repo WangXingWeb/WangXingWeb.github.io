@@ -2,118 +2,36 @@
 <html>  
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=gbk" />  
-<title>web sql database</title>  
+<title>练习</title>
 <script type='text/javascript' src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>   
-<script type="text/javascript">
-    board=[[65536,512,32,16],[32768,1024,64,8],[16384,2048,128,4],[8192,4096,256,2]];
-    Date.prototype.format = function(format) {
-        /*
-         * 使用例子:format="yyyy-MM-dd hh:mm:ss";
-         */
-        var o = {
-            "M+" : this.getMonth() + 1, // month
-            "d+" : this.getDate(), // day
-            "h+" : this.getHours(), // hour
-            "m+" : this.getMinutes(), // minute
-            "s+" : this.getSeconds(), // second
-            "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter
-            "S" : this.getMilliseconds()
-            // millisecond
-        }
-
-        if (/(y+)/.test(format)) {
-            format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4
-                    - RegExp.$1.length));
-            alert(format);
-        }
-
-        for (var k in o) {
-            if (new RegExp("(" + k + ")").test(format)) {
-                format = format.replace(RegExp.$1, RegExp.$1.length == 1
-                        ? o[k]
-                        : ("00" + o[k]).substr(("" + o[k]).length));
-            }
-        }
-        return format;
+</head>
+<style>
+    progress {
+        width: 160px;
+        height: 20px;
+        border: 1px solid #0064B4;
+        background-color:#e6e6e6;
+        color: #0064B4; /*IE10*/
     }
-    var idNum=0;
-$(function(){
-    var timestamp = Date.parse(new Date());
-    alert(timestamp);
-        if (!window.openDatabase) {    
-           alert("不支持");  
-        }    
-        else {    
-            initDB();    
-            createTables();               
-        }     
-function initDB(){    
-    var shortName = 'localDB';    
-    var version = '1.0';    
-    var displayName = '分数记录';
-    var maxSize = 1024*1024; // in bytes
-    //window.openDatabase("数据库名字", "版本","数据库描述",数据库大小);  
-    localDB = window.openDatabase(shortName, version, displayName, maxSize);
-}     
-function createTables(){    
-    var query = 'CREATE TABLE IF NOT EXISTS user(username TEXT NOT NULL,score INTEGER NOT NULL,creatime TEXT NOT NULL);';
-    try {    
-        localDB.transaction(function(transaction){    
-            transaction.executeSql(query, [], null, null);       
-        });    
-    }     
-    catch (e) {    
-    console.log("create table failed");  
-       alert("建表失败");  
-        return;    
-    }    
-}    
-});  
-function btnClick(){
-    var username= $("#username").val();
-    var score= $("#score").val();
-    idNum++;
-    var creatime=new Date().format("yyyy-MM-dd hh:mm:ss");
-    alert(creatime);
-    try {
-        localDB.transaction(function(transaction){  
-            transaction.executeSql("insert into user(username,score,creatime) values(?,?,?)", [username,score,creatime]);
-        });
-    }     
-    catch (e) {    
-    console.log("insert into failed");  
-       alert("插入失败");  
-        return;    
-    }   
-    console.log("insert into success");  
- }
- function btnSelect(){  
- localDB.transaction(function(tx) {  
- tx.executeSql("select * from user", [],
-  function(tx, result) {  
-  $("#result").empty();
-  console.log(result);
-   for(var i = 0; i < result.rows.length; i++){
-   $("#result").append('<b>' +result.rows.item(i)['username']+"------" +result.rows.item(i)['score']+"-----"+result.rows.item(i)['creatime']+ '</b><br />');
-  }   
- }, function(){  
-  alert("error");  
- });   
-});  
- }  
-</script>  
-</head>  
-<body>  
-    <div id="my" style="height:100px;width:200px;border:1px solid red;">    
-    <input type="text" name="username" id="username" value=""/>
-        <input type="text" name="score" id="score" value=""/>
-    <br/>  
-    <button onclick="btnClick()">insert</button>  
-    </div>  
-    <div id="my1" style="height:300px;width:200px;border:1px solid red;">  
-    <button onclick="btnSelect()">select</button>  
-   <div id="result" style="height:300px;width:200px;border:1px solid blue;">  
-      </div>  
-    </div>
+
+    progress::-moz-progress-bar { background: #0064B4; }
+    progress::-webkit-progress-bar { background: #fff; }
+    progress::-webkit-progress-value  { background: #0064B4; }
+</style>
+<body>
+<progress value="90" max="100"></progress>
+
 </body>
+<script type="text/javascript">
+    //var board=[[65536,512,32,16],[32768,1024,64,8],[16384,2048,128,4],[8192,4096,256,2]];
+
+
+
+
+    $(function(){
+
+
+
+    });
+</script>
 </html>  
