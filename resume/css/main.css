@@ -108,7 +108,7 @@
     visibility: hidden;
 }
 .tag {
-    background-color: #88ada6;
+    background-color: #3e62ad;
     color: #FFF;
     font-size: 24px;
     margin-top: 10px;
@@ -152,8 +152,8 @@ h3{
         margin: 10px 0;
     }
     .project-item{
-        width: 85%;
-        margin: 5px 5%;
+        width: 84%;
+        margin: 5px 8%;
     }
     .item-img {
         width: 40px;

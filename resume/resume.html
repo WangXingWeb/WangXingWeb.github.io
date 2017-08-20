@@ -147,9 +147,11 @@
 				<div class="tag familiar">Bootstrap</div>
 				<div class="tag expert">ZEPTO</div>
 				<div class="tag familiar">Github</div>
+				<div class="tag expert">MUI</div>
 				<div class="tag familiar">less</div>
 			</div>
 			<div class="tag-panel">
+				<div class="tag expert">APPcan</div>
 				<div class="tag familiar">微信小程序</div>
 				<div class="tag familiar">PHP</div>
 			</div>
@@ -193,11 +195,12 @@
         $('#fullpage').fullpage({
 			'navigation': true,
 			'navigationPosition': 'right',
-			sectionsColor: ['#1bbc9b', '#44cef6', '#4c8dae', '#00e09e', '#41555d'],
+			sectionsColor: ['#1bbc9b', '#cc99cc', '#44cef6', '#ec6d71', '#7058a3'],
 			'navigationTooltips': ['基本信息', '项目经历', '专业技术', '教育背景','前端经历'],
 			'afterLoad': function(anchorLink, index){
                 fun_ani(index,true);
 			},
+            //
 			'onLeave': function(index, direction){
                 fun_ani(index,false);
 			}
