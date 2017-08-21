@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab切换动画</title>
+    <script SRC="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+</head>
+<style>
+    *{margin: 0;padding: 0;}
+    .container{
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+    nav{
+        height: 30px;
+        border: 1px #d8d8d8 solid;
+        font-size: 0;
+        position: relative;
+    }
+    .tap{
+        width: 25%;
+        display: inline-block;
+        line-height: 30px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .active{
+        position: absolute;
+        background-color: #11ac63;
+        width: 25%;
+        height: 30px;
+        transition: 0.5s;
+        left:0;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .content{
+        left:0;
+        position: relative;
+        width: 1000000000000000px;
+        transition: 0.5s;
+    }
+    .item{
+        float:left;
+        width: 600px;
+        text-align: center;
+        height: 500px;
+    }
+</style>
+<body>
+<div class="container">
+    <nav class="nav">
+        <div class="active">tap1</div>
+        <div class="tap" data-type="0">tap1</div>
+        <div class="tap" data-type="1">tap2</div>
+        <div class="tap" data-type="2">tap3</div>
+        <div class="tap" data-type="3">tap4</div>
+    </nav>
+    <div class="content">
+        <div class="item">
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+        </div>
+        <div class="item">
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+            content2content2content2content2content2<br>
+        </div>
+        <div class="item">
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+        </div>
+        <div class="item">
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+            content1content1content1content1content1<br>
+        </div>
+</d666
+</b666>
+<script>
+    Number.prototype.toPercent = function(){
+        return (Math.round(this * 10000)/100).toFixed(2) + '%';
+    }
+    $(function () {
+       $(".tap").click(function () {
+           var type=parseInt($(this).attr("data-type"));
+           var content=$(this).html();
+           var newLeft=0.25*type;
+           var contentLeft=type*600*-1+"px";
+           $(".content").css("left",contentLeft);
+           $(".active").css("left",newLeft.toPercent());
+           setTimeout(function () {
+               $(".active").html(content);
+           },250);
+
+       }) ;
+    });
+</script>
+</html>
