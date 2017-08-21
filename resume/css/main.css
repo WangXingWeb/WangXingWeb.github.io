@@ -48,12 +48,12 @@
     flex-direction: row;
 }
 .project-item-title{
-    font-size: 28px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
 .project-item-title:hover{
-    color: #185b6e;
+    color: #574266;
 }
 .item-img{
     width: 80px;
@@ -77,15 +77,15 @@
 }
 .blueweb{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
     color: #fff;
 }
 .blueweb:hover{
-    color: #185b6e;
+    color: #574266;
 }
 .item-tell{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
     color: #fff;
 }
@@ -97,18 +97,18 @@
 .github-more{
      font-style: italic;
      padding-left: 8px;
-     color: #0f6e91;
+     color: #574266;
      text-align: center;
      text-decoration: underline;
  }
 .github-more:hover{
-    color: #65d1f8;
+    color: #3b2e7e;
 }
 #section3,#section4{
     visibility: hidden;
 }
 .tag {
-    background-color: #3e62ad;
+    background-color: #70f3ff;
     color: #FFF;
     font-size: 24px;
     margin-top: 10px;
