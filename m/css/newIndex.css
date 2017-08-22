@@ -27,8 +27,7 @@
 }
 .mui-card{
     box-shadow: none;
-    border-bottom: solid 1px #e3e3e3;
-    border-top: solid 1px #e3e3e3;
+    border: solid 1px #e3e3e3;
 }
 .icon {
     width: 1em; height: 1em;

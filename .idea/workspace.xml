@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/aboutMe.html" afterPath="$PROJECT_DIR$/m/aboutMe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/css/newIndex.css" afterPath="$PROJECT_DIR$/m/css/newIndex.css" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newIndex.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m/css/newIndex.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -118,16 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNAME">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -172,7 +172,6 @@
         <option value="$PROJECT_DIR$/2048/support2048.js" />
         <option value="$PROJECT_DIR$/resume/77/index8.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/m/css/newIndex.css" />
         <option value="$PROJECT_DIR$/m/myExperience.html" />
         <option value="$PROJECT_DIR$/m/readingDetail.html" />
         <option value="$PROJECT_DIR$/m/readingList.html" />
@@ -183,6 +182,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/m/index.html" />
         <option value="$PROJECT_DIR$/m/aboutMe.html" />
+        <option value="$PROJECT_DIR$/m/css/newIndex.css" />
       </list>
     </option>
   </component>
@@ -241,6 +241,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,14 +415,7 @@
       <workItem from="1503151791205" duration="3349000" />
       <workItem from="1503276307983" duration="3440000" />
       <workItem from="1503309530051" duration="909000" />
-      <workItem from="1503362840831" duration="2559000" />
-    </task>
-    <task id="LOCAL-00014" summary="调试">
-      <created>1501683869127</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1501683869127</updated>
+      <workItem from="1503362840831" duration="3221000" />
     </task>
     <task id="LOCAL-00015" summary="调试">
       <created>1501684054320</created>
@@ -742,11 +753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503364404007</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="1.在aboutMe加入在线简历的入口">
+      <created>1503365432097</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1503365432097</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191886000" />
+    <option name="totallyTimeSpent" value="192548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -805,7 +823,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="1.修改2048不显示最佳成绩的bug&#10;2.修改提示信息的bug" />
     <MESSAGE value="调试" />
     <MESSAGE value="发现并不是代码的问题，是手机的问题" />
     <MESSAGE value="手机查不出最大值" />
@@ -830,7 +847,8 @@
     <MESSAGE value="1.favicon.ico" />
     <MESSAGE value="1.tabAnimation标签闭合修复" />
     <MESSAGE value="1.换清晰度高的favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.换清晰度高的favicon" />
+    <MESSAGE value="1.在aboutMe加入在线简历的入口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.在aboutMe加入在线简历的入口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -955,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m/css/newIndex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/myExperience.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
@@ -1082,6 +1093,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/css/newIndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
