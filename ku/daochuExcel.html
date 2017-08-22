@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网页表格导出excel格式-jq22.com</title>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<style>
+button {
+	border:1px solid #ccc;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	position:relative;
+	top:100px;
+	bgcolor:#dsfafs;
+}
+</style>
+</head>
+<body>
+<table id="excel" >
+    <tbody><tr>
+        <th width="120" bgcolor="#EBEBEB">账目分类</th>
+        <th width="50" bgcolor="#EBEBEB">金额</th>
+        <th width="90" bgcolor="#EBEBEB">支出/收入</th>
+        <th width="150" bgcolor="#EBEBEB">时间</th>
+        <th width="60" bgcolor="#EBEBEB">备注</th>
+    </tr>
+    <tr>
+        <td align="center" bgcolor="blue">cabildo</td>
+        <td align="center" bgcolor="blue">56</td>
+        <td align="center" bgcolor="blue">
+            <font color="blue">收入</font>
+        </td>
+        <td align="center" bgcolor="blue">2017-08-05 11:41</td>
+        <td align="center" bgcolor="blue">666666</td>
+    </tr>
+    <tr>
+        <td align="center" bgcolor="#dsfafs">rivadavia</td>
+        <td align="center" bgcolor="#dsfafs">61</td>
+        <td align="center" bgcolor="#dsfafs">
+            <font color="blue">收入</font>
+        </td>
+        <td align="center" bgcolor="#dsfafs">2017-08-05 11:43</td>
+        <td align="center" bgcolor="#dsfafs">666666</td>
+    </tr>
+</tbody></table>
+<br>注意：导出后的文件用电脑的记事本方式打开，另存为Unicode编码，然后显示就正常了。<br><br>
+
+<input style="bgcolor:" #sdkfjk="" "="" type="button" onclick="daochu('excel')" value="导出搜索结果为xls excel文件">
+
+<script>
+var daochu = (function() {
+    var uri = 'data:application/vnd.ms-excel;base64,',
+        template = template = '<html 字数限制省略属性><meta http-equiv="Content-Type" charset=utf-8"><head><!--[if gte mso 9]> <head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>',
+        base64 = function(s) {
+            return window.btoa(unescape(encodeURIComponent(s)))
+        },
+        format = function(s, c) {
+            return s.replace(/{(\w+)}/g, function(m, p) {
+                return c[p];
+            })
+        }
+    return function(table, name) {
+        if (!table.nodeType) table = document.getElementById(table)
+        var ctx = {
+            worksheet: name || 'Worksheet',
+            table: table.innerHTML
+        }
+        window.location.href = uri + base64(format(template, ctx))
+    }
+})()
+</script>
+
+</body>
+</html>

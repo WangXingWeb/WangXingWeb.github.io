@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />  
+<title></title>
+<script type='text/javascript' src='http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js'></script>   
+</head>
+<style>
+    input[type='checkbox'],input[type='radio'] {
+        width:18px;
+        height:18px;
+        position:relative;
+        background:transparent;
+        border:0;
+        outline:none;
+        appearance:none;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+    }
+    input[type='checkbox']:before,input[type='radio']:before {
+        content:"";
+        position:absolute;
+        width:16px;
+        height:16px;
+        border:1px solid #999;
+        border-radius:100%;
+    }
+    input[type='checkbox']:checked:before,input[type='radio']:checked:before {
+        border:1px solid transparent;
+        background:#5ECD62;
+    }
+    input[type='checkbox']:checked:after {
+        content:"";
+        position:absolute;
+        top:3px;
+        left:6px;
+        border-right:2px solid transparent;
+        border-bottom:2px solid transparent;
+        -webkit-transform:rotate(45deg);
+        transform:rotate(45deg);
+        width:4px;
+        height:8px;
+        border-color:#fff;
+    }
+    input[type='radio']:checked:after {
+        content:"";
+        position:absolute;
+        top:3px;
+        left:3px;
+        border:2px solid #fff;
+        border-radius:100%;
+        width:8px;
+        height:8px;
+        background:#5ECD62;
+    }
+</style>
+<body>
+<input type="checkbox" id="check" name="check"><label for="check">这是一个checkbox</label>
+<input type="radio" id="radios1" name="radios" value="1"><label for="radios1">我们是radio</label>
+<input type="radio" id="radios2" name="radios" value="2"><label for="radios2">我们是radio</label>
+</body>
+<script type="text/javascript">
+
+
+</script>
+</html>  

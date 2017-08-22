@@ -8,7 +8,7 @@
 <style>
     *{margin: 0;padding: 0;}
     .container{
-        width: 600px;
+        width:600px;
         margin: 0 auto;
         margin-top: 50px;
         overflow: hidden;
@@ -21,7 +21,7 @@
         position: relative;
     }
     .tap{
-        width: 25%;
+        width: 20%;
         display: inline-block;
         line-height: 30px;
         text-align: center;
@@ -30,8 +30,8 @@
     .active{
         position: absolute;
         background-color: #11ac63;
-        width: 25%;
         height: 30px;
+        width: 0;
         transition: 0.5s;
         left:0;
         color: #fff;
@@ -42,7 +42,7 @@
     .content{
         left:0;
         position: relative;
-        width: 2400px;
+        width: 3000px;
         transition: 0.5s;
     }
     .item{
@@ -60,6 +60,7 @@
         <div class="tap" data-type="1">tap2</div>
         <div class="tap" data-type="2">tap3</div>
         <div class="tap" data-type="3">tap4</div>
+        <div class="tap" data-type="4">tap5</div>
     </nav>
     <div class="content">
         <div class="item">
@@ -102,25 +103,34 @@
             content4content4content4content4content4<br>
             content4content4content4content4content4<br>
         </div>
+        <div class="item">
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+            content5content5content5content5content5<br>
+        </div>
     </div>
 </div>
 <script>
-    Number.prototype.toPercent = function(){
-        return (Math.round(this * 10000)/100).toFixed(2) + '%';
-    }
     $(function () {
-       $(".tap").click(function () {
-           var type=parseInt($(this).attr("data-type"));
-           var content=$(this).html();
-           var newLeft=0.25*type;
-           var contentLeft=type*600*-1+"px";
-           $(".content").css("left",contentLeft);
-           $(".active").css("left",newLeft.toPercent());
-           setTimeout(function () {
-               $(".active").html(content);
-           },250);
-
-       }) ;
+        var k=$(".tap").length;
+        $(".active").css("width",1/k*100+"%");
+        $(".tap").click(function () {
+            var tWidth=parseInt($(".container").css("width"));
+            var type=parseInt($(this).attr("data-type"));
+            var title=$(this).html();
+            var newLeft=(1/k)*type;
+            var contentLeft=type*tWidth*-1+"px";
+            $(".content").css("left",contentLeft);
+            $(".active").css("left",newLeft*100+"%");
+            setTimeout(function () {
+                $(".active").html(title);
+            },250);
+        }) ;
     });
 </script>
 </html>
