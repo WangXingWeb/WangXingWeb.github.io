@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/daochuExcel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/rewriteCheckboxRadio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/tree.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ku/test.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/lessTes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/localDB.js" afterPath="$PROJECT_DIR$/2048/localDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048/showanimation2048.js" afterPath="$PROJECT_DIR$/2048/showanimation2048.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ku/tabAnimation.html" afterPath="$PROJECT_DIR$/ku/tabAnimation.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +64,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabAnimation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabAnimation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ku/tabAnimation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
+            <state relative-caret-position="2574">
               <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lessTes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ku/lessTes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ku/main.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ku/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -85,6 +110,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -137,6 +163,9 @@
         <option value="$PROJECT_DIR$/2048/localDB.js" />
         <option value="$PROJECT_DIR$/2048/showanimation2048.js" />
         <option value="$PROJECT_DIR$/ku/tabAnimation.html" />
+        <option value="$PROJECT_DIR$/ku/main.css" />
+        <option value="$PROJECT_DIR$/ku/lessTes.html" />
+        <option value="$PROJECT_DIR$/ku/main.less" />
       </list>
     </option>
   </component>
@@ -211,6 +240,7 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="favicon.ico&#9;FILE&#9;file://E:/project/github/WangXingWeb.github.io/img/favicon.ico" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,14 +381,7 @@
       <workItem from="1503151791205" duration="3349000" />
       <workItem from="1503276307983" duration="3440000" />
       <workItem from="1503309530051" duration="909000" />
-      <workItem from="1503362840831" duration="9957000" />
-    </task>
-    <task id="LOCAL-00016" summary="调试">
-      <created>1501685121121</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1501685121121</updated>
+      <workItem from="1503362840831" duration="22565000" />
     </task>
     <task id="LOCAL-00017" summary="调试">
       <created>1501685586859</created>
@@ -696,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503366327926</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="1.修改mui-card样式">
+      <created>1503380813232</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1503380813232</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199284000" />
+    <option name="totallyTimeSpent" value="211892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -793,25 +823,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/js/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://D:/Users/Desktop/mui.min.css" />
     <entry file="file://$PROJECT_DIR$/2048/support2048.js___jb_old___" />
     <entry file="file://$PROJECT_DIR$/2048/support2048.js___jb_tmp___" />
@@ -1058,8 +1069,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ku/tabAnimation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
+        <state relative-caret-position="2574">
           <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ku/lessTes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ku/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ku/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
       </provider>

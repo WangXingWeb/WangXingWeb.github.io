@@ -1,0 +1,57 @@
+//普通变量
+@bcolor:#dd5044;
+@fontS:15px;
+@lineH:50px;
+@fontColor:#000;
+//
+
+.btn{
+  @fontColor:#fff;
+  background-color: @bcolor;
+  font-size: @fontS;
+  width: 300px;
+  height: @lineH;
+  line-height: @lineH;
+  color: @fontColor;
+  .dd{
+    color:@fontColor !important;
+  }
+}
+@lBorder:border;
+
+.@{selecter}{
+  @{lBorder}:none;
+  &:extend(.btn);
+  color:@fontColor;
+  &:hover{
+    .btn > .dd;
+  }
+}
+/*.@{selecter}:extend(.btn){
+    @{lBorder}:none;
+  &:hover{
+    color:@@name;
+  }
+}*/
+@selecter:btn1;
+@hColor:#000;
+@name:hColor;
+.average(@x,@y){
+  @result:(@x+@y)/2;
+}
+.transition(@property:all;@duration:1s;@function:linear;@delay:0s;){
+  -webkit-transition: @property @duration @function @delay;
+  -moz-transition: @property @duration @function @delay;
+  -ms-transition: @property @duration @function @delay;
+  -o-transition: @property @duration @function @delay;
+  transition: @property @duration @function @delay;
+}
+.ant{
+  .btn;
+  .transition(@property:height;@duration:0.3s;@delay: 0s);
+  &:hover{
+    .average(300px,500px);
+    width:@result;
+    height:80px;
+  }
+}
