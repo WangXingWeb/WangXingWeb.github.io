@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Title</title>
+</head>
+<style>
+    *{margin: 0;padding: 0;}
+    html,body{height:100%}
+    .container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-image: url(wugui.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .content {
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -200px;
+        margin-left: -400px;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        overflow: hidden;
+        z-index: 2;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .content::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+        -o-filter: blur(10px);
+        filter: blur(10px);
+        z-index: -3;
+        margin: -30px;
+        background-image: url(wugui.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .content h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        text-indent: 2em;
+        line-height: 1.7;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>小海龟慢慢爬</h1>
+        <p>T龟（学名：Chelonia mydas）隶属龟鳖目、海龟科、海龟属。广布于大西洋、太平洋和印度洋。中国海龟北起山东、南至北部湾近海均有分布。长可达1米多，寿命最大为150岁左右。头顶有一对前额鳞。四肢如桨，前肢长于后肢，内侧各有一爪。头、颈和四肢不能缩入甲内。主要以海藻为食。生活在大西洋、太平洋和印度洋中，到陆地上产卵，孵出幼体。为国家二级保护动物。海龟适应在水中生活，四肢变成鳍状，利于游泳。一般仅在繁殖季节离水上岸。雌龟将卵产在掘于沙滩的洞穴中。</p>
+    </div>
+</div>
+</body>
+</html>
