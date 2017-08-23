@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="navbar  navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.bootcss.com">
+                <img src="img/logo.png" alt="" class="logoImg">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="http://v4.bootcss.com/" target="_blank">信息</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">项目<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="2048/2048.html">2048小游戏</a></li>
+                        <li><a href="joke/joke.html">开心时刻</a></li>
+                        <li><a href="webAPP/app_mobile.html">小米阅读器模块</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="@Media/src/index.html">理财宝首页</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="xianlvyou/xian.html">西安旅游景点介绍</a></li>
+                        <li><a href="canvas-clock/clock.html">canvas绘制钟表</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" target="_blank">技术</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">兴趣爱好<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="2048/2048.html">读书</a></li>
+                        <li><a href="joke/joke.html">篮球</a></li>
+                        <li><a href="webAPP/app_mobile.html">电影</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="@Media/src/index.html">旅游</a></li>
+                    </ul>
+                </li>
+                <li><a href="/p/lesscss/" target="_blank">联系我</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-sm">
+                <li><a data-toggle="modal" data-target="#myModal" id="aboutMe">关于</a></li>
+                <li><a href="index.html">切换旧版</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">关于我们</h4>
+            </div>
+            <div class="modal-body">
+                您好，这是我的个人网站，这是一个还在开发中的网站，功能和体验还不完整，我会尽快完善！希望您谅解!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+    $(function () {
+
+    });
+</script>
+</html>
