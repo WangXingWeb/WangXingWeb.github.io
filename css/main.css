@@ -1,0 +1,10 @@
+html {
+  font-size: 62.5%;
+  color: #222;
+}
+.logoImg {
+  height: 4rem;
+}
+.navbar-brand {
+  padding: 0 15px;
+}
