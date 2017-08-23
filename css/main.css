@@ -8,3 +8,23 @@ html {
 .navbar-brand {
   padding: 0 15px;
 }
+.carousel {
+  height: 400px;
+  background-color: #000;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.carousel .item {
+  height: 400px;
+  background-color: #000;
+}
+.carousel img {
+  width: 100%;
+  min-height: 400px;
+}
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.8;
+}
