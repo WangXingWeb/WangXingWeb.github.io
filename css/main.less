@@ -31,7 +31,7 @@ fa{
   border: none;
 }
 .navbar-nav {
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .fa{
   line-height: @navHeight;
@@ -47,7 +47,6 @@ fa{
   box-shadow: none;
   line-height: @navHeight;
 }
-
 .navbar-fixed-top{
   position: fixed;
   z-index: 1030;
@@ -105,12 +104,18 @@ fa{
 .fa-2x{
   font-size: 1.5em;
 }
-.@{navbarSelf} .nav>li {
-  position: relative;
-  display: block;
-  border-bottom: 1px solid @themDarkBColor;
+
+.@{navbarSelf} .nav>li:last-child{
+  border-bottom: none;
+}
+.@{navbarSelf} .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  max-height: none;
 }
 @media (max-width: 767px){
+  .@{navbarSelf} .nav>li {
+    margin-left: 2rem;
+    border-bottom: 1px solid @themDarkBColor;
+  }
   .@{navbarSelf} .navbar-nav {
     margin-left: -1.5rem;
   }
@@ -119,7 +124,7 @@ fa{
   }
   .@{navbarSelf} .navbar-nav .open .dropdown-menu .divider {
     background-color: @themDarkBColor;
-    margin: 0px 25px;
+    margin-left:25px;
   }
   //轮播图
   @carouselHeight:15rem;

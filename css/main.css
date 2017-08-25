@@ -22,7 +22,7 @@ fa {
   border: none;
 }
 .navbar-nav {
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .fa {
   line-height: 4.5rem;
@@ -98,12 +98,18 @@ fa {
 .fa-2x {
   font-size: 1.5em;
 }
-.navbar-self .nav > li {
-  position: relative;
-  display: block;
-  border-bottom: 1px solid #198461;
+.navbar-self .nav > li:last-child {
+  border-bottom: none;
+}
+.navbar-self .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: none;
 }
 @media (max-width: 767px) {
+  .navbar-self .nav > li {
+    margin-left: 2rem;
+    border-bottom: 1px solid #198461;
+  }
   .navbar-self .navbar-nav {
     margin-left: -1.5rem;
   }
@@ -112,7 +118,7 @@ fa {
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
-    margin: 0px 25px;
+    margin-left: 25px;
   }
   .carousel {
     height: 15rem;
