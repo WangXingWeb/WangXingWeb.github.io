@@ -48,8 +48,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-896">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="640">
+              <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -455,14 +455,7 @@
       <workItem from="1503560401539" duration="3081000" />
       <workItem from="1503628575090" duration="2166000" />
       <workItem from="1503632483473" duration="16553000" />
-      <workItem from="1503666328117" duration="7714000" />
-    </task>
-    <task id="LOCAL-00025" summary="手机查不出最大值">
-      <created>1501690004555</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1501690004555</updated>
+      <workItem from="1503666328117" duration="8340000" />
     </task>
     <task id="LOCAL-00026" summary="在bestScore为当前score时，newgame时best重新查询一次">
       <created>1501730994885</created>
@@ -800,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503674216590</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="bootstrap+less重构主页">
+      <created>1503674829179</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1503674829179</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260639000" />
+    <option name="totallyTimeSpent" value="261265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -1215,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="640">
+          <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
           <folding />
         </state>
       </provider>

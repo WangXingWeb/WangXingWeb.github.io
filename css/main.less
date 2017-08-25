@@ -109,8 +109,16 @@ body{padding-top: @navHeight;}
 }
 @media (max-width: 767px){
   .@{navbarSelf} .nav>li {
-    margin-left: 2rem;
     border-bottom: 1px solid @themDarkBColor;
+  }
+  .fa{
+    line-height: 3rem;
+  }
+  .@{navbarSelf} .navbar-nav > .open > a, .@{navbarSelf} .navbar-nav > .open > a:hover, .@{navbarSelf} .navbar-nav > .open > a:focus {
+    line-height: 3rem;
+  }
+  .nav > li > a {
+    line-height: 3rem;
   }
   .@{navbarSelf} .navbar-nav {
     margin-left: -1.5rem;
@@ -120,7 +128,8 @@ body{padding-top: @navHeight;}
   }
   .@{navbarSelf} .navbar-nav .open .dropdown-menu .divider {
     background-color: @themDarkBColor;
-    margin-left:25px;
+    margin:0 0 0 25px ;
+
   }
   //轮播图
   @carouselHeight:15rem;

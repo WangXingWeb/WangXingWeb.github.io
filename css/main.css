@@ -104,8 +104,18 @@ body {
 }
 @media (max-width: 767px) {
   .navbar-self .nav > li {
-    margin-left: 2rem;
     border-bottom: 1px solid #198461;
+  }
+  .fa {
+    line-height: 3rem;
+  }
+  .navbar-self .navbar-nav > .open > a,
+  .navbar-self .navbar-nav > .open > a:hover,
+  .navbar-self .navbar-nav > .open > a:focus {
+    line-height: 3rem;
+  }
+  .nav > li > a {
+    line-height: 3rem;
   }
   .navbar-self .navbar-nav {
     margin-left: -1.5rem;
@@ -115,7 +125,7 @@ body {
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
-    margin-left: 25px;
+    margin: 0 0 0 25px ;
   }
   .carousel {
     height: 15rem;
