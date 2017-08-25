@@ -3,12 +3,16 @@ html{
   color: #222;
 }
 //导航栏高度
-@navHeight:4rem;
+@navHeight:4.2rem;
 .logoImg{
   height:@navHeight;
 }
 //body让出导航栏高度
 body{padding-top: @navHeight;}
+fa{
+  line-height: @navHeight;
+}
+
 
 //去掉logo图的padding
 .navbar-brand{padding: 0}
@@ -23,11 +27,22 @@ body{padding-top: @navHeight;}
   color:@navColor;
   border: none;
 }
+.navbar-nav {
+  margin-left: 5rem;
+}
+.fa{
+  line-height: @navHeight;
+}
+.nav>li>a {
+  padding: 0px 15px;
+  .fa;
+}
 .@{navbarSelf} .navbar-nav>.open>a, .@{navbarSelf} .navbar-nav>.open>a:hover, .@{navbarSelf} .navbar-nav>.open>a:focus {
   color: @navColor;
   background-color:@themDarkBColor;
   background-image: none;
   box-shadow: none;
+  line-height: @navHeight;
 }
 
 .navbar-fixed-top{
@@ -80,12 +95,28 @@ body{padding-top: @navHeight;}
   font-size: 20px;
   line-height: 1.8;
 }
+.fa{
+  vertical-align: bottom;
+  margin-right:0.2rem;
+}
+.fa-2x{
+  font-size: 1.5em;
+}
+.@{navbarSelf} .nav>li {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid @themDarkBColor;
+}
 @media (max-width: 767px){
+  .@{navbarSelf} .navbar-nav {
+    margin-left: -1.5rem;
+  }
   .@{navbarSelf} .navbar-nav .open .dropdown-menu>li>a {
     color: @navColor;
   }
   .@{navbarSelf} .navbar-nav .open .dropdown-menu .divider {
     background-color: @themDarkBColor;
+    margin: 0px 25px;
   }
   //轮播图
   @carouselHeight:15rem;
@@ -100,4 +131,8 @@ body{padding-top: @navHeight;}
     font-size: 20px;
     line-height: 1.8;
   }
+  .@{navbarSelf} .navbar-nav .open .dropdown-menu>li>a, .@{navbarSelf} .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 50px;
+  }
 }
+

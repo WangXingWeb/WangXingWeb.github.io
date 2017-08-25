@@ -3,10 +3,13 @@ html {
   color: #222;
 }
 .logoImg {
-  height: 4rem;
+  height: 4.2rem;
 }
 body {
-  padding-top: 4rem;
+  padding-top: 4.2rem;
+}
+fa {
+  line-height: 4.2rem;
 }
 .navbar-brand {
   padding: 0;
@@ -17,6 +20,18 @@ body {
   color: #ffffff;
   border: none;
 }
+.navbar-nav {
+  margin-left: 5rem;
+}
+.fa {
+  line-height: 4.2rem;
+}
+.nav > li > a {
+  padding: 0px 15px;
+  line-height: 4.2rem;
+  vertical-align: bottom;
+  margin-right: 0.2rem;
+}
 .navbar-self .navbar-nav > .open > a,
 .navbar-self .navbar-nav > .open > a:hover,
 .navbar-self .navbar-nav > .open > a:focus {
@@ -24,6 +39,7 @@ body {
   background-color: #198461;
   background-image: none;
   box-shadow: none;
+  line-height: 4.2rem;
 }
 .navbar-fixed-top {
   position: fixed;
@@ -74,12 +90,28 @@ body {
   font-size: 20px;
   line-height: 1.8;
 }
+.fa {
+  vertical-align: bottom;
+  margin-right: 0.2rem;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+.navbar-self .nav > li {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #198461;
+}
 @media (max-width: 767px) {
+  .navbar-self .navbar-nav {
+    margin-left: -1.5rem;
+  }
   .navbar-self .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
+    margin: 0px 25px;
   }
   .carousel {
     height: 15rem;
@@ -91,5 +123,9 @@ body {
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 1.8;
+  }
+  .navbar-self .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-self .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 50px;
   }
 }
