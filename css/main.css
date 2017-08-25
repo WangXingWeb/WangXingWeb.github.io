@@ -19,6 +19,7 @@ body {
   border: none;
 }
 .navbar-nav {
+  margin: 0 -15px;
   margin-left: 2rem;
 }
 .fa {
@@ -107,15 +108,15 @@ body {
     border-bottom: 1px solid #198461;
   }
   .fa {
-    line-height: 3rem;
+    line-height: 3.5rem;
   }
   .navbar-self .navbar-nav > .open > a,
   .navbar-self .navbar-nav > .open > a:hover,
   .navbar-self .navbar-nav > .open > a:focus {
-    line-height: 3rem;
+    line-height: 3.5rem;
   }
   .nav > li > a {
-    line-height: 3rem;
+    line-height: 3.5rem;
   }
   .navbar-self .navbar-nav {
     margin-left: -1.5rem;
