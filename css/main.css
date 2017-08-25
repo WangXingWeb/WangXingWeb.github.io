@@ -3,16 +3,17 @@ html {
   color: #222;
 }
 .logoImg {
-  height: 4.2rem;
+  height: 4.5rem;
 }
 body {
-  padding-top: 4.2rem;
+  padding-top: 4.5rem;
 }
 fa {
-  line-height: 4.2rem;
+  line-height: 4.5rem;
 }
 .navbar-brand {
   padding: 0;
+  height: auto;
 }
 .navbar-self {
   background-image: none;
@@ -24,11 +25,11 @@ fa {
   margin-left: 5rem;
 }
 .fa {
-  line-height: 4.2rem;
+  line-height: 4.5rem;
 }
 .nav > li > a {
   padding: 0px 15px;
-  line-height: 4.2rem;
+  line-height: 4.5rem;
   vertical-align: bottom;
   margin-right: 0.2rem;
 }
@@ -39,7 +40,7 @@ fa {
   background-color: #198461;
   background-image: none;
   box-shadow: none;
-  line-height: 4.2rem;
+  line-height: 4.5rem;
 }
 .navbar-fixed-top {
   position: fixed;
