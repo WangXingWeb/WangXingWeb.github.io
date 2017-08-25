@@ -5,26 +5,91 @@ html {
 .logoImg {
   height: 4rem;
 }
+body {
+  padding-top: 4rem;
+}
 .navbar-brand {
-  padding: 0 15px;
+  padding: 0;
+}
+.navbar-self {
+  background-image: none;
+  background-color: #1d9a71;
+  color: #ffffff;
+  border: none;
+}
+.navbar-self .navbar-nav > .open > a,
+.navbar-self .navbar-nav > .open > a:hover,
+.navbar-self .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #198461;
+  background-image: none;
+  box-shadow: none;
+}
+.navbar-fixed-top {
+  position: fixed;
+  z-index: 1030;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 1030;
+  text-align: center;
+}
+.navbar-self .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-nav > li > a:hover {
+  background: none;
+}
+.navbar-self .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-self .navbar-toggle:focus,
+.navbar-self .navbar-toggle:hover {
+  background: none;
+  background-color: #198461;
+}
+.navbar-self .navbar-collapse,
+.navbar-self .navbar-form {
+  border-color: #198461;
 }
 .carousel {
-  height: 400px;
-  background-color: #000;
-}
-.navbar {
-  margin-bottom: 0;
+  height: 30rem;
 }
 .carousel .item {
-  height: 400px;
-  background-color: #000;
+  height: 30rem;
+  background-image: url("../newImages/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
 }
 .carousel img {
   width: 100%;
-  min-height: 400px;
+  min-height: 30rem;
+  object-fit: cover;
 }
 .carousel-caption p {
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 1.8;
+}
+@media (max-width: 767px) {
+  .navbar-self .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-self .navbar-nav .open .dropdown-menu .divider {
+    background-color: #198461;
+  }
+  .carousel {
+    height: 15rem;
+  }
+  .carousel .item {
+    height: 15rem;
+  }
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+  }
 }
