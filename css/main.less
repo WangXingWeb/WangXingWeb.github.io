@@ -48,12 +48,15 @@ body{padding-top: @navHeight;}
   position: fixed;
   z-index: 1030;
 }
+@footerHeight:4rem;
 .footer{
-  position: absolute;
   width: 100%;
   bottom:0;
+  background-color:@themDarkBColor;
   z-index: 1030;
   text-align: center;
+  min-height: @footerHeight;
+  line-height: @footerHeight;
 }
 .@{navbarSelf} .navbar-nav>li>a {
   color: @navColor;
@@ -75,6 +78,7 @@ body{padding-top: @navHeight;}
 //轮播图
 @carouselHeight:30rem;
 .carousel{
+  background-color: #000;
   height: @carouselHeight;
 }
 .carousel .item{
@@ -108,6 +112,64 @@ body{padding-top: @navHeight;}
 .@{navbarSelf} .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
   max-height: none;
 }
+
+.myContainer .item{
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 9px #888888;
+  line-height: 1.8;
+}
+.title{
+  text-align: center;
+}
+
+/*我的技术*/
+.my-skills {
+  margin-bottom: 50px;
+}
+@skillItemWidth:100px;
+.my-skills .skillItem{
+  padding: 0;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  float: left;
+  border-radius:8px;
+  box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+  width: @skillItemWidth;
+  height: @skillItemWidth;
+  left:50%;
+  margin-left: -(@skillItemWidth/2);
+}
+.my-skills .skillItem img{
+  width: @skillItemWidth;
+  height: @skillItemWidth;
+}
+.my-skills .skillItem:hover{
+  box-shadow:0px 0px 8px rgba(0,174,239, 1)
+}
+.my-skills .boxtips{
+  position:absolute;
+  left:0;
+  width: @skillItemWidth;
+  height: @skillItemWidth;
+  bottom:-@skillItemWidth;
+  background:rgba(0,0,0,0.8);
+  color:#e8432e;
+  text-align:center;
+  font-size:20px;
+  line-height:@skillItemWidth;
+  transition:all 0.5s;
+  -webkit-transition:all 0.5s;
+}
+.my-skills .skillItem:hover .boxtips{
+  bottom: 0px;
+}
+
+
+
+
 @media (max-width: 767px){
   .@{navbarSelf} .nav>li {
     border-bottom: 1px solid @themDarkBColor;
@@ -134,7 +196,7 @@ body{padding-top: @navHeight;}
 
   }
   //轮播图
-  @carouselHeight:15rem;
+  @carouselHeight:10rem;
   .carousel{
     height: @carouselHeight;
   }
@@ -149,5 +211,49 @@ body{padding-top: @navHeight;}
   .@{navbarSelf} .navbar-nav .open .dropdown-menu>li>a, .@{navbarSelf} .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 50px;
   }
+/*  !*我的技术*!
+  .my-skills {
+    margin-bottom: 50px;
+  }
+  @skillItemWidth:50px;
+  .my-skills .skillItem{
+    padding: 0;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    float: left;
+    border-radius:8px;
+    box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+    width: @skillItemWidth;
+    height: @skillItemWidth;
+    left:50%;
+    margin-left: -(@skillItemWidth/2);
+  }
+  .my-skills .skillItem img{
+    width: @skillItemWidth;
+    height: @skillItemWidth;
+  }
+  .my-skills .skillItem:hover{
+    box-shadow:0px 0px 8px rgba(0,174,239, 1)
+  }
+  .my-skills .boxtips{
+    position:absolute;
+    left:0;
+    width: @skillItemWidth;
+    height: @skillItemWidth;
+    bottom:-@skillItemWidth;
+    background:rgba(0,0,0,0.8);
+    color:#e8432e;
+    text-align:center;
+    font-size:20px;
+    line-height:@skillItemWidth;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+  }
+  .my-skills .skillItem:hover .boxtips{
+    bottom: 0px;
+  }*/
+
+
 }
 
