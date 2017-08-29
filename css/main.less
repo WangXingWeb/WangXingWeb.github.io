@@ -204,9 +204,88 @@ body{padding-top: @navHeight;}
   background-color:#e8432e !important;
   background-image: none;
 }
+@projectWidth:120px;
+.project{
+  left:50%;
+  margin-left: -@projectWidth/2;
+  width: @projectWidth;
+  height: 60px+@projectWidth;
+  box-shadow: 1px 1px 10px #666;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+}
+.project-pic{
+  width: @projectWidth;
+  height:@projectWidth;
+}
+.project-name{
+  text-align: center;
+  color:#666;
+}
+.project-describe{
+  text-align: center;
+  color:#666;
+  font-size: 10px;
+}
+@media (min-width: 370px){
+  @projectWidth:150px;
+  .project{
+    margin-left: -@projectWidth/2;
+    width: @projectWidth;
+    height: 60px+@projectWidth;
+  }
+  .project-pic{
+    width: @projectWidth;
+    height:@projectWidth;
+  }
+}
+.hobby{
+  width:100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.nav-self{
+  height: 30px;
+  border: 1px #d8d8d8 solid;
+  font-size: 0;
+  position: relative;
+}
+.tap{
+  width: 25%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.tap-active{
+  position: absolute;
+  background-color: #11ac63;
+  height: 30px;
+  width: 0;
+  transition: 0.5s;
+  left:0;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+.tabContent{
+  left:0;
+  position: relative;
+  width: 400%;
+  transition: 0.5s;
+}
+.tabItem{
+  float:left;
+  width: 25%;
+  text-align: center;
+  height: 500px;
+}
 
 
-
+//媒体查询
 @media (max-width: 767px){
   .myInfo{
     height: auto !important;
