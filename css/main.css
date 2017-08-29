@@ -238,4 +238,7 @@ body {
   .navbar-self .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 50px;
   }
+  .myContainer .item {
+    margin-bottom: 20px;
+  }
 }
