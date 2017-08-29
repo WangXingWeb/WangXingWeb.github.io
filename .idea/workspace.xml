@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="174" column="31" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -63,18 +63,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="154" column="75" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="154" selection-end-column="75" />
+            <state relative-caret-position="576">
+              <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="211" column="28" lean-forward="false" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+            <state relative-caret-position="2464">
+              <caret line="238" column="20" lean-forward="false" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/newIndex.html" />
         <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/newIndex.html" />
       </list>
     </option>
   </component>
@@ -459,14 +459,7 @@
       <workItem from="1503840692531" duration="994000" />
       <workItem from="1503888069701" duration="12186000" />
       <workItem from="1503925210505" duration="8439000" />
-      <workItem from="1503970626683" duration="3188000" />
-    </task>
-    <task id="LOCAL-00030" summary="1.(2048)封装localDB.js关于本地数据库的js&#10;">
-      <created>1501770292531</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1501770292531</updated>
+      <workItem from="1503970626683" duration="3398000" />
     </task>
     <task id="LOCAL-00031" summary="1.(2048)自定义弹框样式&#10;">
       <created>1501770812449</created>
@@ -804,11 +797,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503914925057</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="bootstrap+less重构主页">
+      <created>1503974136814</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1503974136814</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287228000" />
+    <option name="totallyTimeSpent" value="287438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1201,18 +1201,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="238" column="20" lean-forward="false" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="154" column="75" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="154" selection-end-column="75" />
+        <state relative-caret-position="576">
+          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="174" column="31" lean-forward="false" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1229,14 +1237,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="211" column="28" lean-forward="false" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
