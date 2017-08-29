@@ -122,6 +122,12 @@ body{padding-top: @navHeight;}
   text-align: center;
   height: 223px;
   overflow: hidden;
+  position: relative;
+}
+.myContainer .item img{
+  height: 180px;
+  width: 180px;
+  margin-top: 11px;
 }
 .title{
   text-align: center;
@@ -202,6 +208,9 @@ body{padding-top: @navHeight;}
 
 
 @media (max-width: 767px){
+  .myInfo{
+    height: auto !important;
+  }
   .@{navbarSelf} .nav>li {
     border-bottom: 1px solid @themDarkBColor;
   }

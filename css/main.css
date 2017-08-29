@@ -115,6 +115,12 @@ body {
   text-align: center;
   height: 223px;
   overflow: hidden;
+  position: relative;
+}
+.myContainer .item img {
+  height: 180px;
+  width: 180px;
+  margin-top: 11px;
 }
 .title {
   text-align: center;
@@ -190,6 +196,9 @@ body {
   background-image: none;
 }
 @media (max-width: 767px) {
+  .myInfo {
+    height: auto !important;
+  }
   .navbar-self .nav > li {
     border-bottom: 1px solid #198461;
   }
