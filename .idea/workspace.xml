@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="390" column="10" lean-forward="true" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
+            <state relative-caret-position="434">
+              <caret line="393" column="24" lean-forward="true" selection-start-line="393" selection-start-column="24" selection-end-line="393" selection-end-column="35" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -60,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="324" column="29" lean-forward="false" selection-start-line="324" selection-start-column="29" selection-end-line="324" selection-end-column="29" />
+              <caret line="324" column="5" lean-forward="false" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
               <folding>
                 <element signature="e#275#1322#0" expanded="false" />
                 <element signature="e#1327#1406#0" expanded="false" />
@@ -71,10 +70,20 @@
                 <element signature="e#3009#3135#0" expanded="false" />
                 <element signature="e#3154#3466#0" expanded="false" />
                 <element signature="e#3925#5064#0" expanded="false" />
-                <element signature="e#6043#6931#0" expanded="false" />
-                <marker date="1504174576092" expanded="false" signature="2604:2982" ph="{...}" />
-                <marker date="1504174576092" expanded="false" signature="3603:3903" ph="{...}" />
+                <element signature="e#6035#6923#0" expanded="false" />
+                <marker date="1504175036421" expanded="false" signature="2604:2982" ph="{...}" />
+                <marker date="1504175036421" expanded="false" signature="3603:3903" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="324" column="5" lean-forward="false" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,6 +149,7 @@
       <find>navbar-form</find>
       <find>fa</find>
       <find>nav</find>
+      <find>even</find>
     </findStrings>
     <replaceStrings>
       <replace>@navbarSelf</replace>
@@ -184,12 +194,12 @@
         <option value="$PROJECT_DIR$/ku/blur.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/ku/lessTes.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/ku/tabAnimation.html" />
         <option value="$PROJECT_DIR$/newIndex.html" />
         <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -498,14 +508,7 @@
       <workItem from="1504013666778" duration="1362000" />
       <workItem from="1504015405739" duration="7665000" />
       <workItem from="1504053453951" duration="11006000" />
-      <workItem from="1504140655817" duration="15239000" />
-    </task>
-    <task id="LOCAL-00035" summary="1.删除无用的music文件&#10;">
-      <created>1502024914509</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1502024914509</updated>
+      <workItem from="1504140655817" duration="15876000" />
     </task>
     <task id="LOCAL-00036" summary="1.在线简历样式修改&#10;">
       <created>1502546156787</created>
@@ -843,11 +846,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504173965893</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="bootstrap+less重构主页">
+      <created>1504174585784</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1504174585784</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322810000" />
+    <option name="totallyTimeSpent" value="323447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1156,14 +1166,6 @@
     </entry>
     <entry file="file://D:/Users/Downloads/jQueryYdtc1418201708132012/jQueryYdtc/js/windowOpen.js" />
     <entry file="file://D:/Users/Downloads/jQueryYdtc1418201708132012/jQueryYdtc/css/global.css" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ku/lessTes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1250,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="390" column="10" lean-forward="true" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
+        <state relative-caret-position="434">
+          <caret line="393" column="24" lean-forward="true" selection-start-line="393" selection-start-column="24" selection-end-line="393" selection-end-column="35" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1278,10 +1280,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="324" column="5" lean-forward="false" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="324" column="29" lean-forward="false" selection-start-line="324" selection-start-column="29" selection-end-line="324" selection-end-column="29" />
+          <caret line="324" column="5" lean-forward="false" selection-start-line="324" selection-start-column="5" selection-end-line="324" selection-end-column="5" />
           <folding>
             <element signature="e#275#1322#0" expanded="false" />
             <element signature="e#1327#1406#0" expanded="false" />
@@ -1292,9 +1302,9 @@
             <element signature="e#3009#3135#0" expanded="false" />
             <element signature="e#3154#3466#0" expanded="false" />
             <element signature="e#3925#5064#0" expanded="false" />
-            <element signature="e#6043#6931#0" expanded="false" />
-            <marker date="1504174576092" expanded="false" signature="2604:2982" ph="{...}" />
-            <marker date="1504174576092" expanded="false" signature="3603:3903" ph="{...}" />
+            <element signature="e#6035#6923#0" expanded="false" />
+            <marker date="1504175036421" expanded="false" signature="2604:2982" ph="{...}" />
+            <marker date="1504175036421" expanded="false" signature="3603:3903" ph="{...}" />
           </folding>
         </state>
       </provider>

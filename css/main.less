@@ -318,13 +318,15 @@ body{padding-top: @navHeight;}//body让出导航栏高度
   .project-pic{
     width: @projectWidth+(-150);
     height:@projectWidth+(-150);
+
+    &:nth-child(odd){
+      float: left;
+    }
+    &:nth-child(even){
+      float: right;
+    }
   }
-  .project-pic:nth-child(odd){
-    float: left;
-  }
-  .project-pic:nth-child(even){
-    float: right;
-  }
+
 
   .project-name{
     text-align: center;
