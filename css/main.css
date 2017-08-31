@@ -44,6 +44,9 @@ body {
   position: fixed;
   z-index: 1030;
 }
+.container {
+  padding: 0 5px;
+}
 .footer {
   width: 100%;
   bottom: 0;
@@ -197,17 +200,17 @@ body {
 }
 .project {
   left: 50%;
-  margin-left: -60px;
-  width: 120px;
-  height: 180px;
+  margin-left: -70px;
+  width: 140px;
+  height: 200px;
   box-shadow: 1px 1px 10px #666;
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
 }
 .project-pic {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 .project-name {
   text-align: center;
@@ -272,6 +275,9 @@ body {
   text-align: center;
   height: 500px;
 }
+.book-name-image {
+  float: left;
+}
 @media (max-width: 767px) {
   .myInfo {
     height: auto !important;
@@ -301,10 +307,10 @@ body {
     margin: 0 0 0 25px ;
   }
   .carousel {
-    height: 15rem;
+    height: 16rem;
   }
   .carousel .item {
-    height: 15rem;
+    height: 16rem;
   }
   .carousel-caption p {
     margin-bottom: 20px;
