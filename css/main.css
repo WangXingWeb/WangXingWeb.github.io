@@ -2,15 +2,8 @@ html {
   font-size: 62.5%;
   color: #222;
 }
-.logoImg {
-  height: 4.5rem;
-}
 body {
   padding-top: 4.5rem;
-}
-.navbar-brand {
-  padding: 0;
-  height: auto;
 }
 .navbar-self {
   background-image: none;
@@ -18,34 +11,93 @@ body {
   color: #ffffff;
   border: none;
 }
-.navbar-nav {
+.navbar-self .navbar-header .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-self .navbar-header .navbar-toggle:focus,
+.navbar-self .navbar-header .navbar-toggle:hover {
+  background: none;
+  background-color: #198461;
+}
+.navbar-self .navbar-header .navbar-brand {
+  padding: 0;
+  height: auto;
+}
+.navbar-self .navbar-header .navbar-brand .logoImg {
+  height: 4.5rem;
+  margin-right: 30px;
+}
+.navbar-self .navbar-collapse {
+  border-color: #198461;
+  padding-left: 2.2rem;
+  max-height: none;
+}
+.navbar-self .navbar-collapse .navbar-nav {
   margin: 0 -15px;
-  margin-left: 2rem;
 }
-.fa {
-  line-height: 4.5rem;
-}
-.nav > li > a {
-  padding: 0px 15px;
-  line-height: 4.5rem;
-  vertical-align: bottom;
-  margin-right: 0.2rem;
-}
-.navbar-self .navbar-nav > .open > a,
-.navbar-self .navbar-nav > .open > a:hover,
-.navbar-self .navbar-nav > .open > a:focus {
+.navbar-self .navbar-collapse .navbar-nav .myModel {
   color: #ffffff;
   background-color: #198461;
   background-image: none;
   box-shadow: none;
   line-height: 4.5rem;
 }
+.navbar-self .navbar-collapse .navbar-nav li:last-child {
+  border-bottom: none;
+}
+.navbar-self .navbar-collapse .navbar-nav li a {
+  padding: 0px 15px;
+  line-height: 4.5rem;
+  color: #ffffff;
+}
+.navbar-self .navbar-collapse .navbar-nav li a:hover {
+  background: #198461;
+}
+.fa {
+  line-height: 4.5rem;
+  vertical-align: bottom;
+  margin-right: 0.2rem;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+@media (max-width: 767px) {
+  .navbar-self .navbar-nav {
+    margin-left: -1.5rem;
+  }
+  .navbar-self .navbar-nav .open .dropdown-menu .dropdown-header {
+    line-height: 3rem;
+  }
+  .navbar-self .navbar-nav .open .dropdown-menu .divider {
+    background-color: #198461;
+    margin: 0 0 0 15px ;
+  }
+  .navbar-self .navbar-nav .open .dropdown-menu li a {
+    color: #ffffff;
+    line-height: 3rem;
+  }
+  .navbar-self .navbar-nav .open > a,
+  .navbar-self .navbar-nav .open > a:hover,
+  .navbar-self .navbar-nav .open > a:focus {
+    line-height: 3rem !important;
+    background-color: #198461;
+  }
+  .navbar-self .navbar-nav > li {
+    border-bottom: 1px solid #198461;
+  }
+  .navbar-self .navbar-nav > li > a {
+    line-height: 3rem !important;
+  }
+  .fa {
+    line-height: 3rem;
+  }
+  .container {
+    padding: 0 5px;
+  }
+}
 .navbar-fixed-top {
   position: fixed;
   z-index: 1030;
-}
-.container {
-  padding: 0 5px;
 }
 .footer {
   width: 100%;
@@ -55,24 +107,6 @@ body {
   text-align: center;
   min-height: 4rem;
   line-height: 4rem;
-}
-.navbar-self .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-nav > li > a:hover {
-  background: none;
-}
-.navbar-self .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-self .navbar-toggle:focus,
-.navbar-self .navbar-toggle:hover {
-  background: none;
-  background-color: #198461;
-}
-.navbar-self .navbar-collapse,
-.navbar-self .navbar-form {
-  border-color: #198461;
 }
 .carousel {
   background-color: #000;
@@ -85,31 +119,20 @@ body {
   background-size: cover ;
   background-position: center;
 }
-.carousel img {
-  width: 100%;
-  min-height: 30rem;
-  object-fit: cover;
-}
-.carousel-caption p {
+.carousel .item .carousel-caption p {
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 1.8;
 }
-.fa {
-  vertical-align: bottom;
-  margin-right: 0.2rem;
+@media (max-width: 767px) {
+  .carousel {
+    height: 16rem;
+  }
+  .carousel .item {
+    height: 16rem;
+  }
 }
-.fa-2x {
-  font-size: 1.5em;
-}
-.navbar-self .nav > li:last-child {
-  border-bottom: none;
-}
-.navbar-self .navbar-collapse,
-.navbar-fixed-bottom .navbar-collapse {
-  max-height: none;
-}
-.myContainer .item {
+.aboutMe .item {
   margin: 1rem 0;
   padding: 1rem;
   background-color: #fff;
@@ -120,15 +143,30 @@ body {
   overflow: hidden;
   position: relative;
 }
-.myContainer .item img {
+.aboutMe .item img {
   height: 180px;
   width: 180px;
   margin-top: 11px;
+}
+@media (max-width: 767px) {
+  .aboutMe .item {
+    margin-bottom: 20px;
+  }
+  .myInfo {
+    height: auto !important;
+  }
 }
 .title {
   text-align: center;
   color: #666;
   margin: 20px;
+}
+.title .bAline {
+  display: inline-block;
+  content: "";
+  border-bottom: 3px solid #666;
+  width: 40px;
+  vertical-align: middle;
 }
 .title::before {
   display: inline-block;
@@ -163,14 +201,17 @@ body {
   left: 50%;
   margin-left: -45px;
 }
+.my-skills .skillItem:hover {
+  box-shadow: 0px 0px 8px #00aeef;
+}
+.my-skills .skillItem:hover .boxtips {
+  bottom: 0px;
+}
 .my-skills .skillItem img {
   width: 90px;
   height: 90px;
 }
-.my-skills .skillItem:hover {
-  box-shadow: 0px 0px 8px #00aeef;
-}
-.my-skills .boxtips {
+.my-skills .skillItem .boxtips {
   position: absolute;
   left: 0;
   width: 90px;
@@ -184,144 +225,104 @@ body {
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
-.my-skills .skillItem:hover .boxtips {
-  bottom: 0px;
-}
-.boxtipsContent {
+.my-skills .skillItem .boxtips .boxtipsContent {
   margin: 30px auto;
 }
-.progress {
+.my-skills .skillItem .boxtips .boxtipsContent .progress {
   height: 6px;
   margin: 0 10px;
 }
-.progress-bar {
+.my-skills .skillItem .boxtips .boxtipsContent .progress .progress-bar {
   background-color: #e8432e !important;
   background-image: none;
 }
 .project {
   left: 50%;
-  margin-left: -70px;
-  width: 140px;
-  height: 200px;
+  margin-left: -150px;
+  width: 300px;
+  height: 150px;
   box-shadow: 1px 1px 10px #666;
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
 }
-.project-pic {
-  width: 140px;
-  height: 140px;
+.project .project-pic {
+  width: 150px;
+  height: 150px;
 }
-.project-name {
+.project .project-name {
   text-align: center;
   color: #666;
 }
-.project-describe {
+.project .project-describe {
   text-align: center;
   color: #666;
   font-size: 10px;
 }
-@media (min-width: 370px) {
-  .project {
-    margin-left: -75px;
-    width: 150px;
-    height: 210px;
-  }
-  .project-pic {
-    width: 150px;
-    height: 150px;
-  }
+.project:nth-child(odd) > .project-pic {
+  float: left;
 }
+.project:nth-child(even) > .project-pic {
+  width: 30px;
+  float: right;
+}
+/*@media (min-width: 370px){
+  @projectWidth:150px;
+  .project{
+    margin-left: -@projectWidth/2;
+    width: @projectWidth;
+    height: 60px+@projectWidth;
+
+    .project-pic{
+      width: @projectWidth;
+      height:@projectWidth;
+    }
+  }
+}*/
 .hobby {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
-.nav-self {
+.hobby .nav-self {
   height: 30px;
   border: 1px #d8d8d8 solid;
   font-size: 0;
   position: relative;
 }
-.tap {
+.hobby .nav-self .tap {
   width: 25%;
   display: inline-block;
   line-height: 30px;
   text-align: center;
   font-size: 12px;
 }
-.tap-active {
+.hobby .nav-self .tap-active {
   position: absolute;
   background-color: #11ac63;
   height: 30px;
   width: 0;
   transition: 0.5s;
   left: 0;
+  margin-top: -1px;
   color: #fff;
   font-size: 12px;
   text-align: center;
   line-height: 30px;
 }
-.tabContent {
+.hobby .tabContent {
   left: 0;
   position: relative;
   width: 400%;
   transition: 0.5s;
 }
-.tabItem {
+.hobby .tabContent .tabItem {
   float: left;
   width: 25%;
   text-align: center;
   height: 500px;
 }
-.book-name-image {
+.hobby .tabContent .tabItem .book-container .book-name-image {
   float: left;
-}
-@media (max-width: 767px) {
-  .myInfo {
-    height: auto !important;
-  }
-  .navbar-self .nav > li {
-    border-bottom: 1px solid #198461;
-  }
-  .fa {
-    line-height: 3.5rem;
-  }
-  .navbar-self .navbar-nav > .open > a,
-  .navbar-self .navbar-nav > .open > a:hover,
-  .navbar-self .navbar-nav > .open > a:focus {
-    line-height: 3.5rem;
-  }
-  .nav > li > a {
-    line-height: 3.5rem;
-  }
-  .navbar-self .navbar-nav {
-    margin-left: -1.5rem;
-  }
-  .navbar-self .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-self .navbar-nav .open .dropdown-menu .divider {
-    background-color: #198461;
-    margin: 0 0 0 25px ;
-  }
-  .carousel {
-    height: 16rem;
-  }
-  .carousel .item {
-    height: 16rem;
-  }
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 1.8;
-  }
-  .navbar-self .navbar-nav .open .dropdown-menu > li > a,
-  .navbar-self .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 50px;
-  }
-  .myContainer .item {
-    margin-bottom: 20px;
-  }
 }
