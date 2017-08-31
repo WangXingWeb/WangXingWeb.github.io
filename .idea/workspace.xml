@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newIndex.html" afterPath="$PROJECT_DIR$/newIndex.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="322" column="3" lean-forward="true" selection-start-line="322" selection-start-column="3" selection-end-line="322" selection-end-column="3" />
+            <state relative-caret-position="288">
+              <caret line="324" column="29" lean-forward="false" selection-start-line="324" selection-start-column="29" selection-end-line="324" selection-end-column="29" />
               <folding>
                 <element signature="e#275#1322#0" expanded="false" />
                 <element signature="e#1327#1406#0" expanded="false" />
@@ -72,9 +71,9 @@
                 <element signature="e#3009#3135#0" expanded="false" />
                 <element signature="e#3154#3466#0" expanded="false" />
                 <element signature="e#3925#5064#0" expanded="false" />
-                <element signature="e#5944#6832#0" expanded="false" />
-                <marker date="1504173721139" expanded="false" signature="2604:2982" ph="{...}" />
-                <marker date="1504173721139" expanded="false" signature="3603:3903" ph="{...}" />
+                <element signature="e#6043#6931#0" expanded="false" />
+                <marker date="1504174576092" expanded="false" signature="2604:2982" ph="{...}" />
+                <marker date="1504174576092" expanded="false" signature="3603:3903" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -499,14 +498,7 @@
       <workItem from="1504013666778" duration="1362000" />
       <workItem from="1504015405739" duration="7665000" />
       <workItem from="1504053453951" duration="11006000" />
-      <workItem from="1504140655817" duration="14616000" />
-    </task>
-    <task id="LOCAL-00034" summary="1.(2048)加入打破历史最佳纪录的提示改为需要确定的弹窗&#10;">
-      <created>1501941395031</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1501941395031</updated>
+      <workItem from="1504140655817" duration="15239000" />
     </task>
     <task id="LOCAL-00035" summary="1.删除无用的music文件&#10;">
       <created>1502024914509</created>
@@ -844,11 +836,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504161506180</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="bootstrap+less重构主页">
+      <created>1504173965893</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1504173965893</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322187000" />
+    <option name="totallyTimeSpent" value="322810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1281,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="322" column="3" lean-forward="true" selection-start-line="322" selection-start-column="3" selection-end-line="322" selection-end-column="3" />
+        <state relative-caret-position="288">
+          <caret line="324" column="29" lean-forward="false" selection-start-line="324" selection-start-column="29" selection-end-line="324" selection-end-column="29" />
           <folding>
             <element signature="e#275#1322#0" expanded="false" />
             <element signature="e#1327#1406#0" expanded="false" />
@@ -1293,9 +1292,9 @@
             <element signature="e#3009#3135#0" expanded="false" />
             <element signature="e#3154#3466#0" expanded="false" />
             <element signature="e#3925#5064#0" expanded="false" />
-            <element signature="e#5944#6832#0" expanded="false" />
-            <marker date="1504173721139" expanded="false" signature="2604:2982" ph="{...}" />
-            <marker date="1504173721139" expanded="false" signature="3603:3903" ph="{...}" />
+            <element signature="e#6043#6931#0" expanded="false" />
+            <marker date="1504174576092" expanded="false" signature="2604:2982" ph="{...}" />
+            <marker date="1504174576092" expanded="false" signature="3603:3903" ph="{...}" />
           </folding>
         </state>
       </provider>
