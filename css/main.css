@@ -253,23 +253,24 @@ body {
   position: relative;
 }
 .project .project-pic {
-  width: 150px;
-  height: 150px;
-}
-.project .project-pic:nth-child(odd) {
+  width: 130px;
+  height: 130px;
   float: left;
-}
-.project .project-pic:nth-child(even) {
-  float: right;
+  border-radius: 50%;
+  margin: 10px 0 0 10px;
+  border: 1px solid #1d9a71;
 }
 .project .project-name {
   text-align: center;
   color: #666;
+  margin: 18px 10px 0 10px;
+  font-size: 18px;
 }
 .project .project-describe {
   text-align: center;
   color: #666;
-  font-size: 10px;
+  font-size: 14px;
+  margin: 10px;
 }
 /*@media (min-width: 370px){
   @projectWidth:150px;
