@@ -294,30 +294,18 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 }
 
 //项目模块
-@projectWidth:300px;
-.project:nth-child(odd){
-  .project-pic{
-    float: left;
-  }
-}
-.project:nth-child(even){
-  .project-pic{
-    float: right;
-  }
-}
+@projectWidth:100%;
 .project{
-  left:50%;
-  margin-left: -@projectWidth/2;
   width: @projectWidth;
-  height:@projectWidth+(-150);
+  height:120px;
   box-shadow: 1px 1px 10px #666;
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
 
   .project-pic{
-    width: @projectWidth+(-170);
-    height:@projectWidth+(-170);
+    width: 100px;
+    height:100px;
     float: left;
     border-radius: 50%;
     margin: 10px 0 0 10px;
