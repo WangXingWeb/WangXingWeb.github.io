@@ -163,30 +163,32 @@ body {
 .title {
   text-align: center;
   color: #666;
+  font-weight: 600;
   margin: 20px;
+  font-size: 18px;
 }
 .title .bAline {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
 }
 .title::before {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .title::after {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 /*我的技术*/
 .my-skills .skillItem {
@@ -257,7 +259,8 @@ body {
   text-align: center;
   color: #666;
   margin: 20px 10px 0 10px;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 600;
 }
 .project .project-describe {
   text-align: center;
@@ -330,7 +333,7 @@ body {
 }
 .hobby .view .tabContent .tabItem .oneItem .book-name-image {
   float: left;
-  margin: 0 10px 10px 0;
+  margin: 0 10px 0 0;
 }
 .hobby .view .tabContent .tabItem .oneItem .book-name-image .bookTitle {
   text-align: center;
