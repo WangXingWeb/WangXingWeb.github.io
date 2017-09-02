@@ -256,13 +256,14 @@ body {
 .project .project-name {
   text-align: center;
   color: #666;
-  margin: 18px 10px 0 10px;
-  font-size: 18px;
+  margin: 20px 10px 0 10px;
+  font-size: 16px;
 }
 .project .project-describe {
   text-align: center;
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.8;
   margin: 10px;
 }
 @media (min-width: 407px) {
@@ -333,6 +334,8 @@ body {
 }
 .hobby .view .tabContent .tabItem .oneItem .book-name-image .bookTitle {
   text-align: center;
+  color: #666;
+  margin: 5px 0;
 }
 .hobby .view .tabContent .tabItem .oneItem .oneItemTitle {
   text-align: center;
