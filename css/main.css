@@ -311,8 +311,6 @@ body {
   display: block;
   width: 100%;
   overflow: hidden;
-  max-height: 300px;
-  overflow-y: scroll;
 }
 .hobby .view .tabContent {
   left: 0;
@@ -321,6 +319,8 @@ body {
   transition: 0.5s;
 }
 .hobby .view .tabContent .tabItem {
+  max-height: 300px;
+  overflow-y: scroll;
   float: left;
   width: 25%;
 }

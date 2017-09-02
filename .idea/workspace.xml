@@ -4,6 +4,7 @@
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="391" column="22" selection-start-line="391" selection-start-column="22" selection-end-line="391" selection-end-column="22" />
+            <state relative-caret-position="501">
+              <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
               <folding>
                 <element signature="e#1434#1513#0" expanded="false" />
                 <element signature="e#1520#1543#0" expanded="false" />
@@ -76,11 +77,12 @@
             <state relative-caret-position="803">
               <caret line="294" column="1" selection-start-line="294" selection-start-column="1" selection-end-line="294" selection-end-column="1" />
               <folding>
-                <marker date="1504368645591" expanded="true" signature="2090:2098" placeholder="{...}" />
-                <marker date="1504368645591" expanded="true" signature="3259:3328" placeholder="{...}" />
-                <marker date="1504368645591" expanded="true" signature="3789:3795" placeholder="{...}" />
-                <marker date="1504368645591" expanded="true" signature="5147:5228" placeholder="{...}" />
-                <marker date="1504368645591" expanded="true" signature="5336:5377" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="2090:2098" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="3259:3328" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="3789:3795" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="5147:5228" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="5336:5377" placeholder="{...}" />
+                <marker date="1504371188729" expanded="true" signature="5586:5672" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -515,14 +517,7 @@
       <workItem from="1504140655817" duration="15876000" />
       <workItem from="1504186290815" duration="1715000" />
       <workItem from="1504277944334" duration="3433000" />
-      <workItem from="1504322594874" duration="14408000" />
-    </task>
-    <task id="LOCAL-00042" summary="1.在线简历色彩改写&#10;">
-      <created>1502692568617</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1502692568617</updated>
+      <workItem from="1504322594874" duration="15427000" />
     </task>
     <task id="LOCAL-00043" summary="1.在线简历色彩改写&#10;">
       <created>1502693540218</created>
@@ -860,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504367909546</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="bootstrap+less重构主页">
+      <created>1504368703372</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1504368703372</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343003000" />
+    <option name="totallyTimeSpent" value="344022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -1269,11 +1271,12 @@
         <state relative-caret-position="803">
           <caret line="294" column="1" selection-start-line="294" selection-start-column="1" selection-end-line="294" selection-end-column="1" />
           <folding>
-            <marker date="1504368645591" expanded="true" signature="2090:2098" placeholder="{...}" />
-            <marker date="1504368645591" expanded="true" signature="3259:3328" placeholder="{...}" />
-            <marker date="1504368645591" expanded="true" signature="3789:3795" placeholder="{...}" />
-            <marker date="1504368645591" expanded="true" signature="5147:5228" placeholder="{...}" />
-            <marker date="1504368645591" expanded="true" signature="5336:5377" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="2090:2098" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="3259:3328" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="3789:3795" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="5147:5228" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="5336:5377" placeholder="{...}" />
+            <marker date="1504371188729" expanded="true" signature="5586:5672" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1308,8 +1311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="391" column="22" selection-start-line="391" selection-start-column="22" selection-end-line="391" selection-end-column="22" />
+        <state relative-caret-position="501">
+          <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
           <folding>
             <element signature="e#1434#1513#0" expanded="false" />
             <element signature="e#1520#1543#0" expanded="false" />
