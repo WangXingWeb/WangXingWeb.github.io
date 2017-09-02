@@ -46,7 +46,7 @@ body {
   border-bottom: none;
 }
 .navbar-self .navbar-collapse .navbar-nav li a {
-  padding: 0px 15px;
+  padding: 0px 25px;
   line-height: 4.5rem;
   color: #ffffff;
 }
@@ -70,11 +70,12 @@ body {
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
-    margin: 0 0 0 15px ;
+    margin: 0 0 0 50px ;
   }
   .navbar-self .navbar-nav .open .dropdown-menu li a {
     color: #ffffff;
     line-height: 3.5rem;
+    padding: 0 50px;
   }
   .navbar-self .navbar-nav .open > a,
   .navbar-self .navbar-nav .open > a:hover,

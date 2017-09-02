@@ -58,14 +58,14 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
+            <state relative-caret-position="431">
+              <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
               <folding>
                 <element signature="e#1434#1513#0" expanded="false" />
                 <element signature="e#1520#1543#0" expanded="false" />
-                <element signature="e#2422#2461#0" expanded="false" />
-                <element signature="e#2506#2670#0" expanded="false" />
-                <element signature="e#3118#3244#0" expanded="false" />
+                <element signature="e#2453#2492#0" expanded="false" />
+                <element signature="e#2537#2701#0" expanded="false" />
+                <element signature="e#3149#3275#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,14 +75,16 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="803">
-              <caret line="294" column="1" selection-start-line="294" selection-start-column="1" selection-end-line="294" selection-end-column="1" />
+              <caret line="295" column="1" selection-start-line="295" selection-start-column="1" selection-end-line="295" selection-end-column="1" />
               <folding>
-                <marker date="1504371188729" expanded="true" signature="2090:2098" placeholder="{...}" />
-                <marker date="1504371188729" expanded="true" signature="3259:3328" placeholder="{...}" />
-                <marker date="1504371188729" expanded="true" signature="3789:3795" placeholder="{...}" />
-                <marker date="1504371188729" expanded="true" signature="5147:5228" placeholder="{...}" />
-                <marker date="1504371188729" expanded="true" signature="5336:5377" placeholder="{...}" />
-                <marker date="1504371188729" expanded="true" signature="5586:5672" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="448:481" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="1046:1063" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="2111:2119" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="3280:3349" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="3810:3816" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="5168:5249" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="5357:5398" placeholder="{...}" />
+                <marker date="1504371596748" expanded="true" signature="5607:5693" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -517,14 +519,7 @@
       <workItem from="1504140655817" duration="15876000" />
       <workItem from="1504186290815" duration="1715000" />
       <workItem from="1504277944334" duration="3433000" />
-      <workItem from="1504322594874" duration="15427000" />
-    </task>
-    <task id="LOCAL-00043" summary="1.在线简历色彩改写&#10;">
-      <created>1502693540218</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1502693540218</updated>
+      <workItem from="1504322594874" duration="15837000" />
     </task>
     <task id="LOCAL-00044" summary="1.在线简历色彩改写&#10;">
       <created>1502789525351</created>
@@ -862,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504368703372</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="bootstrap+less重构主页">
+      <created>1504371269768</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1504371269768</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344022000" />
+    <option name="totallyTimeSpent" value="344432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1914" height="1038" extended-state="0" />
@@ -1269,14 +1271,16 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="803">
-          <caret line="294" column="1" selection-start-line="294" selection-start-column="1" selection-end-line="294" selection-end-column="1" />
+          <caret line="295" column="1" selection-start-line="295" selection-start-column="1" selection-end-line="295" selection-end-column="1" />
           <folding>
-            <marker date="1504371188729" expanded="true" signature="2090:2098" placeholder="{...}" />
-            <marker date="1504371188729" expanded="true" signature="3259:3328" placeholder="{...}" />
-            <marker date="1504371188729" expanded="true" signature="3789:3795" placeholder="{...}" />
-            <marker date="1504371188729" expanded="true" signature="5147:5228" placeholder="{...}" />
-            <marker date="1504371188729" expanded="true" signature="5336:5377" placeholder="{...}" />
-            <marker date="1504371188729" expanded="true" signature="5586:5672" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="448:481" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="1046:1063" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="2111:2119" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="3280:3349" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="3810:3816" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="5168:5249" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="5357:5398" placeholder="{...}" />
+            <marker date="1504371596748" expanded="true" signature="5607:5693" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1311,14 +1315,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
+        <state relative-caret-position="431">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
           <folding>
             <element signature="e#1434#1513#0" expanded="false" />
             <element signature="e#1520#1543#0" expanded="false" />
-            <element signature="e#2422#2461#0" expanded="false" />
-            <element signature="e#2506#2670#0" expanded="false" />
-            <element signature="e#3118#3244#0" expanded="false" />
+            <element signature="e#2453#2492#0" expanded="false" />
+            <element signature="e#2537#2701#0" expanded="false" />
+            <element signature="e#3149#3275#0" expanded="false" />
           </folding>
         </state>
       </provider>
