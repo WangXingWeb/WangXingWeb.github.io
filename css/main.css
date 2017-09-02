@@ -137,16 +137,20 @@ body {
   padding: 1rem;
   background-color: #fff;
   box-shadow: 1px 1px 9px #888888;
-  line-height: 1.8;
+  line-height: 2;
   text-align: center;
   height: 223px;
   overflow: hidden;
   position: relative;
+  font-size: 12px;
 }
 .aboutMe .item img {
   height: 180px;
   width: 180px;
   margin-top: 11px;
+}
+.aboutMe .myInfo {
+  line-height: 1.8;
 }
 @media (max-width: 767px) {
   .aboutMe .item {
@@ -185,9 +189,6 @@ body {
   margin-left: 20px;
 }
 /*我的技术*/
-.my-skills {
-  margin-bottom: 50px;
-}
 .my-skills .skillItem {
   padding: 0;
   margin-bottom: 20px;
@@ -264,19 +265,13 @@ body {
   font-size: 14px;
   margin: 10px;
 }
-/*@media (min-width: 370px){
-  @projectWidth:150px;
-  .project{
-    margin-left: -@projectWidth/2;
-    width: @projectWidth;
-    height: 60px+@projectWidth;
-
-    .project-pic{
-      width: @projectWidth;
-      height:@projectWidth;
-    }
+@media (min-width: 407px) {
+  .project {
+    left: 50%;
+    margin-left: -175px;
+    width: 350px;
   }
-}*/
+}
 .hobby {
   width: 100%;
   margin: 0 auto;
@@ -309,18 +304,49 @@ body {
   text-align: center;
   line-height: 30px;
 }
-.hobby .tabContent {
+.hobby .view {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.hobby .view .tabContent {
   left: 0;
   position: relative;
   width: 400%;
   transition: 0.5s;
 }
-.hobby .tabContent .tabItem {
+.hobby .view .tabContent .tabItem {
   float: left;
   width: 25%;
-  text-align: center;
-  height: 500px;
 }
-.hobby .tabContent .tabItem .book-container .book-name-image {
+.hobby .view .tabContent .tabItem .bookContainer {
+  min-height: 180px;
+}
+.hobby .view .tabContent .tabItem .oneItem {
+  border: 1px solid #d8d8d8;
+  margin: 10px 0;
+  padding: 10px;
+}
+.hobby .view .tabContent .tabItem .oneItem .book-name-image {
   float: left;
+  margin: 0 10px 10px 0;
+}
+.hobby .view .tabContent .tabItem .oneItem .book-name-image .bookTitle {
+  text-align: center;
+}
+.hobby .view .tabContent .tabItem .oneItem .oneItemTitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hobby .view .tabContent .tabItem .oneItem .mainImg {
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+}
+.hobby .view .tabContent .tabItem .oneItem .oneItemArticle {
+  color: #666;
+  line-height: 1.5;
+  font-size: 12px;
+  text-indent: 2em;
 }

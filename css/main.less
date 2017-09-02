@@ -9,6 +9,7 @@ html{
 @themDarkBColor:#198461;//主题色(深色)
 @navColor:#fff;//菜单栏字体颜色
 @navHeight:4.5rem;//导航栏高度
+@contourColor:#d8d8d8;
 
 body{padding-top: @navHeight;}//body让出导航栏高度
 
@@ -186,17 +187,21 @@ body{padding-top: @navHeight;}//body让出导航栏高度
     padding: 1rem;
     background-color: #fff;
     box-shadow: 1px 1px 9px #888888;
-    line-height: 1.8;
+    line-height: 2;
     text-align: center;
     height: 223px;
     overflow: hidden;
     position: relative;
+    font-size: 12px;
 
     img{
       height: 180px;
       width: 180px;
       margin-top: 11px;
     }
+  }
+  .myInfo{
+    line-height: 1.8;
   }
 }
 @media (max-width: 767px){
@@ -234,9 +239,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 
 /*我的技术*/
 .my-skills {
-  margin-bottom: 50px;
   @skillItemWidth:90px;
-
   .skillItem{
     padding: 0;
     margin-bottom:20px;
@@ -293,6 +296,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
   }
 }
 
+
 //项目模块
 @projectWidth:100%;
 .project{
@@ -328,19 +332,16 @@ body{padding-top: @navHeight;}//body让出导航栏高度
   }
 }
 
-/*@media (min-width: 370px){
-  @projectWidth:150px;
+@media (min-width: 407px){
+  @projectWidth:350px;
   .project{
+    left:50%;
     margin-left: -@projectWidth/2;
     width: @projectWidth;
-    height: 60px+@projectWidth;
 
-    .project-pic{
-      width: @projectWidth;
-      height:@projectWidth;
-    }
+
   }
-}*/
+}
 
 //兴趣爱好模块
 .hobby{
@@ -351,7 +352,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 
   .nav-self{
     height: 30px;
-    border: 1px #d8d8d8 solid;
+    border: 1px @contourColor solid;
     font-size: 0;
     position: relative;
 
@@ -377,26 +378,55 @@ body{padding-top: @navHeight;}//body让出导航栏高度
       line-height: 30px;
     }
   }
+  .view{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    .tabContent{
+      left:0;
+      position: relative;
+      width: 400%;
+      transition: 0.5s;
 
-  .tabContent{
-    left:0;
-    position: relative;
-    width: 400%;
-    transition: 0.5s;
+      .tabItem{
+        float:left;
+        width: 25%;
 
-    .tabItem{
-      float:left;
-      width: 25%;
-      text-align: center;
-      height: 500px;
-
-      .book-container{
-        .book-name-image{
-          float: left;
+        .bookContainer{
+          min-height: 180px;
+        }
+        .oneItem{
+          border: 1px solid @contourColor;
+          margin: 10px 0;
+          padding: 10px;
+          .book-name-image{
+            float: left;
+            margin: 0 10px 10px 0;
+            .bookTitle{
+              text-align: center;
+            }
+          }
+          .oneItemTitle{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+          }
+          .mainImg{
+            margin: 10px auto;
+            display: block;
+            max-width: 100%;
+          }
+          .oneItemArticle{
+            color: #666;
+            line-height: 1.5;
+            font-size: 12px;
+            text-indent: 2em;
+          }
         }
       }
     }
   }
+
 }
 
 
