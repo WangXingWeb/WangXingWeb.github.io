@@ -11,6 +11,12 @@ html{
 @navHeight:4.5rem;//导航栏高度
 @contourColor:#d8d8d8;
 
+//工具类
+.boxShadow(@shadowColor:#888888){
+  box-shadow: 0px 0px 5px @shadowColor;
+}
+
+
 body{padding-top: @navHeight;}//body让出导航栏高度
 
 
@@ -86,7 +92,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 }
 
 @media (max-width: 767px){
-  @litteHeight:3rem;
+  @litteHeight:3.5rem;
   .@{navbarSelf}{
     .navbar-nav{
       margin-left: -1.5rem;
@@ -183,10 +189,9 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 //我的资料模块
 .aboutMe{
   .item{
-    margin: 1rem 0;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 1px 1px 9px #888888;
+    .boxShadow();
     line-height: 2;
     text-align: center;
     height: 223px;
@@ -249,14 +254,14 @@ body{padding-top: @navHeight;}//body让出导航栏高度
     overflow:hidden;
     float: left;
     border-radius:8px;
-    box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+    .boxShadow;
     width: @skillItemWidth;
     height: @skillItemWidth;
     left:50%;
     margin-left: -(@skillItemWidth/2);
 
     &:hover{
-      box-shadow:0px 0px 8px rgba(0,174,239, 1);
+      .boxShadow(#00aeef);
 
       .boxtips{
         bottom: 0px;
@@ -304,7 +309,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 .project{
   width: @projectWidth;
   height:120px;
-  box-shadow: 1px 1px 10px #666;
+  .boxShadow();
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
@@ -342,8 +347,6 @@ body{padding-top: @navHeight;}//body让出导航栏高度
     left:50%;
     margin-left: -@projectWidth/2;
     width: @projectWidth;
-
-
   }
 }
 
@@ -386,6 +389,8 @@ body{padding-top: @navHeight;}//body让出导航栏高度
     display: block;
     width: 100%;
     overflow: hidden;
+    max-height: 800px;
+    overflow-y: scroll;
     .tabContent{
       left:0;
       position: relative;
