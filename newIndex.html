@@ -182,7 +182,7 @@
 <div class="container my-skills">
     <div class="col-sm-2 col-xs-4">
         <div class="skillItem">
-            <img src="img/html5.png"/>
+            <img src="img/html5New.png"/>
             <div class="boxtips">
                 <div class="boxtipsContent">
                     html5
@@ -431,7 +431,23 @@
                         <p class="oneItemArticle">年年乐透的森林狼终于靠选秀获得了崛起的资本，年轻球员个个都是魔鬼肌肉人，经常拔地而起隔扣对方中锋的维金斯，已经打出内线神兽才有的新秀赛季数据的唐斯，拉文的运动能力以及全明星后的进步，即将加入有小韦德之称的邓恩，但我认为这些都不是最关键的，更重要的是新教练汤姆锡伯杜的加盟，当年他给公牛带来的进步大家有目共睹，相信他会给森林狼的防守带来质的变化，同时也会给这只青年军注入铁血顽强的血液！下赛季季后赛见（我已经记不清森林狼上次打季后赛是什么时候了）！</p>
                     </div>
                 </div>
-                <div class="tabItem">
+                <div class="tabItem" id="lvyou">
+                    <div class="modal fade" id="imgShow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel"></h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="viewImg" src="images/beifengb.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tabItem">
                 </div>
@@ -447,7 +463,29 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
+    var imgData=[
+        {
+            title:"十月华山行",
+            imgs:["beifengb.jpg","daduanyab.jpg","lianghuafengb.jpg","richu1b.jpg","richu2b.jpg","richu3b.jpg","richu4b.jpg","richu5b.jpg","top1b.jpg","top2b.jpg","yuanshanb.jpg"]
+        },{
+            title:"玩转厦门",
+            imgs:["hua1b.jpg","dengta1b.jpg","gulangyu1b.jpg","gulangyu2b.jpg","gulangyu3b.jpg","gulangyu4b.jpg","huoshaoyun1b.jpg","sea1b.jpg","sea2b.jpg","sea3b.jpg","sea4b.jpg","top3b.jpg","xiada1b.jpg","xiada2b.jpg","xiada3b.jpg","xiada4b.jpg","xiada5b.jpg"]
+        }
+    ];
     $(function () {
+        setTab();
+        setImg();
+        $(".lvyouImg").click(function () {
+            /*var avatar = $(this).css("backgroundImage");
+            avatar = avatar.split("(")[1].split(")")[0];
+            alert(avatar);*/
+            var avatar="images/"+$(this).attr("data-src");
+            $(".viewImg").attr("src",avatar);
+            $('#imgShow').modal();
+        });
+    });
+    //设置分栏
+    function setTab() {
         var k=$(".tap").length;
         $(".tap-active").css("width",1/k*100+"%");
         $(".tap").click(function () {
@@ -462,6 +500,21 @@
                 $(".tap-active").html(title);
             },250);
         }) ;
-    });
+    }
+    function setImg() {
+        var contentHtml=setContent();
+        $("#lvyou").append(contentHtml);
+        function setContent() {
+            var content="";
+            for(var i=0;i<imgData.length;i++){
+                content+='<div class="oneItem container"><div class="oneItemTitle">'+imgData[i].title+'</div>';
+                for(var j=0;j<imgData[i].imgs.length;j++){
+                    content+='<div class="col-sm-2 col-xs-4"><div class="lvyouImg" data-src="'+imgData[i].imgs[j]+'" style="background-image: url(\'images/'+imgData[i].imgs[j]+'\')"></div></div>';
+                }
+                content+='</div>';
+            }
+            return content;
+        }
+    }
 </script>
 </html>

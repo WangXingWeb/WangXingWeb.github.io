@@ -46,7 +46,7 @@ body {
   border-bottom: none;
 }
 .navbar-self .navbar-collapse .navbar-nav li a {
-  padding: 0px 25px;
+  padding: 0px 20px;
   line-height: 4.5rem;
   color: #ffffff;
 }
@@ -70,7 +70,7 @@ body {
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
-    margin: 0 0 0 50px ;
+    margin: 0 0 0 40px ;
   }
   .navbar-self .navbar-nav .open .dropdown-menu li a {
     color: #ffffff;
@@ -269,7 +269,7 @@ body {
   line-height: 1.8;
   margin: 10px;
 }
-@media (min-width: 407px) {
+@media (min-width: 407px) and (max-width: 776px) {
   .project {
     left: 50%;
     margin-left: -175px;
@@ -318,6 +318,7 @@ body {
   position: relative;
   width: 400%;
   transition: 0.5s;
+  height: auto;
 }
 .hobby .view .tabContent .tabItem {
   max-height: 300px;
@@ -327,6 +328,9 @@ body {
 }
 .hobby .view .tabContent .tabItem .bookContainer {
   min-height: 180px;
+}
+.hobby .view .tabContent .tabItem .container {
+  width: 100%;
 }
 .hobby .view .tabContent .tabItem .oneItem {
   border: 1px solid #d8d8d8;
@@ -346,9 +350,11 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
 }
 .hobby .view .tabContent .tabItem .oneItem .mainImg {
-  margin: 10px auto;
+  margin: 0 auto 10px;
   display: block;
   max-width: 100%;
 }
@@ -357,4 +363,39 @@ body {
   line-height: 1.5;
   font-size: 12px;
   text-indent: 2em;
+}
+.hobby .view .tabContent .tabItem .oneItem .col-sm-2,
+.hobby .view .tabContent .tabItem .oneItem col-xs-4 {
+  padding: 0 5px !important;
+}
+.hobby .view .tabContent .tabItem .oneItem .lvyouImg {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+}
+#imgShow .modal-dialog {
+  width: auto;
+}
+#imgShow .modal-dialog .modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+#imgShow .modal-dialog .modal-content .modal-header {
+  border: none;
+}
+#imgShow .modal-dialog .modal-content .modal-body {
+  text-align: center;
+}
+#imgShow .modal-dialog .modal-content .modal-body .viewImg {
+  max-width: 100%;
+  max-height: 500px;
+}
+#imgShow .modal-dialog .modal-content .modal-footer {
+  border: none;
+}
+.modal-backdrop.in {
+  opacity: 0.8;
 }
