@@ -1,0 +1,179 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>豆瓣图书搜索功能-jq22.com</title>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<style>
+	#top {
+	width:100%;
+	background:greenyellow;
+	height:150px;
+	padding:20px;
+}
+#main {
+	width:100%;
+	margin:0 auto;
+	background:#ddd;
+}
+#main ul {
+	width:960px;
+	height:1330px;
+	overflow:hidden;
+	padding-top:30px;
+	margin:0 auto;
+}
+#main ul  li {
+	list-style:none;
+	width:160px;
+	height:300px;
+	border:1px orange solid;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:10px;
+	background:#fff;
+}
+#list li img {
+	width:160px;
+	height:180px;
+}
+#list li p {
+	height:36px;
+	overflow:hidden;
+}
+#text {
+	width:200px;
+	height:35px;
+	border-radius:10px;
+	box-shadow:inset 0px 0px 5px #000;
+	font-size:25px;
+	line-height:35px;
+	text-indent:10px;
+	outline:none;
+}
+#btn {
+	width:80px;
+	height:35px;
+	vertical-align:top;
+}
+#total {
+	color:#000;
+	font-size:20px;
+}
+#bottom {
+	height:100px;
+	background:greenyellow;
+}
+#tip {
+	margin-left:200px
+}
+#tip li {
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background:blue;
+	margin-right:10px;
+	margin-top:20px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	cursor:pointer;
+}
+#tip li.active {
+	background:orange;
+}
+</style>
+</head>
+<body>
+<div id="top">
+    <input type="text" id="text">
+    <input type="button" value="搜索图书" id="btn">
+    <p id="total">总共多少本书</p>
+</div>
+<div id="main">
+    <ul id="list">
+    </ul>
+</div>
+<div id="bottom">
+    <ul id="tip">
+
+    </ul>
+</div>
+
+<script>
+var val;
+
+function $(id) {
+    return document.getElementById(id);
+}
+
+function core(page, val) {
+    var oText = $("text");
+    var oScript = document.createElement("script");
+    oScript.src = "https://api.douban.com/v2/book/search?q=" + val + "&callback=fn&start=" + page + "&count=20";
+    document.body.appendChild(oScript); //往BADY里面添加script标签
+    document.body.removeChild(oScript); //在BADY里面移除script标签
+
+    //如果不即使移除的话会一直往bady里加script标签，叠加
+    //增加浏览器页面的负担，要及时移除//就算马上移除了但也成功申请获取了数据
+}
+
+function fn(data) {
+    var oBtn = $("btn"),
+        oText = $("text"),
+        oList = $("list"),
+        oTotal = $("total");
+    var oTip = $("tip");
+    console.log(data);
+    var str = "";
+    for (var i = 0; i < data.count; i++) {
+        str += "<li><a href='" + data.books[i].alt + "' target='_blank'><img src='" + data.books[i].images.large + "'/></a><p>书名：" + data.books[i].title + "</p><span>价格：" + data.books[i].price + "</span></li>";
+    };
+    oList.innerHTML = str;
+    oTotal.innerHTML = "总共<strong>" + data.total + "</strong>本书";
+
+    //图书分页（总数/每页数）如果大于10则等于10，否则向上去取整
+    var num = (data.total / data.count) > 10 ? 10 : Math.ceil((data.total / data.count));
+    //创建分页标签li
+    var html = "";
+    for (var i = 0; i < num; i++) {
+        html += "<li>" + (i + 1) + "</li>";
+    };
+    oTip.innerHTML = html;
+
+    var aLi = oTip.getElementsByTagName("li");
+
+    //给点样式              data.star就是每页开始的数据，如：第一页默认0，第二页为20，。。。
+    aLi[data.start / 20].className = "active";
+
+    for (var i = 0; i < aLi.length; i++) {
+        aLi[i].index = i;
+        aLi[i].onclick = function() {
+            for (var i = 0; i < aLi.length; i++) {
+                aLi[i].className = "";
+            };
+            this.className = "active";
+            core(data.count * this.index, val);
+        }
+    }
+}
+
+
+window.onload = function() {
+    var oBtn = $("btn"),
+        oText = $("text"),
+        oList = $("list");
+    var page = 0;
+    var iCount = 20;
+    oBtn.onclick = function() {
+        val = oText.value;
+        core(page, val);
+    }
+};
+</script>
+
+</body>
+</html>

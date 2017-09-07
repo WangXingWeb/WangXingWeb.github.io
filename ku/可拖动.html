@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>让div在body中可以任意拖动-jq22.com</title>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<style>
+	body {
+	background-color:#232429;
+}
+.CsOuterDiv {
+	width:256px;
+	height:146px;
+	background-color:white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	-moz-transform:translateX(-50%) translateY(-50%);
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	-ms-transform:translateX(-50%) translateY(-50%);
+	border-radius:5px;
+	box-shadow:3px 3px  10px blue;
+}
+</style>
+</head>
+<body>
+<div id="idOuterDiv" class="CsOuterDiv">
+
+</div>
+
+<script>
+function dragFunc(id) {
+    var Drag = document.getElementById(id);
+    Drag.onmousedown = function(event) {
+        var ev = event || window.event;
+        event.stopPropagation();
+        var disX = ev.clientX - Drag.offsetLeft;
+        var disY = ev.clientY - Drag.offsetTop;
+        document.onmousemove = function(event) {
+            var ev = event || window.event;
+            Drag.style.left = ev.clientX - disX + "px";
+            Drag.style.top = ev.clientY - disY + "px";
+            Drag.style.cursor = "move";
+        };
+    };
+    Drag.onmouseup = function() {
+        document.onmousemove = null;
+        this.style.cursor = "default";
+    };
+};
+dragFunc("idOuterDiv");
+</script>
+
+</body>
+</html>
