@@ -9,6 +9,13 @@ html{
 @themDarkBColor:#198461;//主题色(深色)
 @navColor:#fff;//菜单栏字体颜色
 @navHeight:4.5rem;//导航栏高度
+@contourColor:#d8d8d8;
+
+//工具类
+.boxShadow(@shadowColor:#888888){
+  box-shadow: 0px 0px 5px @shadowColor;
+}
+
 
 body{padding-top: @navHeight;}//body让出导航栏高度
 
@@ -62,7 +69,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
           border-bottom: none;
         }
         a{
-          padding: 0px 15px;
+          padding: 0px 20px;
           line-height: @navHeight;
           color: @navColor;
 
@@ -85,7 +92,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 }
 
 @media (max-width: 767px){
-  @litteHeight:3rem;
+  @litteHeight:3.5rem;
   .@{navbarSelf}{
     .navbar-nav{
       margin-left: -1.5rem;
@@ -97,12 +104,13 @@ body{padding-top: @navHeight;}//body让出导航栏高度
           }
           .divider {
             background-color: @themDarkBColor;
-            margin:0 0 0 15px ;
+            margin:0 0 0 40px ;
           }
           li{
             a {
               color: @navColor;
               line-height: @litteHeight;
+              padding: 0 50px;
             }
           }
         }
@@ -182,21 +190,24 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 //我的资料模块
 .aboutMe{
   .item{
-    margin: 1rem 0;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 1px 1px 9px #888888;
-    line-height: 1.8;
+    .boxShadow();
+    line-height: 2;
     text-align: center;
     height: 223px;
     overflow: hidden;
     position: relative;
+    font-size: 12px;
 
     img{
       height: 180px;
       width: 180px;
       margin-top: 11px;
     }
+  }
+  .myInfo{
+    line-height: 1.8;
   }
 }
 @media (max-width: 767px){
@@ -213,30 +224,30 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 .title{
   text-align: center;
   color:#666;
+  font-weight: 600;
   margin:20px;
+  font-size: 18px;
 
   .bAline{
     display: inline-block;
     content: "";
-    border-bottom: 3px solid #666;
-    width: 40px;
+    border-bottom: 2px solid #666;
+    width: 30px;
     vertical-align: middle;
   }
   &::before{
     .bAline;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   &::after{
     .bAline;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 
 /*我的技术*/
 .my-skills {
-  margin-bottom: 50px;
   @skillItemWidth:90px;
-
   .skillItem{
     padding: 0;
     margin-bottom:20px;
@@ -244,14 +255,14 @@ body{padding-top: @navHeight;}//body让出导航栏高度
     overflow:hidden;
     float: left;
     border-radius:8px;
-    box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+    .boxShadow;
     width: @skillItemWidth;
     height: @skillItemWidth;
     left:50%;
     margin-left: -(@skillItemWidth/2);
 
     &:hover{
-      box-shadow:0px 0px 8px rgba(0,174,239, 1);
+      .boxShadow(#00aeef);
 
       .boxtips{
         bottom: 0px;
@@ -293,31 +304,20 @@ body{padding-top: @navHeight;}//body让出导航栏高度
   }
 }
 
+
 //项目模块
-@projectWidth:300px;
-.project:nth-child(odd){
-  .project-pic{
-    float: left;
-  }
-}
-.project:nth-child(even){
-  .project-pic{
-    float: right;
-  }
-}
+@projectWidth:100%;
 .project{
-  left:50%;
-  margin-left: -@projectWidth/2;
   width: @projectWidth;
-  height:@projectWidth+(-150);
-  box-shadow: 1px 1px 10px #666;
+  height:120px;
+  .boxShadow();
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
 
   .project-pic{
-    width: @projectWidth+(-170);
-    height:@projectWidth+(-170);
+    width: 100px;
+    height:100px;
     float: left;
     border-radius: 50%;
     margin: 10px 0 0 10px;
@@ -328,31 +328,28 @@ body{padding-top: @navHeight;}//body让出导航栏高度
   .project-name{
     text-align: center;
     color:#666;
-    margin:18px 10px 0 10px;
-    font-size: 18px;
+    margin:20px 10px 0 10px;
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .project-describe{
     text-align: center;
     color:#666;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.8;
     margin: 10px;
   }
 }
 
-/*@media (min-width: 370px){
-  @projectWidth:150px;
+@media (min-width: 407px) and (max-width: 776px){
+  @projectWidth:350px;
   .project{
+    left:50%;
     margin-left: -@projectWidth/2;
     width: @projectWidth;
-    height: 60px+@projectWidth;
-
-    .project-pic{
-      width: @projectWidth;
-      height:@projectWidth;
-    }
   }
-}*/
+}
 
 //兴趣爱好模块
 .hobby{
@@ -363,7 +360,7 @@ body{padding-top: @navHeight;}//body让出导航栏高度
 
   .nav-self{
     height: 30px;
-    border: 1px #d8d8d8 solid;
+    border: 1px @contourColor solid;
     font-size: 0;
     position: relative;
 
@@ -389,28 +386,106 @@ body{padding-top: @navHeight;}//body让出导航栏高度
       line-height: 30px;
     }
   }
+  .view{
+    display: block;
+    width: 100%;
+    overflow: hidden;
 
-  .tabContent{
-    left:0;
-    position: relative;
-    width: 400%;
-    transition: 0.5s;
+    .tabContent{
+      left:0;
+      position: relative;
+      width: 400%;
+      transition: 0.5s;
+      height: auto;
 
-    .tabItem{
-      float:left;
-      width: 25%;
-      text-align: center;
-      height: 500px;
+      .tabItem{
+        max-height: 300px;
+        overflow-y: scroll;
+        float:left;
+        width: 25%;
 
-      .book-container{
-        .book-name-image{
-          float: left;
+        .bookContainer{
+          min-height: 180px;
+        }
+        .container{
+          width: 100%;
+        }
+        .oneItem{
+          border: 1px solid @contourColor;
+          margin: 10px 0;
+          padding: 10px;
+          .book-name-image{
+            float: left;
+            margin: 0 10px 0 0;
+            .bookTitle{
+              text-align: center;
+              color: #666;
+              margin: 5px 0;
+            }
+          }
+          .oneItemTitle{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 10px;
+          }
+          .mainImg{
+            margin: 0 auto 10px;
+            display: block;
+            max-width: 100%;
+          }
+          .oneItemArticle{
+            color: #666;
+            line-height: 1.5;
+            font-size: 12px;
+            text-indent: 2em;
+          }
+          .col-sm-2,col-xs-4{
+            padding: 0 5px !important;
+          }
+          .lvyouImg{
+            margin-bottom: 10px;
+            padding: 0 10px;
+            background-position: center;
+            background-size: cover;
+            height: 80px;
+          }
         }
       }
     }
   }
 }
+#imgShow{
+  .modal-dialog{
+    width: auto;
+    .modal-content{
+      background-color:transparent;
+      border:none;
+      box-shadow: none;
 
+      .modal-header {
+        border: none;
+      }
+      .modal-body{
+        text-align: center;
+        .viewImg{
+          max-width: 100%;
+          max-height: 500px;
+        }
+      }
+      .modal-footer{
+        border: none;
+      }
+    }
+
+  }
+
+
+}
+.modal-backdrop.in {
+  opacity: 0.8;
+}
 
 
 

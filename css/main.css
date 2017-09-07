@@ -46,7 +46,7 @@ body {
   border-bottom: none;
 }
 .navbar-self .navbar-collapse .navbar-nav li a {
-  padding: 0px 15px;
+  padding: 0px 20px;
   line-height: 4.5rem;
   color: #ffffff;
 }
@@ -66,30 +66,31 @@ body {
     margin-left: -1.5rem;
   }
   .navbar-self .navbar-nav .open .dropdown-menu .dropdown-header {
-    line-height: 3rem;
+    line-height: 3.5rem;
   }
   .navbar-self .navbar-nav .open .dropdown-menu .divider {
     background-color: #198461;
-    margin: 0 0 0 15px ;
+    margin: 0 0 0 40px ;
   }
   .navbar-self .navbar-nav .open .dropdown-menu li a {
     color: #ffffff;
-    line-height: 3rem;
+    line-height: 3.5rem;
+    padding: 0 50px;
   }
   .navbar-self .navbar-nav .open > a,
   .navbar-self .navbar-nav .open > a:hover,
   .navbar-self .navbar-nav .open > a:focus {
-    line-height: 3rem !important;
+    line-height: 3.5rem !important;
     background-color: #198461;
   }
   .navbar-self .navbar-nav > li {
     border-bottom: 1px solid #198461;
   }
   .navbar-self .navbar-nav > li > a {
-    line-height: 3rem !important;
+    line-height: 3.5rem !important;
   }
   .fa {
-    line-height: 3rem;
+    line-height: 3.5rem;
   }
   .container {
     padding: 0 5px;
@@ -133,20 +134,23 @@ body {
   }
 }
 .aboutMe .item {
-  margin: 1rem 0;
   padding: 1rem;
   background-color: #fff;
-  box-shadow: 1px 1px 9px #888888;
-  line-height: 1.8;
+  box-shadow: 0px 0px 5px #888888;
+  line-height: 2;
   text-align: center;
   height: 223px;
   overflow: hidden;
   position: relative;
+  font-size: 12px;
 }
 .aboutMe .item img {
   height: 180px;
   width: 180px;
   margin-top: 11px;
+}
+.aboutMe .myInfo {
+  line-height: 1.8;
 }
 @media (max-width: 767px) {
   .aboutMe .item {
@@ -159,35 +163,34 @@ body {
 .title {
   text-align: center;
   color: #666;
+  font-weight: 600;
   margin: 20px;
+  font-size: 18px;
 }
 .title .bAline {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
 }
 .title::before {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .title::after {
   display: inline-block;
   content: "";
-  border-bottom: 3px solid #666;
-  width: 40px;
+  border-bottom: 2px solid #666;
+  width: 30px;
   vertical-align: middle;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 /*我的技术*/
-.my-skills {
-  margin-bottom: 50px;
-}
 .my-skills .skillItem {
   padding: 0;
   margin-bottom: 20px;
@@ -195,14 +198,14 @@ body {
   overflow: hidden;
   float: left;
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px #888888;
   width: 90px;
   height: 90px;
   left: 50%;
   margin-left: -45px;
 }
 .my-skills .skillItem:hover {
-  box-shadow: 0px 0px 8px #00aeef;
+  box-shadow: 0px 0px 5px #00aeef;
 }
 .my-skills .skillItem:hover .boxtips {
   bottom: 0px;
@@ -236,25 +239,17 @@ body {
   background-color: #e8432e !important;
   background-image: none;
 }
-.project:nth-child(odd) .project-pic {
-  float: left;
-}
-.project:nth-child(even) .project-pic {
-  float: right;
-}
 .project {
-  left: 50%;
-  margin-left: -150px;
-  width: 300px;
-  height: 150px;
-  box-shadow: 1px 1px 10px #666;
+  width: 100%;
+  height: 120px;
+  box-shadow: 0px 0px 5px #888888;
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
 }
 .project .project-pic {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   float: left;
   border-radius: 50%;
   margin: 10px 0 0 10px;
@@ -263,28 +258,24 @@ body {
 .project .project-name {
   text-align: center;
   color: #666;
-  margin: 18px 10px 0 10px;
-  font-size: 18px;
+  margin: 20px 10px 0 10px;
+  font-size: 15px;
+  font-weight: 600;
 }
 .project .project-describe {
   text-align: center;
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.8;
   margin: 10px;
 }
-/*@media (min-width: 370px){
-  @projectWidth:150px;
-  .project{
-    margin-left: -@projectWidth/2;
-    width: @projectWidth;
-    height: 60px+@projectWidth;
-
-    .project-pic{
-      width: @projectWidth;
-      height:@projectWidth;
-    }
+@media (min-width: 407px) and (max-width: 776px) {
+  .project {
+    left: 50%;
+    margin-left: -175px;
+    width: 350px;
   }
-}*/
+}
 .hobby {
   width: 100%;
   margin: 0 auto;
@@ -317,18 +308,94 @@ body {
   text-align: center;
   line-height: 30px;
 }
-.hobby .tabContent {
+.hobby .view {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.hobby .view .tabContent {
   left: 0;
   position: relative;
   width: 400%;
   transition: 0.5s;
+  height: auto;
 }
-.hobby .tabContent .tabItem {
+.hobby .view .tabContent .tabItem {
+  max-height: 300px;
+  overflow-y: scroll;
   float: left;
   width: 25%;
-  text-align: center;
-  height: 500px;
 }
-.hobby .tabContent .tabItem .book-container .book-name-image {
+.hobby .view .tabContent .tabItem .bookContainer {
+  min-height: 180px;
+}
+.hobby .view .tabContent .tabItem .container {
+  width: 100%;
+}
+.hobby .view .tabContent .tabItem .oneItem {
+  border: 1px solid #d8d8d8;
+  margin: 10px 0;
+  padding: 10px;
+}
+.hobby .view .tabContent .tabItem .oneItem .book-name-image {
   float: left;
+  margin: 0 10px 0 0;
+}
+.hobby .view .tabContent .tabItem .oneItem .book-name-image .bookTitle {
+  text-align: center;
+  color: #666;
+  margin: 5px 0;
+}
+.hobby .view .tabContent .tabItem .oneItem .oneItemTitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+}
+.hobby .view .tabContent .tabItem .oneItem .mainImg {
+  margin: 0 auto 10px;
+  display: block;
+  max-width: 100%;
+}
+.hobby .view .tabContent .tabItem .oneItem .oneItemArticle {
+  color: #666;
+  line-height: 1.5;
+  font-size: 12px;
+  text-indent: 2em;
+}
+.hobby .view .tabContent .tabItem .oneItem .col-sm-2,
+.hobby .view .tabContent .tabItem .oneItem col-xs-4 {
+  padding: 0 5px !important;
+}
+.hobby .view .tabContent .tabItem .oneItem .lvyouImg {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+}
+#imgShow .modal-dialog {
+  width: auto;
+}
+#imgShow .modal-dialog .modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+#imgShow .modal-dialog .modal-content .modal-header {
+  border: none;
+}
+#imgShow .modal-dialog .modal-content .modal-body {
+  text-align: center;
+}
+#imgShow .modal-dialog .modal-content .modal-body .viewImg {
+  max-width: 100%;
+  max-height: 500px;
+}
+#imgShow .modal-dialog .modal-content .modal-footer {
+  border: none;
+}
+.modal-backdrop.in {
+  opacity: 0.8;
 }
