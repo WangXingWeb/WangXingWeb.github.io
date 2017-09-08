@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Images grid</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+
+        <script src="src/images-grid.js"></script>
+        <link rel="stylesheet" href="src/images-grid.css">
+
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            p {
+                text-align: center;
+                font-weight: bold;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <p>More than five images</p>
+        <div id="gallery1"></div>
+
+        <p>Diff-size images</p>
+        <div id="gallery2"></div>
+
+        <script>
+
+            $('#gallery1').imagesGrid({
+                images: [
+                    'imgs/1.jpg',
+                    { src: 'imgs/2.jpg', alt: 'Second image', title: 'Second image' },
+                    'imgs/3.jpg',
+                    { src: 'imgs/4.jpg', caption: 'Beautiful forest' },
+                    'imgs/5.jpg',
+                    'imgs/6.jpg'
+                ]
+            });
+
+            $('#gallery2').imagesGrid({
+                images: [
+                    'imgs/diff-size/1.jpg',
+                    'imgs/diff-size/2.jpg',
+                    'imgs/diff-size/3.jpg',
+                    'imgs/diff-size/4.jpg',
+                    'imgs/diff-size/5.jpg'
+                ],
+                align: true
+            });
+
+        </script>
+
+    </body>
+</html>
