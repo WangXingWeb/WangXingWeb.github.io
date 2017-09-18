@@ -377,3 +377,6 @@ body {
   top: 55px !important;
   z-index: 1;
 }
+.imgs-grid {
+  max-width: none;
+}

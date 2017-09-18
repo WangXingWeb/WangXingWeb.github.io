@@ -2,129 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/beifeng.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/beifengb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boat1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boat1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/daduanya.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/daduanyab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dengta1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dengta1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/guangyu1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu2b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu3b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hua1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hua1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/huoshaoyun1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/huoshaoyun1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lianghuafengb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lianhuafeng.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu2b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu3b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu5b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea2b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea3b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top2b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top3b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada2b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada3b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada5b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yanshan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yuanshanb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2048.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Basketball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Timberwolves.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bawang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bookt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/css3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cube.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/descent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/email1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fangzhu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/feiyue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foodshop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fushanxing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hachi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/html5New.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/javascript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jquery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/less.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/manfromerth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mghxd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/motion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mui.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qieting.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qzone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qzone1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rose3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shier.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/six.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sunzi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sxlyw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg-3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg-5.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tourism.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wechat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wechat1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/weibo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/weibo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xhdq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xiaochengxu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xingzai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyswz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ydq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zepto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zhiming.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="-2300">
               <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -197,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="458" column="13" lean-forward="true" selection-start-line="458" selection-start-column="13" selection-end-line="458" selection-end-column="13" />
               <folding>
                 <element signature="e#1434#1513#0" expanded="false" />
                 <element signature="e#1520#1543#0" expanded="false" />
@@ -339,8 +219,8 @@
         <option value="$PROJECT_DIR$/ku/lessTes.html" />
         <option value="$PROJECT_DIR$/ku/main.less" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/newIndex.html" />
+        <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
   </component>
@@ -585,14 +465,7 @@
       <workItem from="1505112494581" duration="3931000" />
       <workItem from="1505263925560" duration="2081000" />
       <workItem from="1505447107520" duration="2629000" />
-      <workItem from="1505717169312" duration="7077000" />
-    </task>
-    <task id="LOCAL-00057" summary="1.favicon图标移到根目录下">
-      <created>1503310079227</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1503310079228</updated>
+      <workItem from="1505717169312" duration="7363000" />
     </task>
     <task id="LOCAL-00058" summary="1.tabAnimation.html">
       <created>1503310294575</created>
@@ -930,17 +803,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505723924480</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="图片查看插件">
+      <created>1505724706818</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1505724706818</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385687000" />
+    <option name="totallyTimeSpent" value="385973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32615715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1249,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ku/图片查看/images-grid-master20160801/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -1301,22 +1173,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
+    <entry file="file://$PROJECT_DIR$/css/images-grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
-          <folding>
-            <element signature="e#1434#1513#0" expanded="false" />
-            <element signature="e#1520#1543#0" expanded="false" />
-            <element signature="e#2453#2492#0" expanded="false" />
-            <element signature="e#2537#2701#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="-2300">
           <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1341,6 +1208,19 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1505723537881" expanded="true" signature="20931:20987" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="458" column="13" lean-forward="true" selection-start-line="458" selection-start-column="13" selection-end-line="458" selection-end-column="13" />
+          <folding>
+            <element signature="e#1434#1513#0" expanded="false" />
+            <element signature="e#1520#1543#0" expanded="false" />
+            <element signature="e#2453#2492#0" expanded="false" />
+            <element signature="e#2537#2701#0" expanded="false" />
           </folding>
         </state>
       </provider>
