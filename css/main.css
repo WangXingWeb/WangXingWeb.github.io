@@ -126,10 +126,10 @@ body {
 }
 @media (max-width: 767px) {
   .carousel {
-    height: 12rem;
+    height: 13rem;
   }
   .carousel .item {
-    height: 12rem;
+    height: 13rem;
   }
 }
 .aboutMe .item {

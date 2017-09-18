@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beifeng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beifengb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/boat1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/boat1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/daduanya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/daduanyab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dengta1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dengta1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/guangyu1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hua1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hua1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/huoshaoyun1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/huoshaoyun1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lianghuafengb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lianhuafeng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/yanshan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/yuanshanb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newImages/mountain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/newImages/sea.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newIndex.html" afterPath="$PROJECT_DIR$/newIndex.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,17 +133,7 @@
         <entry file="file://$PROJECT_DIR$/ku/图片查看/images-grid-master20160801/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ku/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <caret line="31" column="33" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -102,6 +154,13 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newImages/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/ku/lessTes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -280,113 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="图片查看" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images-grid-master20160801" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="图片查看" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images-grid-master20160801" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="图片查看" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images-grid-master20160801" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="newImages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,14 +527,7 @@
       <workItem from="1505112494581" duration="3931000" />
       <workItem from="1505263925560" duration="2081000" />
       <workItem from="1505447107520" duration="2629000" />
-      <workItem from="1505717169312" duration="4894000" />
-    </task>
-    <task id="LOCAL-00053" summary="1.改变简历色彩">
-      <created>1503236446079</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1503236446080</updated>
+      <workItem from="1505717169312" duration="5211000" />
     </task>
     <task id="LOCAL-00054" summary="1.改变简历色彩">
       <created>1503280966376</created>
@@ -919,11 +865,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505722118829</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="图片查看插件">
+      <created>1505722494550</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1505722494551</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383504000" />
+    <option name="totallyTimeSpent" value="383821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1016,21 +969,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/sxlyw.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/sunzi.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/six.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/shier.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1224,7 +1162,7 @@
     <entry file="file://$PROJECT_DIR$/ku/lessTes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1264,7 +1202,7 @@
     <entry file="file://$PROJECT_DIR$/ku/图片查看/images-grid-master20160801/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="33" />
+          <caret line="31" column="33" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1318,6 +1256,21 @@
             <marker date="1505722345589" expanded="true" signature="22630:22686" ph="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newImages/mountain.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newImages/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newImages/sea.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
