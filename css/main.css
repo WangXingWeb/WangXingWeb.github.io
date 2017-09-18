@@ -126,19 +126,19 @@ body {
 }
 @media (max-width: 767px) {
   .carousel {
-    height: 13rem;
+    height: 15rem;
   }
   .carousel .item {
-    height: 13rem;
+    height: 15rem;
   }
 }
 .aboutMe .item {
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #fff;
   box-shadow: 0px 0px 5px #888888;
   line-height: 2;
   text-align: center;
-  height: 223px;
+  height: 200px;
   overflow: hidden;
   position: relative;
   font-size: 12px;
@@ -146,7 +146,7 @@ body {
 .aboutMe .item img {
   height: 180px;
   width: 180px;
-  margin-top: 11px;
+  margin-top: 3px;
 }
 .aboutMe .myInfo {
   line-height: 1.8;
