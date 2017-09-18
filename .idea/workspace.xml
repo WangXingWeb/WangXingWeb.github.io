@@ -2,72 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beifeng.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beifengb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/boat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/boat1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/daduanya.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/daduanyab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dengta1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dengta1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/guangyu1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu3b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gulangyu4b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hua1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hua1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/huoshaoyun1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/huoshaoyun1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lianghuafengb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lianhuafeng.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu3b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu4b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/richu5b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea3b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sea4b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/top3b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada1b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada3b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada4b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/xiada5b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/yanshan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/yuanshanb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newImages/mountain.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newImages/sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2048.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Basketball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Timberwolves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bawang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/book1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/book2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/book3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bookt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/css3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/descent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/email1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fangzhu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feiyue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/foodshop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fushanxing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/hachi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/html5New.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/javascript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jquery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/manfromerth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mghxd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mui.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qieting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qrcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qzone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/qzone1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rose3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/shier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/six.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sunzi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sxlyw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/timg-3.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/timg-5.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/timg.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tourism.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wechat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wechat1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/weibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/weibo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xhdq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xiaochengxu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xingzai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xyswz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ydq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zepto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zhiming.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newIndex.html" afterPath="$PROJECT_DIR$/newIndex.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,17 +84,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="136" column="61" lean-forward="false" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
+              <caret line="116" column="15" lean-forward="false" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="15" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -113,7 +111,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1505722345589" expanded="true" signature="22630:22686" ph="..." />
+                <marker date="1505723527623" expanded="true" signature="20946:21002" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,7 +137,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
@@ -281,8 +279,8 @@
         <option value="$PROJECT_DIR$/ku/lessTes.html" />
         <option value="$PROJECT_DIR$/ku/main.less" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/newIndex.html" />
         <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/newIndex.html" />
       </list>
     </option>
   </component>
@@ -326,20 +324,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WangXingWeb.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newImages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,14 +511,7 @@
       <workItem from="1505112494581" duration="3931000" />
       <workItem from="1505263925560" duration="2081000" />
       <workItem from="1505447107520" duration="2629000" />
-      <workItem from="1505717169312" duration="5211000" />
-    </task>
-    <task id="LOCAL-00054" summary="1.改变简历色彩">
-      <created>1503280966376</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1503280966377</updated>
+      <workItem from="1505717169312" duration="5911000" />
     </task>
     <task id="LOCAL-00055" summary="1.ku目录增加tab切换动画的例子">
       <created>1503309634926</created>
@@ -872,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505722494551</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="图片查看插件">
+      <created>1505722812723</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1505722812723</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383821000" />
+    <option name="totallyTimeSpent" value="384521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1228,36 +1212,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="136" column="61" lean-forward="false" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#8;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1505722345589" expanded="true" signature="22630:22686" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newImages/mountain.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1282,6 +1236,37 @@
             <element signature="e#1520#1543#0" expanded="false" />
             <element signature="e#2453#2492#0" expanded="false" />
             <element signature="e#2537#2701#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="116" column="15" lean-forward="false" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#8;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1505723527623" expanded="true" signature="20946:21002" ph="..." />
           </folding>
         </state>
       </provider>
