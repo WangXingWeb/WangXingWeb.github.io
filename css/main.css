@@ -115,7 +115,6 @@ body {
 }
 .carousel .item {
   height: 30rem;
-  background-image: url("../newImages/mountain.jpg");
   background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
@@ -127,10 +126,10 @@ body {
 }
 @media (max-width: 767px) {
   .carousel {
-    height: 16rem;
+    height: 12rem;
   }
   .carousel .item {
-    height: 16rem;
+    height: 12rem;
   }
 }
 .aboutMe .item {
@@ -376,4 +375,5 @@ body {
 }
 .imgs-grid-modal .modal-close {
   top: 55px !important;
+  z-index: 1;
 }
