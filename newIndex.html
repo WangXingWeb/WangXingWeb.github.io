@@ -7,7 +7,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/images-grid.css">
     <link href="css/main.css" rel="stylesheet"/>
+
+
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-self navbar-fixed-top">
@@ -432,22 +435,7 @@
                     </div>
                 </div>
                 <div class="tabItem" id="lvyou">
-                    <div class="modal fade" id="imgShow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel"></h4>
-                                </div>
-                                <div class="modal-body">
-                                    <img class="viewImg" src="images/beifengb.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="tabItem">
                 </div>
@@ -462,27 +450,22 @@
 </body>
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/images-grid.js"></script>
+
 <script>
     var imgData=[
         {
             title:"十月华山行",
-            imgs:["beifengb.jpg","daduanyab.jpg","lianghuafengb.jpg","richu1b.jpg","richu2b.jpg","richu3b.jpg","richu4b.jpg","richu5b.jpg","top1b.jpg","top2b.jpg","yuanshanb.jpg"]
+            imgs:["images/beifengb.jpg","images/daduanyab.jpg","images/lianghuafengb.jpg","images/richu1b.jpg","images/richu2b.jpg","images/richu3b.jpg","images/richu4b.jpg","images/richu5b.jpg","images/top1b.jpg","images/top2b.jpg","images/yuanshanb.jpg"]
         },{
             title:"玩转厦门",
-            imgs:["hua1b.jpg","dengta1b.jpg","gulangyu1b.jpg","gulangyu2b.jpg","gulangyu3b.jpg","gulangyu4b.jpg","huoshaoyun1b.jpg","sea1b.jpg","sea2b.jpg","sea3b.jpg","sea4b.jpg","top3b.jpg","xiada1b.jpg","xiada2b.jpg","xiada3b.jpg","xiada4b.jpg","xiada5b.jpg"]
+            imgs:["images/hua1b.jpg","images/dengta1b.jpg","images/gulangyu1b.jpg","images/gulangyu2b.jpg","images/gulangyu3b.jpg","images/gulangyu4b.jpg","images/huoshaoyun1b.jpg","images/sea1b.jpg","images/sea2b.jpg","images/sea3b.jpg","images/sea4b.jpg","images/top3b.jpg","images/xiada1b.jpg","images/xiada2b.jpg","images/xiada3b.jpg","images/xiada4b.jpg","images/xiada5b.jpg"]
         }
     ];
     $(function () {
         setTab();
-        setImg();
-        $(".lvyouImg").click(function () {
-            /*var avatar = $(this).css("backgroundImage");
-            avatar = avatar.split("(")[1].split(")")[0];
-            alert(avatar);*/
-            var avatar="images/"+$(this).attr("data-src");
-            $(".viewImg").attr("src",avatar);
-            $('#imgShow').modal();
-        });
+        setImgs();
+
     });
     //设置分栏
     function setTab() {
@@ -501,7 +484,21 @@
             },250);
         }) ;
     }
-    function setImg() {
+    function setImgs() {
+        var content="";
+        for(var i=0;i<imgData.length;i++){
+            content+='<div class="oneItemTitle">'+imgData[i].title+'</div>';
+            content+='<div class="gallery" id="gallery'+i+'"></div>';
+        }
+        $("#lvyou").append(content);
+        for(var i=0;i<imgData.length;i++){
+            $('#gallery'+i).imagesGrid({
+                images: imgData[i].imgs,
+                align: true
+            });
+        }
+    }
+    /*function setImg() {
         var contentHtml=setContent();
         $("#lvyou").append(contentHtml);
         function setContent() {
@@ -515,6 +512,6 @@
             }
             return content;
         }
-    }
+    }*/
 </script>
 </html>
