@@ -2,6 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/beifeng.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/beifengb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boat1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/boat1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/daduanya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/daduanyab.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dengta1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dengta1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/guangyu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gulangyu4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hua1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hua1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/huoshaoyun1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/huoshaoyun1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lianghuafengb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lianhuafeng.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/richu5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sea4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/xiada5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yanshan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yuanshanb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2048.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Basketball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Timberwolves.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bawang.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bookt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cube.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/descent.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/email1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fangzhu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/feiyue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foodshop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fushanxing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hachi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/html5New.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/javascript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jquery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/less.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/manfromerth.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mghxd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/motion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mui.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qieting.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qrcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qzone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qzone1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rose3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shier.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/six.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sunzi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sxlyw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg-3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg-5.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/timg.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tourism.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wechat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wechat1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/weibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/weibo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xhdq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xiaochengxu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xingzai.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyswz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ydq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zepto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zhiming.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -25,8 +147,8 @@
       <file leaf-file-name="newIndex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -265,6 +387,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WangXingWeb.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -449,14 +585,7 @@
       <workItem from="1505112494581" duration="3931000" />
       <workItem from="1505263925560" duration="2081000" />
       <workItem from="1505447107520" duration="2629000" />
-      <workItem from="1505717169312" duration="6296000" />
-    </task>
-    <task id="LOCAL-00056" summary="1.ku目录增加tab切换动画的例子">
-      <created>1503309748102</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1503309748102</updated>
+      <workItem from="1505717169312" duration="7077000" />
     </task>
     <task id="LOCAL-00057" summary="1.favicon图标移到根目录下">
       <created>1503310079227</created>
@@ -794,17 +923,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505723540460</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="图片查看插件">
+      <created>1505723924478</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1505723924480</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384906000" />
+    <option name="totallyTimeSpent" value="385687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32615715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1180,8 +1316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
