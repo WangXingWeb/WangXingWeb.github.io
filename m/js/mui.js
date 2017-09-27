@@ -3450,7 +3450,7 @@ Function.prototype.bind = Function.prototype.bind || function(to) {
 					contentinit: '上拉显示更多',
 					contentdown: '上拉显示更多',
 					contentrefresh: '正在加载...',
-					contentnomore: '没有更多数据了',
+					contentnomore: '我是有底线的',
 					duration: 300
 				}
 			}, options));
