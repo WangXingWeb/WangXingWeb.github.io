@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/js/mui.js" afterPath="$PROJECT_DIR$/m/js/mui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newIndex.html" afterPath="$PROJECT_DIR$/newIndex.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,13 +89,23 @@
       <file leaf-file-name="mui.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m/js/mui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="3446" column="21" lean-forward="true" selection-start-line="3446" selection-start-column="21" selection-end-line="3446" selection-end-column="21" />
+            <state relative-caret-position="-865">
+              <caret line="3470" column="34" lean-forward="true" selection-start-line="3470" selection-start-column="34" selection-end-line="3470" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1506498388454" expanded="true" signature="244837:244843" ph=" " />
                 <marker date="1506498388454" expanded="true" signature="245007:245013" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mui.zoom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/js/mui.zoom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-646">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -476,14 +483,7 @@
       <workItem from="1505745122166" duration="1584000" />
       <workItem from="1505908725894" duration="220000" />
       <workItem from="1505916596448" duration="367000" />
-      <workItem from="1506472283474" duration="8844000" />
-    </task>
-    <task id="LOCAL-00064" summary="1.修改mui-card样式">
-      <created>1503366327926</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1503366327926</updated>
+      <workItem from="1506472283474" duration="9692000" />
     </task>
     <task id="LOCAL-00065" summary="1.修改mui-card样式">
       <created>1503380813232</created>
@@ -821,11 +821,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506493174562</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="代码优化">
+      <created>1506498467232</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1506498467232</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401397000" />
+    <option name="totallyTimeSpent" value="402245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -918,11 +925,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/qieting.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/mui.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1228,10 +1230,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/m/js/mui.zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/m/js/mui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="3446" column="21" lean-forward="true" selection-start-line="3446" selection-start-column="21" selection-end-line="3446" selection-end-column="21" />
+        <state relative-caret-position="-865">
+          <caret line="3470" column="34" lean-forward="true" selection-start-line="3470" selection-start-column="34" selection-end-line="3470" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1506498388454" expanded="true" signature="244837:244843" ph=" " />

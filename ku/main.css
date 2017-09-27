@@ -1,0 +1,45 @@
+.btn,
+.btn1 {
+  background-color: #dd5044;
+  font-size: 15px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.btn .dd {
+  color: #ffffff !important;
+}
+.btn1 {
+  border: none;
+  color: #000000;
+}
+.btn1:hover {
+  color: #ffffff !important;
+}
+/*.@{selecter}:extend(.btn){
+    @{lBorder}:none;
+  &:hover{
+    color:@@name;
+  }
+}*/
+.ant {
+  background-color: #dd5044;
+  font-size: 15px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  -webkit-transition: height 0.3s linear 0s;
+  -moz-transition: height 0.3s linear 0s;
+  -ms-transition: height 0.3s linear 0s;
+  -o-transition: height 0.3s linear 0s;
+  transition: height 0.3s linear 0s;
+}
+.ant .dd {
+  color: #ffffff !important;
+}
+.ant:hover {
+  width: 400px;
+  height: 80px;
+}
