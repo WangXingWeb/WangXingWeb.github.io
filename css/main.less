@@ -68,12 +68,22 @@ body{padding-top: @navHeight;}
         &:last-child{
           border-bottom: none;
         }
+        .dropdown-menu{
+          background-color: @themBColor;
+          border: none;
+          li{
+            a{
+              line-height: 2.5em;
+            }
+          }
+        }
         a{
           padding: 0px 20px;
           line-height: @navHeight;
           color: @navColor;
+          background-color: @themBColor;
 
-          &:hover{
+          &:hover,&:focus{
             background:@themDarkBColor;
           }
         }
@@ -461,7 +471,10 @@ body{padding-top: @navHeight;}
 .imgs-grid{
   max-width: none;
 }
-
+.imgs-grid-modal .modal-close {
+  top:65px !important;
+  z-index: 2;
+}
 
 
 
