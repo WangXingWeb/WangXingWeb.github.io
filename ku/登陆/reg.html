@@ -65,8 +65,74 @@
 			</div>
 		</div>
 		<script src="js/mui.min.js"></script>
+		<script src="js/bmob-min.js"></script>
+		<script src="js/bmobMain.js"></script>
 		<script>
+            window.onload=function () {
+                //注册bmob
+                mainBmob.init("47793ef8c6c5506ff8f2940fbbb68342", "0125a0a418ad7f4aa9c49f13ed12c78d");
+                validate();
+                mui(".mui-content-padded").on('tap','#reg',function(){
+                    var password=mui("#password")[0].value;
+                    var password_confirm=mui("#password_confirm")[0].value;
+                    var email=mui("#email")[0].value;
+					if(validate()){
+					    var params={
+					    	username:username,
+							password:password,
+							mobile:email
+						};
+                        mainBmob.addData(params,"PlayerUser").then(function(data){
+                            if(data.status){
+                                alert("保存成功"+"========="+data.objectId);
+							}else{
+                                alert("保存失败"+"========="+data.objError);
+							}
+						});
+					}
+                });
+            }
+            //验证用户名是否被占用
+			function validateUserName(username) {
+                var userQuery=mainBmob.createQuery("PlayerUser");
+                userQuery.equalTo("username",username );
+                userQuery.find({
+                    success: function(results) {
+                        if(results.length>0){
+                            alert("该用户名已被注册");
+                        }else{
+                            alert("可以使用的用户名");
+                        }
+                    },
+                    error: function(error) {
+                        alert("查询失败: " + error.code + " " + error.message);
+                    }
+                });
+            }
+            //验证表单
+            function validate (){
+                mui(".mui-input-group").on('change','#account',function(){
+                    var username=mui("#account")[0].value;
+                    if(username){
+                        validateUserName(username);
+                    }else{
+                        alert("用户名不能未空");
+                    }
+                });
+                mui(".mui-input-group").on('change','#password',function(){
+                    var password=mui("#password")[0].value;
+                    if(password.length==0){
+                        alert("密码不能为空");
+					}else if(){
 
+					}else{
+
+					}
+                });
+
+
+				return true;
+			}
 		</script>
 	</body>
 
