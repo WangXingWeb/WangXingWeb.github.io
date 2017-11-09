@@ -70,26 +70,29 @@
 		<script>
             window.onload=function () {
                 //注册bmob
-                mainBmob.init("47793ef8c6c5506ff8f2940fbbb68342", "0125a0a418ad7f4aa9c49f13ed12c78d");
-                validate();
+                mainBmob.init();
+
+                //validate();
                 mui(".mui-content-padded").on('tap','#reg',function(){
+                    var username=mui("#account")[0].value;
                     var password=mui("#password")[0].value;
                     var password_confirm=mui("#password_confirm")[0].value;
                     var email=mui("#email")[0].value;
-					if(validate()){
-					    var params={
-					    	username:username,
-							password:password,
-							mobile:email
-						};
-                        mainBmob.addData(params,"PlayerUser").then(function(data){
-                            if(data.status){
-                                alert("保存成功"+"========="+data.objectId);
-							}else{
-                                alert("保存失败"+"========="+data.objError);
-							}
-						});
-					}
+
+					var params={
+						username:username,
+						password:password,
+						mobile:email
+					};
+					Bmob.Cloud.run('addData', {username:username,objName:"PlayerUser"}, {
+						success: function(result) {
+							alert(result);
+						},
+						error: function(error) {
+						}
+					});
+
+
                 });
             }
             //验证用户名是否被占用
@@ -121,9 +124,9 @@
                 });
                 mui(".mui-input-group").on('change','#password',function(){
                     var password=mui("#password")[0].value;
-                    if(password.length==0){
+                    if(password.length<1){
                         alert("密码不能为空");
-					}else if(){
+					}else if(password.length<6){
 
 					}else{
 

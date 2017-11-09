@@ -3,8 +3,8 @@
 * date:2017/11/08
 * */
 var mainBmob={
-    init:function(appid,apikey){
-        Bmob.initialize(appid,apikey);
+    init:function(){
+        Bmob.initialize("47793ef8c6c5506ff8f2940fbbb68342", "0125a0a418ad7f4aa9c49f13ed12c78d");
     },
     addData:function(option,objName){
         var Obj = Bmob.Object.extend(objName);
@@ -36,6 +36,5 @@ var mainBmob={
         var objQuery = new Bmob.Query(Query);
         return objQuery;
     }
-
-
 }
+

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ku/登陆/js/bmobMain.js" />
+    <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="登录完善">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ku/登陆/js/bmobMain.js" afterPath="$PROJECT_DIR$/ku/登陆/js/bmobMain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ku/登陆/reg.html" afterPath="$PROJECT_DIR$/ku/登陆/reg.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
@@ -27,28 +27,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ku/登陆/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="69" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ku/登陆/reg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="125" column="29" lean-forward="true" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+            <state relative-caret-position="594">
+              <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmobMain.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bmobMain.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ku/登陆/js/bmobMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/ku/登陆/index.html" />
         <option value="$PROJECT_DIR$/ku/登陆/js/bmobMain.js" />
         <option value="$PROJECT_DIR$/ku/登陆/reg.html" />
+        <option value="D:/Users/Desktop/baogao.html" />
       </list>
     </option>
   </component>
@@ -178,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +248,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -440,14 +441,9 @@
       <workItem from="1510063672485" duration="55000" />
       <workItem from="1510100741083" duration="2540000" />
       <workItem from="1510103877892" duration="734000" />
-      <workItem from="1510107054843" duration="20663000" />
-    </task>
-    <task id="LOCAL-00066" summary="1.less练习">
-      <created>1503396279115</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1503396279115</updated>
+      <workItem from="1510107054843" duration="20710000" />
+      <workItem from="1510136123474" duration="10000" />
+      <workItem from="1510187690079" duration="11908000" />
     </task>
     <task id="LOCAL-00067" summary="毛玻璃特效">
       <created>1503460931877</created>
@@ -785,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506608247251</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="登录完善">
+      <created>1510136027516</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1510136027516</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427055000" />
+    <option name="totallyTimeSpent" value="439020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
@@ -848,7 +851,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="1.(2048)封装localDB.js关于本地数据库的js&#10;" />
     <MESSAGE value="1.(2048)自定义弹框样式&#10;" />
     <MESSAGE value="1.(2048)加入打破历史最佳纪录的提示&#10;" />
     <MESSAGE value="1.(2048)加入打破历史最佳纪录的提示改为需要确定的弹窗&#10;" />
@@ -873,7 +875,8 @@
     <MESSAGE value="bootstrap+less重构主页" />
     <MESSAGE value="图片查看插件" />
     <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
+    <MESSAGE value="登录完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录完善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,11 +885,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/less.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1144,29 +1142,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/登陆/js/bmobMain.js">
+    <entry file="file://$PROJECT_DIR$/ku/登陆/reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ku/登陆/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="69" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ku/登陆/reg.html">
+    <entry file="file://D:/Users/Desktop/baogao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="125" column="29" lean-forward="true" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+        <state relative-caret-position="308">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ku/登陆/js/bmobMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
