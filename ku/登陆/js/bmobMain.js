@@ -35,6 +35,55 @@ var mainBmob={
         var Query = Bmob.Object.extend(objName);
         var objQuery = new Bmob.Query(Query);
         return objQuery;
+    },
+    delData:function (objName,id) {
+        var query=this.createQuery(objName);
+        function destroryData(resolve, reject){
+            query.get(id, {
+                success: function(object) {
+                    // The object was retrieved successfully.
+                    object.destroy({
+                        success: function(deleteObject) {
+                            resolve(1);
+                        },
+                        error: function(GameScoretest, error) {
+                            resolve(2);
+                        }
+                    });
+                },
+                error: function(object, error) {
+                    resolve(3);
+                }
+            });
+        }
+        var promise = new Promise(destroryData);
+        return promise;
+    },
+    changeData:function(option,objName,id){
+        var query=this.createQuery(objName);
+        function change(resolve, reject){
+            query.get(id, {
+                success: function(object) {
+                    for(var key in option){
+                        object.set(key,option[key]);
+                    }
+                    object.save(null, {
+                        success: function(objectUpdate) {
+                            resolve(1);
+                            //alert("create object success, object score:"+objectUpdate.get("score"));
+                        },
+                        error: function(model, error) {
+                            resolve(2);
+                            //alert("create object fail");
+                        }
+                    });
+                },
+                error: function(object, error) {
+                    resolve(3);
+                    //alert("query object fail");
+                }
+            });
+        }
     }
 }
 

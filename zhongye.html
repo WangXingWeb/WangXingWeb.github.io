@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>王星个人网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/images-grid.css">
+    <link href="css/main.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-self navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header ">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.iwangxing.cn">
+                <img src="zhongyeImg/zhongyeLogo.png" alt="" class="logoImg">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="#myInfo"><i class="fa fa-user fa-2x"></i> 信息</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false"><i class="fa fa-navicon fa-2x"></i> 项目<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="2048/2048.html">2048小游戏</a></li>
+                        <li><a href="joke/joke.html">开心时刻</a></li>
+                        <li><a href="webAPP/app_mobile.html">小米阅读器模块</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="@Media/src/index.html">理财宝首页</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="xianlvyou/xian.html">西安旅游景点介绍</a></li>
+                        <li><a href="canvas-clock/clock.html">canvas绘制钟表</a></li>
+                    </ul>
+                </li>
+                <li><a href="#mySkills"><i class="fa fa-trophy fa-2x"></i> 技术</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false"><i class="fa fa-futbol-o fa-2x"></i> 兴趣爱好<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">读书</a></li>
+                        <li><a href="#">篮球</a></li>
+                        <li><a href="#">电影</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">旅游</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" target="_blank"><i class="fa fa-phone-square fa-2x"></i> 联系我</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-sm">
+                <li><a data-toggle="modal" data-target="#myModal" id="aboutMe">关于</a></li>
+                <li><a href="index.html">切换旧版</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--弹出框-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">关于我们</h4>
+            </div>
+            <div class="modal-body">
+                您好，这是我的个人网站，这是一个还在开发中的网站，功能和体验还不完整，我会尽快完善！希望您谅解!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 轮播banner -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" style='background-image: url("img/1.jpg");'>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item" style='background-image: url("img/2.jpg");'>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item" style='background-image: url("img/3.jpg");'>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item" style='background-image: url("img/4.jpg");'>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item" style='background-image: url("img/5.jpg");'>
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<!--About me-->
+<h3 class="title" id="myInfo">关于我</h3>
+<div class="aboutMe container" >
+    <div class="col-sm-4">
+        <div class="item">
+            <div>年龄:27</div>
+            <div>现居住地： 西安</div>
+            <div>籍贯： 陕西 • 榆林</div>
+            <div>兴趣爱好： 篮球、电影、旅游</div>
+            <div>邮箱： wx1620@163.com</div>
+            <div>工作： web前端开发</div>
+            <div>专业： 服装设计与工程</div>
+            <div>毕业学校： 陕西科技大学</div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="item">
+            <img src="img/xingzai.png" alt="">
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="item myInfo">
+            <p title="Hi！我是王星，大家都叫我星仔，大学在陕科大读的是服装设计，读书时喜欢编程，自学了计算机知识(网页设计)，用java多了一个类似图书馆租借图书影像的小系统， 毕业在本专业做了两年多，后来决定还是从事自己喜欢的编程方面的工作，开始自学web前端，现在还在进阶的路上，向着web前端大牛的路上奋力前进吧！">Hi！我是王星，大家都叫我星仔，大学在陕科大读的是服装设计，读书时喜欢编程，自学了计算机知识(网页设计)，用java多了一个类似图书馆租借图书影像的小系统， 毕业在本专业做了两年多，后来决定还是从事自己喜欢的编程方面的工作，开始自学web前端，现在还在进阶的路上，向着web前端大牛的路上奋力前进吧！</p>
+        </div>
+    </div>
+</div>
+
+<h3 class="title" id="mySkills">技术</h3>
+<!--我的技能-->
+<div class="container my-skills">
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem">
+            <img src="img/html5New.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    html5
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/css3.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    css3
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/javascript.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    javascript
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/jquery.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    jQuery
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/bs.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    bootstrap
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/zepto.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    zepto
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/timg.jpeg"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    appcan
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/less.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    less
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/timg-3.jpeg"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    github
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/timg-5.jpeg"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    photoshop
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/xiaochengxu.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    微信小程序
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 col-xs-4">
+        <div class="skillItem"><img src="img/mui.png"/>
+            <div class="boxtips">
+                <div class="boxtipsContent">
+                    mui
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="title" id="myItems">项目</h3>
+<div class="container">
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="2048/2048.html">
+            <img class="project-pic" src="img/2048.jpg"/>
+            <div class="project-name">2048</div>
+            <p class="project-describe">使用jquery实现PC端和移动端自适应的web小游戏</p>
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="joke/joke2.html">
+            <img class="project-pic" src="img/xhdq.png"/>
+            <div class="project-name">笑话大全</div>
+            <p class="project-describe">使用@media查询实现响应式网页</p>
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="webAPP/app_mobile.html">
+            <img class="project-pic" src="img/ydq.png"/>
+            <div class="project-name">webAPP阅读器</div>
+            <p class="project-describe">小米阅读器模块<br/>ajax、jquery插件加密</p>
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="@Media/src/index.html">
+            <img class="project-pic" src="img/xyswz.png"/>
+            <div class="project-name">理财宝首页</div>
+            <p class="project-describe">使用@media查询实现响应式网页</p>
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="xianlvyou/xian.html">
+            <img class="project-pic" src="img/sxlyw.png"/>
+            <div class="project-name">西安旅游景点介绍</div>
+            <p class="project-describe">使用Bootstrap实现响应式布局</p>
+        </a>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xs-12">
+        <a class="project" href="canvas-clock/clock.html">
+            <img class="project-pic" src="img/clock.png"/>
+            <div class="project-name">canvas绘制钟表</div>
+            <p class="project-describe">canvas绘制钟表，可随意设置大小</p>
+        </a>
+    </div>
+</div>
+<h3 class="title">爱好</h3>
+<div class="container">
+    <div class="hobby col-sm-12 col-xs-12">
+        <nav class="nav-self">
+            <div class="tap-active">读书</div>
+            <div class="tap" data-type="0">读书</div>
+            <div class="tap" data-type="1">篮球</div>
+            <div class="tap" data-type="2">旅游</div>
+            <div class="tap" data-type="3">电影</div>
+        </nav>
+        <div class="view">
+            <div class="tabContent">
+                <div class="tabItem">
+                    <div class="oneItem bookContainer">
+                        <div class="book-name-image">
+                            <img src="img/book2.jpg"/>
+                            <div class="bookTitle">平凡的世界</div>
+                        </div>
+                        <p class="oneItemArticle">永远的置顶推荐，这是影响我最深的一部小说，也可能是因为这部小说我喜欢读长篇，特别是动辄几十万字长则上百万字的巨著，因为读长篇呈现给我的是一个完整的世界，拿路遥这部《平凡的世界》来说吧，作者高度概括了西北农村近三十年的发展历程，形形色色的人物涉及各行各业，一切如画卷呈现在我眼前(也许是因为我和路遥一样都是陕北人吧），我们跟随少安、少平两兄弟一起经历磨难，追求理想，向往爱情，实现价值。第一次翻开《平凡的世界》已经是十几年前的事了，但现在每每想起来主人公那种与命运抗争，与苦难搏斗的精神对我现在还是一种激励！当然很多人批评说这是长篇流水账，我不能同意这种观点，文学作品有多种风格，现实主义就是这个样子，难道列夫托尔斯坦的伟大作品都是长篇流水账吗？</p>
+                    </div>
+                </div>
+                <div class="tabItem">
+                    <div class="oneItem">
+                        <div class="oneItemTitle">八年罗斯铁粉</div>
+                        <img class="mainImg" src="img/rose3.jpg"/>
+                        <p class="oneItemArticle">公牛还是交易了罗斯，不能说公牛管理层无情，只是现实太残酷，他们给了罗斯两年的时间，然而伤病还是最大的敌人，(有人说是锡伯杜用废了罗斯，可是若不是锡伯杜罗斯也不会有那样的高度，也可能没有史上最年轻MVP的荣誉），理性的考虑去纽约是很不错的结果，诺阿，波尔津吉斯，甜瓜，考特尼-李，罗斯，这个阵容下赛季季后赛还是可以好好期待一下的！希望罗斯能重新找回MVP的感觉！让我们在听到too fast too big too strong too good！</p>
+                    </div>
+                    <div class="oneItem">
+                        <div class="oneItemTitle">看好明尼苏达青年军崛起</div>
+                        <img class="mainImg" src="img/Timberwolves.jpg"/>
+
+                        <p class="oneItemArticle">年年乐透的森林狼终于靠选秀获得了崛起的资本，年轻球员个个都是魔鬼肌肉人，经常拔地而起隔扣对方中锋的维金斯，已经打出内线神兽才有的新秀赛季数据的唐斯，拉文的运动能力以及全明星后的进步，即将加入有小韦德之称的邓恩，但我认为这些都不是最关键的，更重要的是新教练汤姆锡伯杜的加盟，当年他给公牛带来的进步大家有目共睹，相信他会给森林狼的防守带来质的变化，同时也会给这只青年军注入铁血顽强的血液！下赛季季后赛见（我已经记不清森林狼上次打季后赛是什么时候了）！</p>
+                    </div>
+                </div>
+                <div class="tabItem" id="lvyou">
+
+                </div>
+                <div class="tabItem">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="navbar-self footer">
+    Copyright © 2016 WangXing All Rights Reserved
+</footer>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/images-grid.js"></script>
+
+<script>
+    var imgData=[
+        {
+            title:"十月华山行",
+            imgs:["images/beifengb.jpg","images/daduanyab.jpg","images/lianghuafengb.jpg","images/richu1b.jpg","images/richu2b.jpg","images/richu3b.jpg","images/richu4b.jpg","images/richu5b.jpg","images/top1b.jpg","images/top2b.jpg","images/yuanshanb.jpg"]
+        },{
+            title:"玩转厦门",
+            imgs:["images/hua1b.jpg","images/dengta1b.jpg","images/gulangyu1b.jpg","images/gulangyu2b.jpg","images/gulangyu3b.jpg","images/gulangyu4b.jpg","images/huoshaoyun1b.jpg","images/sea1b.jpg","images/sea2b.jpg","images/sea3b.jpg","images/sea4b.jpg","images/top3b.jpg","images/xiada1b.jpg","images/xiada2b.jpg","images/xiada3b.jpg","images/xiada4b.jpg","images/xiada5b.jpg"]
+        }
+    ];
+    $(function () {
+        setTab();
+        setImgs();
+        //如果是移动设备设定触摸切换tab选项
+
+    });
+    //设置分栏
+    function setTab() {
+        var k=$(".tap").length;
+        $(".tap-active").css("width",1/k*100+"%");
+        $(".tap").click(function () {
+            var tWidth=parseInt($(".view").css("width"));
+            var type=parseInt($(this).attr("data-type"));
+            var title=$(this).html();
+            var newLeft=(1/k)*type;
+            var contentLeft=type*tWidth*-1+"px";
+            $(".tabContent").css("left",contentLeft);
+            $(".tap-active").css("left",newLeft*100+"%");
+            setTimeout(function () {
+                $(".tap-active").html(title);
+            },250);
+        }) ;
+    }
+    function setImgs() {
+        var content="";
+        for(var i=0;i<imgData.length;i++){
+            content+='<div class="oneItemTitle">'+imgData[i].title+'</div>';
+            content+='<div class="gallery" id="gallery'+i+'"></div>';
+        }
+        $("#lvyou").append(content);
+        for(var i=0;i<imgData.length;i++){
+            $('#gallery'+i).imagesGrid({
+                images: imgData[i].imgs,
+                align: true
+            });
+        }
+    }
+
+</script>
+</html>
