@@ -84,6 +84,15 @@ var mainBmob={
                 }
             });
         }
+    },
+    loadImage:function(fileName,file){
+        var bytes = "Hello, World!";
+        var file = new Bmob.File("hello.txt", bytes);
+        file.save().then(function(obj) {
+            //alert(obj.url());
+        }, function(error) {
+            // the save failed.
+        });
     }
 }
 
