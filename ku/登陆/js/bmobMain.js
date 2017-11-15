@@ -84,15 +84,42 @@ var mainBmob={
                 }
             });
         }
+        var promise = new Promise(change);
+        return promise;
     },
-    loadImage:function(fileName,file){
-        var bytes = "Hello, World!";
-        var file = new Bmob.File("hello.txt", bytes);
-        file.save().then(function(obj) {
-            //alert(obj.url());
-        }, function(error) {
-            // the save failed.
-        });
+    loadFile:function(fileName,file){
+        //文件名必须带后缀
+        var objFile = new Bmob.File(fileName,file);
+        function fun_change(resolve, reject){
+            objFile.save().then(function(obj) {
+                resolve({
+                    status:true,
+                    url:obj.url()
+                });
+            }, function(error) {
+                resolve({
+                    status:false,
+                    error:error
+                });
+            });
+        }
+        var promise = new Promise(fun_change);
+        return promise;
+    },
+    //调用云逻辑方法
+    cloudFun : function (funName,option) {
+        function runFun(resolve, reject) {
+            Bmob.Cloud.run(funName, option, {
+                success: function(result) {
+                    resolve(result);
+                },
+                error: function(error) {
+                    resolve(error);
+                }
+            });
+        }
+        var promise = new Promise(runFun);
+        return promise;
     }
 }
 
