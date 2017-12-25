@@ -9,8 +9,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/images-grid.css">
     <link href="css/main.css" rel="stylesheet"/>
-
-
+    <link href="css/swiper.min.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-self navbar-fixed-top">
@@ -378,14 +377,14 @@
     <div class="hobby col-sm-12 col-xs-12">
         <nav class="nav-self">
             <div class="tap-active">读书</div>
-            <div class="tap" data-type="0">读书</div>
-            <div class="tap" data-type="1">篮球</div>
-            <div class="tap" data-type="2">旅游</div>
-            <div class="tap" data-type="3">电影</div>
+            <div class="tap" data-index="1">读书</div>
+            <div class="tap" data-index="2">篮球</div>
+            <div class="tap" data-index="3">旅游</div>
+            <div class="tap" data-index="4">电影</div>
         </nav>
-        <div class="view">
-            <div class="tabContent">
-                <div class="tabItem">
+        <div class="swiper-container view">
+            <div class="swiper-wrapper tabContent">
+                <div class="swiper-slide tabItem">
                     <div class="oneItem bookContainer">
                         <div class="book-name-image">
                             <img src="img/book2.jpg"/>
@@ -394,7 +393,7 @@
                         <p class="oneItemArticle">永远的置顶推荐，这是影响我最深的一部小说，也可能是因为这部小说我喜欢读长篇，特别是动辄几十万字长则上百万字的巨著，因为读长篇呈现给我的是一个完整的世界，拿路遥这部《平凡的世界》来说吧，作者高度概括了西北农村近三十年的发展历程，形形色色的人物涉及各行各业，一切如画卷呈现在我眼前(也许是因为我和路遥一样都是陕北人吧），我们跟随少安、少平两兄弟一起经历磨难，追求理想，向往爱情，实现价值。第一次翻开《平凡的世界》已经是十几年前的事了，但现在每每想起来主人公那种与命运抗争，与苦难搏斗的精神对我现在还是一种激励！当然很多人批评说这是长篇流水账，我不能同意这种观点，文学作品有多种风格，现实主义就是这个样子，难道列夫托尔斯坦的伟大作品都是长篇流水账吗？</p>
                     </div>
                 </div>
-                <div class="tabItem">
+                <div class="swiper-slide tabItem">
                     <div class="oneItem">
                         <div class="oneItemTitle">八年罗斯铁粉</div>
                         <img class="mainImg" src="img/rose3.jpg"/>
@@ -407,14 +406,12 @@
                         <p class="oneItemArticle">年年乐透的森林狼终于靠选秀获得了崛起的资本，年轻球员个个都是魔鬼肌肉人，经常拔地而起隔扣对方中锋的维金斯，已经打出内线神兽才有的新秀赛季数据的唐斯，拉文的运动能力以及全明星后的进步，即将加入有小韦德之称的邓恩，但我认为这些都不是最关键的，更重要的是新教练汤姆锡伯杜的加盟，当年他给公牛带来的进步大家有目共睹，相信他会给森林狼的防守带来质的变化，同时也会给这只青年军注入铁血顽强的血液！下赛季季后赛见（我已经记不清森林狼上次打季后赛是什么时候了）！</p>
                     </div>
                 </div>
-                <div class="tabItem" id="lvyou">
-
+                <div class="swiper-slide tabItem" id="lvyou">
                 </div>
-                <div class="tabItem">
+                <div class="swiper-slide tabItem">
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 <footer class="navbar-self footer">
@@ -424,6 +421,7 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/images-grid.js"></script>
+<script src="js/swiper.min.js"></script>
 
 <script>
     var imgData=[
@@ -436,7 +434,23 @@
         }
     ];
     $(function () {
-        setTab();
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'horizontal',
+            loop: false,
+            on: {
+                slideChangeTransitionStart: function(){
+                    moveTap(this.activeIndex+1);
+                }
+            }
+        });
+
+        var k=$(".tap").length;
+        $(".tap-active").css("width",1/k*100+"%");
+        $(".tap").click(function() {
+            var index=$(this).attr("data-index");
+            mySwiper.slideTo(index-1, 300, false);
+            moveTap(index);
+        });
         setImgs();
         //如果是移动设备设定触摸切换tab选项
 
@@ -445,18 +459,11 @@
     function setTab() {
         var k=$(".tap").length;
         $(".tap-active").css("width",1/k*100+"%");
-        $(".tap").click(function () {
-            var tWidth=parseInt($(".view").css("width"));
-            var type=parseInt($(this).attr("data-type"));
-            var title=$(this).html();
-            var newLeft=(1/k)*type;
-            var contentLeft=type*tWidth*-1+"px";
-            $(".tabContent").css("left",contentLeft);
-            $(".tap-active").css("left",newLeft*100+"%");
-            setTimeout(function () {
-                $(".tap-active").html(title);
-            },250);
-        }) ;
+        $(".tap").click(function() {
+            var index=$(this).attr("data-index");
+            mySwiper.slideTo(index-1, 300, false);
+            moveTap(index);
+        });
     }
     function setImgs() {
         var content="";
@@ -473,5 +480,14 @@
         }
     }
 
+    function moveTap(index) {
+        var allNum=$(".tap").length;
+        var content = $(".tap[data-index='"+index+"']").html();
+        var newLeft = 1/allNum * (index-1);
+        $(".tap-active").css("left", newLeft*100+'%');
+        setTimeout(function() {
+            $(".tap-active").html(content);
+        }, 250);
+    }
 </script>
 </html>
