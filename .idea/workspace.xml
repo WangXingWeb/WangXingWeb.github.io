@@ -40,8 +40,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="410" column="21" lean-forward="false" selection-start-line="410" selection-start-column="21" selection-end-line="410" selection-end-column="21" />
+            <state relative-caret-position="618">
+              <caret line="432" column="35" lean-forward="false" selection-start-line="432" selection-start-column="29" selection-end-line="432" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -448,14 +448,7 @@
       <workItem from="1512693803257" duration="43000" />
       <workItem from="1512704348638" duration="108000" />
       <workItem from="1514168555174" duration="3245000" />
-      <workItem from="1514184461239" duration="630000" />
-    </task>
-    <task id="LOCAL-00076" summary="bootstrap+less重构主页">
-      <created>1503676005806</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1503676005806</updated>
+      <workItem from="1514184461239" duration="1754000" />
     </task>
     <task id="LOCAL-00077" summary="bootstrap+less重构主页">
       <created>1503914745417</created>
@@ -793,11 +786,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514171518535</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="新版">
+      <created>1514185098221</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1514185098222</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483142000" />
+    <option name="totallyTimeSpent" value="484266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1181,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="410" column="21" lean-forward="false" selection-start-line="410" selection-start-column="21" selection-end-line="410" selection-end-column="21" />
+        <state relative-caret-position="618">
+          <caret line="432" column="35" lean-forward="false" selection-start-line="432" selection-start-column="29" selection-end-line="432" selection-end-column="35" />
           <folding />
         </state>
       </provider>
