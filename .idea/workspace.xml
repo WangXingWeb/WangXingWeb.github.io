@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/1.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/10.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/11.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/12.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/13.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/14.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/15.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/16.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/17.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/2.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/3.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/4.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/5.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/6.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/7.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/8.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/9.large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/zepto.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/aboutMe.html" afterPath="$PROJECT_DIR$/m/aboutMe.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-726">
+            <state relative-caret-position="1826">
               <caret line="213" column="36" lean-forward="false" selection-start-line="213" selection-start-column="36" selection-end-line="213" selection-end-column="36" />
               <folding>
                 <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -37,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="22">
               <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joke.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joke/joke.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -156,6 +202,7 @@
         <option value="$PROJECT_DIR$/resume/resume.html" />
         <option value="$PROJECT_DIR$/ku/tree.html" />
         <option value="$PROJECT_DIR$/m/aboutMe.html" />
+        <option value="$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html" />
       </list>
     </option>
   </component>
@@ -190,8 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,7 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="m" />
+              <option name="myItemId" value="joke" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,14 +475,8 @@
       <workItem from="1514184461239" duration="8190000" />
       <workItem from="1516086516477" duration="1092000" />
       <workItem from="1516089693570" duration="617000" />
-      <workItem from="1516091366640" duration="20000" />
-    </task>
-    <task id="LOCAL-00079" summary="bootstrap+less重构主页">
-      <created>1503974136814</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1503974136814</updated>
+      <workItem from="1516091366640" duration="321000" />
+      <workItem from="1517989379637" duration="3817000" />
     </task>
     <task id="LOCAL-00080" summary="bootstrap+less重构主页">
       <created>1503974346435</created>
@@ -773,17 +814,24 @@
       <option name="project" value="LOCAL" />
       <updated>1514187128689</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="web2app">
+      <created>1516091404403</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1516091404403</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492431000" />
+    <option name="totallyTimeSpent" value="496549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24625" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24625" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32615715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,7 +884,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="1.在线简历样式修改&#10;" />
     <MESSAGE value="1.在线简历加入动画重构&#10;" />
     <MESSAGE value="1.在线简历色彩改写&#10;" />
     <MESSAGE value="1.在线简历page2动画修改" />
@@ -861,7 +908,8 @@
     <MESSAGE value="作者名" />
     <MESSAGE value="新版" />
     <MESSAGE value="简历" />
-    <option name="LAST_COMMIT_MESSAGE" value="简历" />
+    <MESSAGE value="web2app" />
+    <option name="LAST_COMMIT_MESSAGE" value="web2app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,13 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ku/tabAnimation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1151,13 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joke/joke.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/readingList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5170">
@@ -1170,7 +1204,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
+        <state relative-caret-position="1826">
           <caret line="213" column="36" lean-forward="false" selection-start-line="213" selection-start-column="36" selection-end-line="213" selection-end-column="36" />
           <folding>
             <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1182,8 +1216,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="22">
           <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joke/joke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
           <folding />
         </state>
       </provider>
