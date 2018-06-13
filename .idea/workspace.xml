@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/1.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/10.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/11.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/12.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/13.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/14.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/15.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/16.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/17.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/2.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/3.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/4.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/5.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/6.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/7.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/8.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/images/9.large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moveTerminalAlbum/zepto.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/index.html" afterPath="$PROJECT_DIR$/m/index.html" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,15 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="213" column="36" lean-forward="false" selection-start-line="213" selection-start-column="36" selection-end-line="213" selection-end-column="36" />
+            <state relative-caret-position="515">
+              <caret line="174" column="69" lean-forward="false" selection-start-line="174" selection-start-column="69" selection-end-line="174" selection-end-column="69" />
               <folding>
                 <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -76,18 +39,8 @@
       <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="3108">
               <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joke.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joke/joke.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -96,7 +49,7 @@
       <file leaf-file-name="readingList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/readingList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5170">
+            <state relative-caret-position="6580">
               <caret line="315" column="102" lean-forward="false" selection-start-line="315" selection-start-column="95" selection-end-line="315" selection-end-column="102" />
               <folding>
                 <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -197,12 +150,12 @@
         <option value="$PROJECT_DIR$/../../swiper/index.html" />
         <option value="$PROJECT_DIR$/newIndex.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/m/index.html" />
         <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/resume/resume.html" />
         <option value="$PROJECT_DIR$/ku/tree.html" />
         <option value="$PROJECT_DIR$/m/aboutMe.html" />
         <option value="$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html" />
+        <option value="$PROJECT_DIR$/m/index.html" />
       </list>
     </option>
   </component>
@@ -213,10 +166,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -237,8 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,7 +286,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -477,6 +429,8 @@
       <workItem from="1516089693570" duration="617000" />
       <workItem from="1516091366640" duration="321000" />
       <workItem from="1517989379637" duration="3817000" />
+      <workItem from="1528897214349" duration="1411000" />
+      <workItem from="1528898847478" duration="2181000" />
     </task>
     <task id="LOCAL-00080" summary="bootstrap+less重构主页">
       <created>1503974346435</created>
@@ -825,13 +779,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="496549000" />
+    <option name="totallyTimeSpent" value="500141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24625" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13402778" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32615715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1094,13 +1048,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../swiper/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../swiper/index.html" />
     <entry file="file://$PROJECT_DIR$/zuoYe/task2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1660">
@@ -1194,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m/readingList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5170">
+        <state relative-caret-position="6580">
           <caret line="315" column="102" lean-forward="false" selection-start-line="315" selection-start-column="95" selection-end-line="315" selection-end-column="102" />
           <folding>
             <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1204,19 +1152,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="213" column="36" lean-forward="false" selection-start-line="213" selection-start-column="36" selection-end-line="213" selection-end-column="36" />
+        <state relative-caret-position="515">
+          <caret line="174" column="69" lean-forward="false" selection-start-line="174" selection-start-column="69" selection-end-line="174" selection-end-column="69" />
           <folding>
             <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m/aboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="3108">
           <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
           <folding />
         </state>
@@ -1226,17 +1173,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/moveTerminalAlbum/moveTerminalAlbum.html" />
   </component>
 </project>
