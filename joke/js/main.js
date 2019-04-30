@@ -29,7 +29,7 @@ function http(url,page,num) {
     $.ajax({
         type: 'post',
         url: url,
-        dataType: 'jsonp',
+        //dataType: 'jsonp',
         data: {
             "showapi_timestamp": formatterDateTime(), //注意要使用当前时间。服务器只处理时间误差10分钟以内的请求
             "showapi_appid": '29541', //这里需要改成自己的appid
@@ -42,11 +42,11 @@ function http(url,page,num) {
             alert("操作失败!");
         },
         success: function(result) {
-            console.log(result);
+            var data=$.parseJSON(result);
             number+=num;
             pages=page+1;
-            console.log(pages);
-            var arry=result.showapi_res_body.contentlist;
+            //console.log(result);
+            var arry=data.showapi_res_body.contentlist;
             if(type==1){
                 for(var i=0;i<arry.length;i++){
                     container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><img  class="imgJoke"  src="'+arry[i].img+'" />');
