@@ -29,24 +29,22 @@ function http(url,page,num) {
     $.ajax({
         type: 'post',
         url: url,
-        //dataType: 'jsonp',
+        dataType: 'json',
         data: {
             "showapi_timestamp": formatterDateTime(), //注意要使用当前时间。服务器只处理时间误差10分钟以内的请求
             "showapi_appid": '29541', //这里需要改成自己的appid
             "showapi_sign": '3fd121b3d11845d3bddd36c8e2a6bd6a',  //这里需要改成自己的密钥
             "page":page,
-            "maxResult":num,
+            "maxResult":num
         },
-        jsonp: 'jsonpcallback',
         error: function(XmlHttpRequest, textStatus, errorThrown) {
             alert("操作失败!");
         },
         success: function(result) {
-            var data=$.parseJSON(result);
             number+=num;
             pages=page+1;
             //console.log(result);
-            var arry=data.showapi_res_body.contentlist;
+            var arry=result.showapi_res_body.contentlist;
             if(type==1){
                 for(var i=0;i<arry.length;i++){
                     container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><img  class="imgJoke"  src="'+arry[i].img+'" />');
@@ -56,14 +54,9 @@ function http(url,page,num) {
                     container.append('<div class="content"><h5 class="img-title">'+arry[i].title+'</h5><div class=" line"/> <div class="textJoke"> '+arry[i].text+'</div><div class=" line"/>');
                 }
             }
-
         }
-
     });
-
 }
-
-
 function animate(offset,time){
     animated=true;
     var newLeft=parseInt(myContainer.style.left)+offset;
@@ -80,7 +73,6 @@ function animate(offset,time){
         }
     }
     go();
-
 }
 function alertText(which) {
     var alertDiv;
@@ -111,7 +103,6 @@ window.onload=function() {
             index-=1;
         }
         animate(320,1);
-
     }
     var next=document.getElementById('next');
     next.onclick = function () {
@@ -132,7 +123,6 @@ window.onload=function() {
             index+=10;
             if(index+12>=number){
                 http(url,pages,10);
-
             }
         }
         animate(-10*320,2);
@@ -177,7 +167,7 @@ window.onload=function() {
     //documentWidth=window.screen.availWidth;
     document.addEventListener("touchstart",function(event){
         startx=event.touches[0].pageX;
-        starty=event.touches[0].pageY;;
+        starty=event.touches[0].pageY;
     });
     document.addEventListener("touchend",function(event){
         endx=event.changedTouches[0].pageX;
@@ -201,11 +191,9 @@ window.onload=function() {
                 $('body,html').animate({scrollTop:nowHeight-deltay},300);
             }else if(deltay>0){
                 $('body,html').animate({scrollTop:nowHeight-deltay},300);
-
             }
-
         }
-
-    });}
+    });
+}
 
 
