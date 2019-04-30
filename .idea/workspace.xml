@@ -19,7 +19,7 @@
     <session id="566853476">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="2" />
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas-clock/clock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="138">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -474,14 +474,7 @@
       <workItem from="1528898847478" duration="2181000" />
       <workItem from="1540541170672" duration="5136000" />
       <workItem from="1551249862485" duration="1429000" />
-      <workItem from="1556596609724" duration="8992000" />
-    </task>
-    <task id="LOCAL-00083" summary="bootstrap+less重构主页">
-      <created>1504173965893</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1504173965893</updated>
+      <workItem from="1556596609724" duration="9014000" />
     </task>
     <task id="LOCAL-00084" summary="bootstrap+less重构主页">
       <created>1504174585784</created>
@@ -819,15 +812,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556609704729</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="修复笑话大全api变动的问题">
+      <created>1556615567356</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1556615567356</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515698000" />
+    <option name="totallyTimeSpent" value="515720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495671" visible="true" weight="0.11596958" />
       <window_info x="20" y="36" width="391" height="1077" id="Structure" order="1" side_tool="true" type="WINDOWED" weight="0.1975764" />
@@ -1163,8 +1162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas-clock/clock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="138">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
