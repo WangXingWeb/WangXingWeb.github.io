@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bff9368-94b9-465a-ab6b-93d471c73ae0" name="Default" comment="修复笑话大全api变动的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joke/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/joke/js/main.js" afterDir="false" />
     </list>
     <ignored path="WangXingWeb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas-clock/clock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -475,14 +474,7 @@
       <workItem from="1528898847478" duration="2181000" />
       <workItem from="1540541170672" duration="5136000" />
       <workItem from="1551249862485" duration="1429000" />
-      <workItem from="1556596609724" duration="7955000" />
-    </task>
-    <task id="LOCAL-00082" summary="bootstrap+less重构主页">
-      <created>1504161506180</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1504161506180</updated>
+      <workItem from="1556596609724" duration="8992000" />
     </task>
     <task id="LOCAL-00083" summary="bootstrap+less重构主页">
       <created>1504173965893</created>
@@ -820,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556603402103</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="修复笑话大全api变动的问题">
+      <created>1556609704728</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1556609704729</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="514661000" />
+    <option name="totallyTimeSpent" value="515698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1164,8 +1163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas-clock/clock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
